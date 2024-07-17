@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	Welcome
+	{{ parent() }}
+{% endblock %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{{ encore_entry_link_tags('home') }}
+{% endblock %}
+
+{% block javascripts %}
+	{{ parent() }}
+	{{ encore_entry_script_tags('home') }}
+{% endblock %}
+
+{% block body %}
+<div class="navbar flex">
+    {% include 'Frontend/Home/navbar.html.twig' %} 
+</div>
+<div class="backgroundimg">
+	{# <img src="/img/daymosque.webp" alt=""> #}
+	<div class="download">
+		<img class="logo-dl" src="/img/hidaya-logo.png" alt="">
+	</div>
+</div>
+{% endblock %}

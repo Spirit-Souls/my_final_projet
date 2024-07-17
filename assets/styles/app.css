@@ -1,3 +1,52 @@
 body {
-    background-color: skyblue;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+.navbar{
+    background-color: rgb(29, 29, 53);
+    color: white;
+    font-size: x-large;
+    justify-content: space-between;
+    padding-right: 25px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo>img{
+    width: 200px;
+}
+.flex{
+    display: flex; 
+}
+.nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.backgroundimg{
+    background-image: url("/img/daymosque.webp");
+    width: 1792px;
+    height: 1024px;
+    background-size: cover; /* Optionnel: pour couvrir tout l'écran */
+    background-repeat: no-repeat; /* Optionnel: pour éviter la répétition */
+    background-position: center; /* Optionnel: pour centrer l'image */
+}
+.download{
+    background-color: rgba(217, 217, 217, 0.70);
+    width: 1200px; 
+    height: 200px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: flex-start; /* Aligne à gauche */
+
+}
+.logo-dl{
+    width: 150px;
+    text-align: left;
+    align-items: left;
+    border-radius: 10px;
+    margin-left: 20px;
 }
