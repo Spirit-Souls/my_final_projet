@@ -1,52 +1,103 @@
+@import url("../vendor/bootstrap.min.css");
+@import url("../vendor/bootstrap-icons.min.css");
 body {
     background-color: rgba(0, 0, 0, 0.60);
 }
-.navbar{
+
+.navbar {
     background-color: rgb(29, 29, 53);
     color: white;
     font-size: x-large;
     justify-content: space-between;
     padding-right: 25px;
-    
+    margin-top: 0;
+    width: 100%;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-.logo>img{
-    width: 200px;
-}
-.flex{
-    display: flex; 
-}
-.nav{
 
+.logo > img {
+    width: 120px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.backgroundimg{
+
+.backgroundimg {
     background-image: url("/img/daymosque.webp");
-    width: 1792px;
-    height: 1024px;
-    background-size: cover; /* Optionnel: pour couvrir tout l'écran */
-    background-repeat: no-repeat; /* Optionnel: pour éviter la répétition */
-    background-position: center; /* Optionnel: pour centrer l'image */
+    width: 1900px;
+    height: 1050px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.download{
+
+.download {
     background-color: rgba(217, 217, 217, 0.70);
-    width: 1200px; 
-    height: 200px;
+    width: 1200px;
+    height: 150px;
     border-radius: 45px;
     display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: flex-start; /* Aligne à gauche */
-
+    align-items: center;
+    justify-content: flex-start;
 }
-.logo-dl{
+
+.logo-dl {
     width: 150px;
     text-align: left;
     align-items: left;
     border-radius: 10px;
     margin-left: 20px;
+}
+
+p {
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.download > a {
+    color: black;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 300px; /* Ajustez cette largeur selon vos besoins */
+    padding-right: 40px; /* Espace pour l'icône */
+}
+
+.btn-search {
+    position: absolute;
+    right: 10px; /* Espace entre le bord et l'icône */
+    background: none;
+    border: none;
+    color: #000;
+    padding: 0;
+}
+
+.btn-search:hover {
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Ajout d'une classe pour s'assurer que les images ne sont pas affectées */
+img {
+    transform: none !important;
+    rotate: none !important;
+    transition: none !important;
 }
