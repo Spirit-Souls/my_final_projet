@@ -21,6 +21,8 @@ a {
 
 .logo > img {
     width: 120px;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 .flex {
@@ -40,6 +42,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: background-image 1s ease-in-out;
 }
 
 .download {
@@ -100,4 +103,8 @@ img {
     transform: none !important;
     rotate: none !important;
     transition: none !important;
+}
+.fade-out{
+    opacity: 0.5;
+    transition: opacity 1s ease-in-out;
 }

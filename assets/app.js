@@ -18,8 +18,7 @@ const images = [
 ];
 
 let currentIndex = 0;
-const backgroundElement = document.getElementById('background');
-
+const backgroundElement = document.getElementById('background'); 
 function changeBackground() {
     backgroundElement.classList.add('fade-out');
     setTimeout(() => {
