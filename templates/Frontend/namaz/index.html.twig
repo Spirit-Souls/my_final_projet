@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello NamazController!{% endblock %}
+
+{% block body %}
+
+
+<div class="example-wrapper">
+    <h2 id="current-date"></h2> <!-- L'ID est utilisé pour mettre à jour la date via JavaScript -->
+    <div id="prayer-times">
+        <table class="prayer-table">
+            <thead>
+                <tr>
+                    <th>Fajr</th>
+                    <th>Sunrise</th>
+                    <th>Dhuhr</th>
+                    <th>Asr</th>
+                    <th>Maghrib</th>
+                    <th>Isha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="prayer-row">
+                    <td>03:49</td>
+                    <td>13:52</td>
+                    <td>18:01</td>
+                    <td>21:44</td>
+                    <td>23:28</td>
+                    <td>23:28</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" class="status-checkbox"></td>
+                    <td><input type="checkbox" class="status-checkbox"></td>
+                    <td><input type="checkbox" class="status-checkbox"></td>
+                    <td><input type="checkbox" class="status-checkbox"></td>
+                    <td><input type="checkbox" class="status-checkbox"></td>
+                    <td><input type="checkbox" class="status-checkbox"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button class="save-button">SAVE</button>
+
+    <div class="time-left" id="time-left"></div>
+    <p>Time left to <span id="next-prayer">Maghrib</span></p>
+
+    <div class="legend">
+        <div class="legend-item">
+            <input type="checkbox" disabled checked> <span>In Progress</span>
+        </div>
+        <div class="legend-item">
+            <input type="checkbox" disabled> <span>Missed</span>
+        </div>
+        <div class="legend-item">
+            <input type="checkbox" disabled> <span>Complete</span>
+        </div>
+    </div>
+
+    <div class="nav-arrows">
+        <button>&larr; Previous</button>
+        <button>Next &rarr;</button>
+    </div>
+</div>
+{% endblock %}
