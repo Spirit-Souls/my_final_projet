@@ -1,65 +1,124 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello NamazController!{% endblock %}
+{% block title %}Suivi de Prières{% endblock %}
 
 {% block body %}
-
-
-<div class="example-wrapper">
-    <h2 id="current-date"></h2> <!-- L'ID est utilisé pour mettre à jour la date via JavaScript -->
-    <div id="prayer-times">
-        <table class="prayer-table">
-            <thead>
-                <tr>
-                    <th>Fajr</th>
-                    <th>Sunrise</th>
-                    <th>Dhuhr</th>
-                    <th>Asr</th>
-                    <th>Maghrib</th>
-                    <th>Isha</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr id="prayer-row">
-                    <td>03:49</td>
-                    <td>13:52</td>
-                    <td>18:01</td>
-                    <td>21:44</td>
-                    <td>23:28</td>
-                    <td>23:28</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" class="status-checkbox"></td>
-                    <td><input type="checkbox" class="status-checkbox"></td>
-                    <td><input type="checkbox" class="status-checkbox"></td>
-                    <td><input type="checkbox" class="status-checkbox"></td>
-                    <td><input type="checkbox" class="status-checkbox"></td>
-                    <td><input type="checkbox" class="status-checkbox"></td>
-                </tr>
-            </tbody>
-        </table>
+<div class="backgroundimg flex flex-column" id="background">
+    <h2 class="text-center">Suivi de prières</h2>
+    <div class="date-container">
+        <div class="date-item"><a href="#" id="day-link" class="active">Jour</a></div>
+        <div class="date-item"><a href="#" id="month-link">Mois</a></div>
+        <div class="date-item"><a href="#" id="year-link">Année</a></div>
     </div>
 
-    <button class="save-button">SAVE</button>
-
-    <div class="time-left" id="time-left"></div>
-    <p>Time left to <span id="next-prayer">Maghrib</span></p>
-
-    <div class="legend">
-        <div class="legend-item">
-            <input type="checkbox" disabled checked> <span>In Progress</span>
+    <div class="content-container">
+        <!-- Vue Jour -->
+        <div id="day-view" class="view active">
+            <div class="container-times">
+                <div class="example-wrapper">
+                    <h3 id="current-date"></h3>
+                    <div id="prayer-times">
+                        <table class="prayer-table">
+                            <thead>
+                                <tr>
+                                    <th>Fajr</th>
+                                    <th>Sunrise</th>
+                                    <th>Dhuhr</th>
+                                    <th>Asr</th>
+                                    <th>Maghrib</th>
+                                    <th>Isha</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="prayer-row">
+                                    <td>05:00</td>
+                                    <td>06:30</td>
+                                    <td>12:15</td>
+                                    <td>15:30</td>
+                                    <td>18:45</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" class="status-checkbox"></td>
+                                    <td><input type="checkbox" class="status-checkbox"></td>
+                                    <td><input type="checkbox" class="status-checkbox"></td>
+                                    <td><input type="checkbox" class="status-checkbox"></td>
+                                    <td><input type="checkbox" class="status-checkbox"></td>
+                                    <td><input type="checkbox" class="status-checkbox"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <button class="save-button">SAVE</button>
+                
+                <p>Time left to <span id="next-prayer">Maghrib</span></p>
+                <div class="time-left" id="time-left"></div>
+                <div class="legend">
+                    <div class="legend-item">
+                        <span class="legend-color incomplete"></span> Incomplete
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color missed"></span> Missed
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color complete"></span> Complete
+                    </div>
+                </div>
+            <div class="nav-arrows">
+                <a href=""><i class="arrow bi bi-arrow-return-left"></i></a>
+                <a href=""><i class="arrow bi bi-arrow-return-right"></i></a>
+            </div>
+            </div>
         </div>
-        <div class="legend-item">
-            <input type="checkbox" disabled> <span>Missed</span>
-        </div>
-        <div class="legend-item">
-            <input type="checkbox" disabled> <span>Complete</span>
-        </div>
-    </div>
 
-    <div class="nav-arrows">
-        <button>&larr; Previous</button>
-        <button>Next &rarr;</button>
+        <!-- Vue Mois -->
+        <div id="month-view" class="view container-times" style="display: none;">
+            <h3 id="month-title">Vue Mois</h3>
+            <div id="calendar" class="calendar-container">
+                <!-- Le calendrier sera généré par JavaScript ici -->
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="legend-color incomplete"></span> Incomplete
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color missed"></span> Missed
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color complete"></span> Complete
+                </div>
+            </div>
+            <div class="nav-arrows">
+                <a href=""><i class="arrow bi bi-arrow-return-left"></i></a>
+                <a href=""><i class="arrow bi bi-arrow-return-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Vue Année -->
+        <div id="year-view" class="view container-times" style="display: none;">
+            <h3 id="year-title">2024</h3>
+            <div id="year-calendar" class="year-container">
+                <!-- Les mois seront générés par JavaScript ici -->
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="legend-color incomplete"></span> Incomplete
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color missed"></span> Missed
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color complete"></span> Complete
+                </div>
+            </div>
+            <div class="nav-arrows">
+                <a href=""><i class="arrow bi bi-arrow-return-left"></i></a>
+                <a href=""><i class="arrow bi bi-arrow-return-right"></i></a>
+            </div>
+        </div>
     </div>
 </div>
+
 {% endblock %}

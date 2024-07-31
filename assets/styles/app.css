@@ -1,9 +1,15 @@
 @import url("../vendor/bootstrap.min.css");
-@import url("../vendor/bootstrap-icons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css");
+
 body {
     background-color: rgba(0, 0, 0, 0.60);
 }
 
+h2{
+    margin-top: auto;
+    color: white;
+
+}
 .navbar {
     background-color: rgb(29, 29, 53);
     color: white;
@@ -36,6 +42,7 @@ a {
 }
 
 .backgroundimg {
+    z-index: -1;
     background-image: url("/img/daymosque.webp");
     width: 1900px;
     height: 1050px;
@@ -74,7 +81,8 @@ p {
 }
 
 .searchbar {
-    position: relative;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     align-items: center;
 }
@@ -104,26 +112,23 @@ img {
     rotate: none !important;
     transition: none !important;
 }
-.fade-out{
-    opacity: 0.5;
-    transition: opacity 1s ease-in-out;
+
+.example-wrapper {
+    margin: 1em auto;
+    max-width: 800px;
+    width: 95%;
+    font: 18px/1.5 sans-serif;
+    color: #000;
+    text-align: center;
 }
-    .example-wrapper {
-        margin: 1em auto;
-        max-width: 800px;
-        width: 95%;
-        font: 18px/1.5 sans-serif;
-        color: #000;
-        text-align: center;
-    }
 .prayer-table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-top: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
+    box-shadow: 8px 8px 9px 2px rgba(0, 0, 0, 0.542);
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 .prayer-table th, .prayer-table td {
     padding: 10px;
@@ -163,22 +168,379 @@ img {
     align-items: center;
     margin-right: 20px;
 }
-.legend-item span {
-    margin-left: 5px;
+.legend-progress{
+    background-color: rgb(235, 183, 0);
+    padding: 3px;
 }
-
+.legend-missed{
+    background-color: rgb(201, 0, 0);
+    padding: 3px;
+}
+.legend-complete{
+    background-color: rgb(0, 120, 74);
+    padding: 3px;
+}
 .save-button {
-    background-color: #28a745;
+    background-color: #00784A;
     color: white;
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 25px;
+    
 }
 
 .nav-arrows {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin: 10px;
+    
+}
+
+.container-times{
+    background-color: rgba(255, 255, 255, 0.800);
+    text-align: center;
+    width: 1200px;
+    margin-bottom: 50px !important;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid;
+}
+
+.arrow{
+    color: #000;
+    font-size: 50px;
+}
+
+.day-manager{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    border-radius: 25px;
+    width: 400px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 15px;
+    font-size: large;
+}
+
+.day{
+    background-color: #00784A;
+
+}
+.main-content {
+    position: relative;
+    z-index: 1;
+}
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 25px;
+    overflow: hidden; /* Pour garantir que le contenu reste dans les bordures arrondies */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond transparente */
+}
+
+.date-item {
+    flex: 1; /* Permet de répartir les items de manière égale */
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.day {
+    background-color: #00784ab9; /* Couleur de fond pour "Jour" */
+    color: #fff; /* Couleur du texte pour "Jour" */
+}
+
+.month, .year {
+    background-color: rgba(255, 255, 255, 0.5); /* Couleur de fond pour "Mois" et "Année" */
+    
+}
+.month > a {
+    color: #000;
+}
+.year > a {
+    color: #000;
+}
+
+/* Bordure droite noire pour séparer les colonnes */
+.date-item:not(:last-child) {
+    border-right: 1px solid #000; /* Ligne séparatrice */
+}
+
+.profile-container {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto; /* Centre le conteneur */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc avec opacité */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00784A; /* Couleur du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    background-color: #005f36; /* Couleur de fond survolée */
+}
+
+.results-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-item {
+    margin-bottom: 15px;
+}
+
+.result-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.result-item p {
+    margin: 5px 0 0;
+    color: #666;
+}
+#map {
+    width: 100%; /* S'étend à 100% de la largeur de son conteneur parent */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.view {
+    display: none;
+}
+
+.view.active {
+    display: block;
+}
+
+.date-container a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.date-container a.active {
+    font-weight: bold;
+    color: #00784A; /* Couleur active */
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.calendar-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+.calendar-table th,
+.calendar-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.calendar-table th {
+    background-color: #f2f2f2;
+}
+
+.day-cell {
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+}
+
+.day-cell span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.day-cell.incomplete {
+    background-color: rgb(235, 183, 0);
+}
+
+.day-cell.missed {
+    background-color: red;
+}
+
+.day-cell.complete {
+    background-color: green;
+}
+
+.day-cell.empty {
+    background-color: #f2f2f2;
+    cursor: default;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.legend-color {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.incomplete {
+    background-color: rgb(235, 183, 0);
+}
+
+.missed {
+    background-color: red;
+}
+
+.complete {
+    background-color: green;
+}
+
+.year-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.month-bar {
+    width: 50px;
+    height: 150px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 10px;
+    position: relative;
+}
+
+.month-bar > span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.month-bar .incomplete {
+    height: 30%;
+    background-color: rgb(235, 183, 0);
+}
+
+.month-bar .missed {
+    height: 20%;
+    background-color: red;
+}
+
+.month-bar .complete {
+    height: 50%;
+    background-color: green;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.legend-color {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.incomplete {
+    background-color: rgb(235, 183, 0);
+}
+
+.missed {
+    background-color: red;
+}
+
+.complete {
+    background-color: green;
+}
+
+.nav-arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.arrow-left, .arrow-right {
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
 }

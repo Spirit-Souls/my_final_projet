@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Recherche de Mosquées{% endblock %}
+
+{% block body %}
+<div class="backgroundimg flex flex-column" id="background">
+    <div class="searchbar">
+        <form id="search-form" class="form-inline my-2 my-lg-0">
+            <div class="input-group">
+                <input class="form-control" type="search" id="city-input" placeholder="Entrez une ville" aria-label="Recherche">
+                <div class="input-group-append">
+                    <button class="btn btn-success" type="submit"><i class="bi-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div id="results" class="results-container">
+        <!-- Les résultats de la recherche seront affichés ici -->
+    </div>
+
+    <div id="map" style="height: 500px; min-height: 300px; margin-top: 20px;"></div> <!-- Conteneur de la carte avec taille minimale -->
+</div>
+
+{% endblock %}
