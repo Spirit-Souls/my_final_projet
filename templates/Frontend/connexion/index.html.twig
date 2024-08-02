@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Login{% endblock %}
+
+{% block body %}
+<div class="backgroundimg" id="background">
+    <div class="login-page">
+        <div class="login-container mx-auto">
+            <div class="circle large top-left"></div>
+            <div class="circle medium bottom-left"></div>
+            <div class="circle smallest bottom-right"></div>
+            <div class="circle center"></div>
+            <h2 class="login-title">CONNEXION</h2>
+
+            {% if error %}
+                <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+            {% endif %}
+
+            <form method="post" class="login-form">
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" value="{{ last_username }}" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+            </form>
+
+            <div class="login-footer">
+                <p class="login-text">Vous n'avez pas de compte? </p>
+                <p><a href="#" class="login-link">Créer un nouveau compte</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

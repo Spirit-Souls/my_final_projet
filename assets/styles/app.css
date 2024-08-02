@@ -34,6 +34,13 @@ a {
 .flex {
     display: flex;
 }
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+
 
 .nav {
     display: flex;
@@ -543,4 +550,126 @@ input[type="email"] {
     cursor: pointer;
     text-decoration: none;
     color: #333;
+}
+
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 80px; /* Augmentation du padding pour plus d'espace intérieur */
+    width: 450px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+}
+
+
+.login-title {
+    font-size: 24px;
+    color: #00784A;
+    margin-bottom: 100px; /* Augmentation de l'espace sous le titre */
+}
+
+.login-form .form-control {
+    border-radius: 25px;
+    border: 1px solid #aeaeae;
+    padding: 12px; /* Augmentation du padding pour plus d'espace intérieur */
+    margin-bottom: 40px; /* Augmentation de la marge pour espacer les champs */
+}
+
+.btn-primary {
+    background-color: #00784A;
+    border: none;
+    border-radius: 25px;
+    padding: 12px; /* Augmentation du padding pour un bouton plus grand */
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px; /* Espace supplémentaire au-dessus du bouton */
+    margin-bottom: 20px;
+}
+
+.login-footer {
+    margin-top: 20px; /* Augmentation de l'espace au-dessus du texte de bas de page */
+    font-size: 14px;
+}
+
+.login-footer a {
+    color: #00784A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+.login-footer p{
+    font-size: 14px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(0, 120, 74, 0.2); /* Couleur des cercles */
+}
+
+.circle.large {
+    width: 120px;
+    height: 120px;
+}
+
+.circle.medium {
+    width: 70px;
+    height: 70px;
+}
+
+.circle.small {
+    width: 50px;
+    height: 50px;
+}
+.circle.smallest {
+    width: 30px;
+    height: 30px;
+}
+
+/* Positionnement des cercles */
+.circle.top-left {
+    top: -20px; /* Position ajustée pour ne pas être dans l'angle */
+    left: -40px; /* Position en dehors du conteneur */
+}
+
+
+
+.circle.bottom-left {
+    bottom: 20px;
+    left: 10px;
+}
+
+.circle.bottom-right {
+    bottom: 60px;
+    right: 30px;
+}
+.login-text {
+    font-size: 14px; /* Ajuster la taille de la police pour "Vous n'avez pas de compte?" */
+}
+
+.login-link {
+    font-size: 14px; /* Ajuster la taille de la police pour "Créer un nouveau compte" */
+    display: block;
+    margin-top: 5px; /* Ajouter un peu d'espace au-dessus du lien */
+}
+.circle.center {
+    top: 40%; /* Ajustez cette valeur selon vos besoins pour positionner le cercle plus haut ou plus bas */
+    right: -14px; /* Positionné à 40% de la gauche */
+    width: 60px; /* Taille du cercle */
+    height: 60px; /* Taille du cercle */
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.60);
 }
