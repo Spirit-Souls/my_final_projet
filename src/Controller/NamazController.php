@@ -16,3 +16,4 @@ class NamazController extends AbstractController
         ]);
     }
 }
+

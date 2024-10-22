@@ -3,6 +3,14 @@
 {% block title %}Login{% endblock %}
 
 {% block body %}
+{% for label, messages in app.flashes %}
+    <div class="alert alert-{{ label }}">
+        {% for message in messages %}
+            {{ message }}
+        {% endfor %}
+    </div>
+{% endfor %}
+
 <div class="backgroundimg" id="background">
     <div class="login-page">
         <div class="login-container mx-auto">
@@ -12,16 +20,20 @@
             <div class="circle center"></div>
             <h2 class="login-title">CONNEXION</h2>
 
+            {% if user %}
+                <div class="alert alert-success">Bonjour, {{ user.firstName }}!</div>
+            {% endif %}
+
             {% if error %}
                 <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
             {% endif %}
 
             <form method="post" class="login-form">
                 <div class="form-group">
-                    <input type="email" name="email" class="form-control" value="{{ last_username }}" placeholder="Email" required>
+                    <input type="email" name="_username" class="form-control" value="{{ last_username }}" placeholder="Email" required>
                 </div>
                 <div class="form-group">
-                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                    <input type="password" name="_password" class="form-control" placeholder="Password" required>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
             </form>

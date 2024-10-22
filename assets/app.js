@@ -15,14 +15,12 @@ let currentIndex = 0;
 const backgroundElement = document.getElementById('background');
 
 function changeBackground() {
-    backgroundElement.classList.remove('fade-in');
-    backgroundElement.classList.add('fade-out');
+    backgroundElement.classList.replace('fade-in', 'fade-out');
     
     setTimeout(() => {
         currentIndex = (currentIndex + 1) % images.length;
         backgroundElement.style.backgroundImage = `url(${images[currentIndex]})`;
-        backgroundElement.classList.remove('fade-out');
-        backgroundElement.classList.add('fade-in');
+        backgroundElement.classList.replace('fade-out', 'fade-in');
     }, 1000);
 }
 
@@ -44,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
         year: document.getElementById('year-view')
     };
     const arrows = {
-        left: document.querySelectorAll('.arrow.bi-arrow-return-left'),
-        right: document.querySelectorAll('.arrow.bi-arrow-return-right')
+        left: document.querySelector('.arrow.bi-arrow-return-left'),
+        right: document.querySelector('.arrow.bi-arrow-return-right')
     };
     let currentDate = new Date();
 
@@ -54,17 +52,18 @@ document.addEventListener("DOMContentLoaded", function() {
         currentDateElement.textContent = currentDate.toLocaleDateString('fr-FR', options);
     }
 
-    function fetchPrayerTimes(date) {
-        const city = "Feurs";
+    async function fetchPrayerTimes(date) {
+        const city = "ankara";
         const dateString = date.toISOString().split('T')[0];
+        const todayString = new Date().toISOString().split('T')[0];
 
-        // Vérifier si la date est le 1er août 2024
-        const isSpecificDate = dateString === '2024-08-01';
+        console.log(`Fetching prayer times for ${city} on ${dateString}`);
 
-        if (isSpecificDate) {
-            fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=France&method=2&date=${dateString}`)
-                .then(response => response.json())
-                .then(data => {
+        if (dateString === todayString) {
+            try {
+                const response = await fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=turkey&method=2&date=${dateString}`);
+                const data = await response.json();
+                if (data.code === 200) {
                     const timings = data.data.timings;
                     const prayers = ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha'];
 
@@ -73,19 +72,22 @@ document.addEventListener("DOMContentLoaded", function() {
                     });
 
                     updateTimeLeft(timings);
-                })
-                .catch(error => {
-                    document.getElementById('prayer-times').innerText = 'Erreur lors de la récupération des horaires de prière.';
-                });
-        } else {
-            // Masquer les horaires de prière et n'afficher que les titres et les cases à cocher
-            const prayerCells = prayerRow.children;
-            for (let i = 0; i < prayerCells.length; i++) {
-                prayerCells[i].textContent = '';
+                } else {
+                    throw new Error('Invalid response code from API');
+                }
+            } catch (error) {
+                console.error('Error fetching prayer times:', error);
+                document.getElementById('prayer-times').innerText = 'Erreur lors de la récupération des horaires de prière.';
             }
-            nextPrayerElement.textContent = 'N/A';
-            timeLeftElement.textContent = "00:00:00";
+        } else {
+            clearPrayerTimes();
         }
+    }
+
+    function clearPrayerTimes() {
+        [...prayerRow.children].forEach(cell => cell.textContent = '');
+        nextPrayerElement.textContent = 'N/A';
+        timeLeftElement.textContent = "00:00:00";
     }
 
     function updateTimeLeft(timings) {
@@ -121,8 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 timeLeftElement.textContent = `${hoursLeft}:${minutesLeft}:${secondsLeft}`;
                 nextPrayerElement.textContent = nextPrayerName;
             } else {
-                timeLeftElement.textContent = "00:00:00";
-                nextPrayerElement.textContent = "N/A";
+                clearPrayerTimes();
             }
         }
 
@@ -186,8 +187,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if ((day + firstDay - 1) % 7 === 0) {
                 html += '</tr><tr>';
             }
-            let status = "incomplete";
-            html += `<td class="day-cell ${status}" data-day="${day}"><span>${day < 10 ? '0' : ''}${day}</span></td>`;
+            html += `<td class="day-cell" data-day="${day}"><span>${day < 10 ? '0' : ''}${day}</span></td>`;
         }
 
         html += '</tr></tbody></table>';
@@ -209,28 +209,35 @@ document.addEventListener("DOMContentLoaded", function() {
         const yearCalendar = document.getElementById('year-calendar');
         yearCalendar.innerHTML = '';
 
-        monthNames.forEach(month => {
+        monthNames.forEach((month, index) => {
+            const monthContainer = document.createElement('div');
+            monthContainer.classList.add('month-container');
+
             const monthBar = document.createElement('div');
             monthBar.classList.add('month-bar');
+            monthBar.dataset.month = index;
+            monthBar.dataset.year = year;
+
             const incomplete = document.createElement('span');
             incomplete.classList.add('incomplete');
             const missed = document.createElement('span');
             missed.classList.add('missed');
             const complete = document.createElement('span');
             complete.classList.add('complete');
-            monthBar.appendChild(incomplete);
-            monthBar.appendChild(missed);
-            monthBar.appendChild(complete);
+            monthBar.append(incomplete, missed, complete);
 
             const monthLabel = document.createElement('div');
             monthLabel.textContent = month;
-            monthLabel.style.textAlign = 'center';
+            monthLabel.classList.add('month-label');
 
-            const monthContainer = document.createElement('div');
-            monthContainer.appendChild(monthBar);
-            monthContainer.appendChild(monthLabel);
-
+            monthContainer.append(monthBar, monthLabel);
             yearCalendar.appendChild(monthContainer);
+
+            monthBar.addEventListener('click', function() {
+                currentDate.setMonth(parseInt(this.dataset.month));
+                currentDate.setFullYear(parseInt(this.dataset.year));
+                switchView('month');
+            });
         });
     }
 
@@ -241,14 +248,9 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    arrows.left.forEach(arrow => arrow.addEventListener('click', function(event) {
+    [arrows.left, arrows.right].forEach(arrow => arrow.addEventListener('click', function(event) {
         event.preventDefault();
-        navigateDate(-1);
-    }));
-
-    arrows.right.forEach(arrow => arrow.addEventListener('click', function(event) {
-        event.preventDefault();
-        navigateDate(1);
+        navigateDate(this === arrows.left ? -1 : 1);
     }));
 
     switchView('day');
