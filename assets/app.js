@@ -56,9 +56,10 @@ document.addEventListener("DOMContentLoaded", function() {
         const city = "ankara";
         const dateString = date.toISOString().split('T')[0];
         const todayString = new Date().toISOString().split('T')[0];
-
+    
         console.log(`Fetching prayer times for ${city} on ${dateString}`);
-
+    
+        // Vérifie si la date est aujourd'hui
         if (dateString === todayString) {
             try {
                 const response = await fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=turkey&method=2&date=${dateString}`);
@@ -66,12 +67,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (data.code === 200) {
                     const timings = data.data.timings;
                     const prayers = ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha'];
-
+    
                     prayers.forEach((prayer, index) => {
                         prayerRow.children[index].textContent = timings[prayer];
                     });
-
-                    updateTimeLeft(timings);
+    
+                    updateTimeLeft(timings); // Mets à jour le temps restant
                 } else {
                     throw new Error('Invalid response code from API');
                 }
@@ -80,10 +81,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('prayer-times').innerText = 'Erreur lors de la récupération des horaires de prière.';
             }
         } else {
+            // Si la date n'est pas aujourd'hui, vide les horaires de prière
             clearPrayerTimes();
         }
     }
-
+    
+    
     function clearPrayerTimes() {
         [...prayerRow.children].forEach(cell => cell.textContent = '');
         nextPrayerElement.textContent = 'N/A';
@@ -132,11 +135,19 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function switchView(view) {
+        // Masque toutes les vues
         Object.values(views).forEach(v => v.style.display = 'none');
+        
+        // Désactive tous les liens
         Object.values(links).forEach(link => link.classList.remove('active'));
-        views[view].style.display = 'block';
-        links[view].classList.add('active');
-
+    
+        // Affiche la vue sélectionnée et active le lien
+        if (views[view]) {
+            views[view].style.display = 'block';
+            links[view].classList.add('active');
+        }
+    
+        // Génère le contenu pour la vue sélectionnée
         if (view === 'month') {
             generateCalendar();
         } else if (view === 'year') {
@@ -145,25 +156,29 @@ document.addEventListener("DOMContentLoaded", function() {
             updateDayView();
         }
     }
-
+    
     function navigateDate(offset) {
         if (views.month.style.display === 'block') {
+            // Changer de mois
             currentDate.setMonth(currentDate.getMonth() + offset);
             generateCalendar();
         } else if (views.year.style.display === 'block') {
+            // Changer d'année
             currentDate.setFullYear(currentDate.getFullYear() + offset);
             generateYearView();
         } else if (views.day.style.display === 'block') {
+            // Changer de jour
             currentDate.setDate(currentDate.getDate() + offset);
             updateDayView();
         }
     }
+    
 
     function updateDayView() {
         updateCurrentDateDisplay();
-        fetchPrayerTimes(currentDate);
+        fetchPrayerTimes(currentDate); // Appelle la fonction uniquement pour aujourd'hui
     }
-
+    
     function generateCalendar() {
         const currentMonth = currentDate.getMonth();
         const currentYear = currentDate.getFullYear();
@@ -250,8 +265,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     [arrows.left, arrows.right].forEach(arrow => arrow.addEventListener('click', function(event) {
         event.preventDefault();
+        // Navigue d'un mois/année/jour selon la vue actuelle
         navigateDate(this === arrows.left ? -1 : 1);
     }));
+    
 
     switchView('day');
 });
