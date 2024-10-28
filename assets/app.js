@@ -57,9 +57,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const dateString = date.toISOString().split('T')[0];
         const todayString = new Date().toISOString().split('T')[0];
     
-        console.log(`Fetching prayer times for ${city} on ${dateString}`);
-    
-        // Vérifie si la date est aujourd'hui
         if (dateString === todayString) {
             try {
                 const response = await fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=turkey&method=2&date=${dateString}`);
@@ -72,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         prayerRow.children[index].textContent = timings[prayer];
                     });
     
-                    updateTimeLeft(timings); // Mets à jour le temps restant
+                    updateTimeLeft(timings);
                 } else {
                     throw new Error('Invalid response code from API');
                 }
@@ -81,11 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById('prayer-times').innerText = 'Erreur lors de la récupération des horaires de prière.';
             }
         } else {
-            // Si la date n'est pas aujourd'hui, vide les horaires de prière
             clearPrayerTimes();
         }
     }
-    
     
     function clearPrayerTimes() {
         [...prayerRow.children].forEach(cell => cell.textContent = '');
@@ -135,19 +130,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function switchView(view) {
-        // Masque toutes les vues
         Object.values(views).forEach(v => v.style.display = 'none');
-        
-        // Désactive tous les liens
         Object.values(links).forEach(link => link.classList.remove('active'));
     
-        // Affiche la vue sélectionnée et active le lien
         if (views[view]) {
             views[view].style.display = 'block';
             links[view].classList.add('active');
         }
     
-        // Génère le contenu pour la vue sélectionnée
         if (view === 'month') {
             generateCalendar();
         } else if (view === 'year') {
@@ -159,24 +149,20 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function navigateDate(offset) {
         if (views.month.style.display === 'block') {
-            // Changer de mois
             currentDate.setMonth(currentDate.getMonth() + offset);
             generateCalendar();
         } else if (views.year.style.display === 'block') {
-            // Changer d'année
             currentDate.setFullYear(currentDate.getFullYear() + offset);
             generateYearView();
         } else if (views.day.style.display === 'block') {
-            // Changer de jour
             currentDate.setDate(currentDate.getDate() + offset);
             updateDayView();
         }
     }
     
-
     function updateDayView() {
         updateCurrentDateDisplay();
-        fetchPrayerTimes(currentDate); // Appelle la fonction uniquement pour aujourd'hui
+        fetchPrayerTimes(currentDate);
     }
     
     function generateCalendar() {
@@ -265,10 +251,88 @@ document.addEventListener("DOMContentLoaded", function() {
 
     [arrows.left, arrows.right].forEach(arrow => arrow.addEventListener('click', function(event) {
         event.preventDefault();
-        // Navigue d'un mois/année/jour selon la vue actuelle
         navigateDate(this === arrows.left ? -1 : 1);
     }));
     
-
     switchView('day');
 });
+
+// Fonctionnalité de recherche et itinéraire
+document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.getElementById('city-input');
+    const resultsContainer = document.getElementById('results');
+
+    searchInput.addEventListener('input', async function () {
+        const query = searchInput.value.trim();
+
+        if (query.length > 0) {
+            try {
+                const response = await fetch(`/mosque/search?q=${encodeURIComponent(query)}`);
+                const mosques = await response.json();
+                displayResults(mosques);
+            } catch (error) {
+                console.error("Error fetching search results:", error);
+            }
+        } else {
+            resultsContainer.innerHTML = ''; 
+        }
+    });
+
+    function displayResults(mosques) {
+        resultsContainer.innerHTML = '';
+        if (mosques.length === 0) {
+            resultsContainer.innerHTML = '<p>No mosques found.</p>';
+        } else {
+            mosques.forEach(mosque => {
+                const mosqueElement = document.createElement('div');
+                mosqueElement.className = 'result-item';
+                mosqueElement.innerHTML = `<h3>${mosque.name}</h3><p>${mosque.city}</p>`;
+                mosqueElement.addEventListener('click', () => showRouteToMosque(mosque));
+                resultsContainer.appendChild(mosqueElement);
+            });
+        }
+    }
+});
+
+let map, routingControl;
+
+document.addEventListener("DOMContentLoaded", function() {
+    const mapElement = document.getElementById("map");
+    if (mapElement) {
+        map = L.map(mapElement).setView([48.8566, 2.3522], 6);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(map);
+
+        routingControl = L.Routing.control({
+            waypoints: [],
+            routeWhileDragging: true,
+        }).addTo(map);
+    }
+});
+
+async function showRouteToMosque(mosque) {
+    if (routingControl) {
+        routingControl.setWaypoints([]);
+    }
+
+    try {
+        const response = await fetch(`/mosque/location?id=${mosque.id}`);
+        const { latitude, longitude } = await response.json();
+
+        if (latitude && longitude) {
+            navigator.geolocation.getCurrentPosition(position => {
+                const userLocation = L.latLng(position.coords.latitude, position.coords.longitude);
+                const mosqueLocation = L.latLng(latitude, longitude);
+
+                routingControl.setWaypoints([userLocation, mosqueLocation]);
+                map.fitBounds(L.latLngBounds([userLocation, mosqueLocation]));
+            });
+        } else {
+            console.error('Coordonnées de la mosquée non trouvées.');
+        }
+    } catch (error) {
+        console.error("Erreur lors de la récupération de la localisation de la mosquée :", error);
+    }
+}

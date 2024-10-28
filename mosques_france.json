@@ -1,0 +1,6608 @@
+[
+    {
+        "id": 1,
+        "name": "Mosquée Essalam d'Ambérieu-en-Bugey[6]",
+        "city": "Ambérieu-en-Bugey",
+        "country": "France"
+    },
+    {
+        "id": 2,
+        "name": "Mosquée turque CIMG d'Ambérieu-en-Bugey",
+        "city": "Ambérieu-en-Bugey",
+        "country": "France"
+    },
+    {
+        "id": 3,
+        "name": "Mosquée de Belley",
+        "city": "Belley",
+        "country": "France"
+    },
+    {
+        "id": 4,
+        "name": "Mosquée Dar el-Coran de Bourg-en-Bresse",
+        "city": "Bourg-en-Bresse",
+        "country": "France"
+    },
+    {
+        "id": 5,
+        "name": "Mosquée El-Mohssinine de Bourg-en-Bresse",
+        "city": "Bourg-en-Bresse",
+        "country": "France"
+    },
+    {
+        "id": 6,
+        "name": "Mosquée Et-Taqwa de Bourg-en-Bresse",
+        "city": "Bourg-en-Bresse",
+        "country": "France"
+    },
+    {
+        "id": 7,
+        "name": "Mosquée turque de Bourg-en-Bresse",
+        "city": "Bourg-en-Bresse",
+        "country": "France"
+    },
+    {
+        "id": 8,
+        "name": "Mosquée de Meximieux",
+        "city": "Meximieux",
+        "country": "France"
+    },
+    {
+        "id": 9,
+        "name": "Mosquée de Miribel",
+        "city": "Miribel",
+        "country": "France"
+    },
+    {
+        "id": 10,
+        "name": "Mosquée de Montréal-la-Cluse",
+        "city": "Montréal-la-Cluse",
+        "country": "France"
+    },
+    {
+        "id": 11,
+        "name": "Mosquée de Nantua",
+        "city": "Nantua",
+        "country": "France"
+    },
+    {
+        "id": 12,
+        "name": "Mosquée Ar-Rahma d'Oyonnax",
+        "city": "Oyonnax",
+        "country": "France"
+    },
+    {
+        "id": 13,
+        "name": "Mosquée turque d'Oyonnax",
+        "city": "Oyonnax",
+        "country": "France"
+    },
+    {
+        "id": 14,
+        "name": "Mosquée de Beautor[8]",
+        "city": "Beautor",
+        "country": "France"
+    },
+    {
+        "id": 15,
+        "name": "Mosquée Al-Ihssane de Château-Thierry[9]",
+        "city": "Château-Thierry",
+        "country": "France"
+    },
+    {
+        "id": 16,
+        "name": "Mosquée Er-Rahma de Fresnoy-le-Grand",
+        "city": "Fresnoy-le-Grand",
+        "country": "France"
+    },
+    {
+        "id": 17,
+        "name": "Mosquée Annour de Laon",
+        "city": "Laon",
+        "country": "France"
+    },
+    {
+        "id": 18,
+        "name": "Mosquée Assalam de Saint-Quentin",
+        "city": "Saint-Quentin",
+        "country": "France"
+    },
+    {
+        "id": 19,
+        "name": "Mosquée turque de Saint-Quentin",
+        "city": "Saint-Quentin",
+        "country": "France"
+    },
+    {
+        "id": 20,
+        "name": "Mosquée de Soissons",
+        "city": "Soissons",
+        "country": "France"
+    },
+    {
+        "id": 21,
+        "name": "Mosquée turque de Soissons",
+        "city": "Soissons",
+        "country": "France"
+    },
+    {
+        "id": 22,
+        "name": "Mosquée de Villers-Cotterêts",
+        "city": "Villers-Cotterêts",
+        "country": "France"
+    },
+    {
+        "id": 23,
+        "name": "Mosquée Al-Hidjra de Montluçon",
+        "city": "Montluçon",
+        "country": "France"
+    },
+    {
+        "id": 24,
+        "name": "Mosquée As-Salam de Montluçon",
+        "city": "Montluçon",
+        "country": "France"
+    },
+    {
+        "id": 25,
+        "name": "Mosquée Er-Rahma de Montluçon",
+        "city": "Montluçon",
+        "country": "France"
+    },
+    {
+        "id": 26,
+        "name": "Mosquée de Moulins",
+        "city": "Moulins",
+        "country": "France"
+    },
+    {
+        "id": 27,
+        "name": "Mosquée turque de Moulins",
+        "city": "Moulins",
+        "country": "France"
+    },
+    {
+        "id": 28,
+        "name": "Mosquée Al-Rahma de Vichy",
+        "city": "Vichy",
+        "country": "France"
+    },
+    {
+        "id": 29,
+        "name": "Mosquée El Hijra de Vichy",
+        "city": "Vichy",
+        "country": "France"
+    },
+    {
+        "id": 30,
+        "name": "Mosquée turque de Vichy",
+        "city": "Vichy",
+        "country": "France"
+    },
+    {
+        "id": 31,
+        "name": "Mosquée En-Nasr de Manosque",
+        "city": "Manosque",
+        "country": "France"
+    },
+    {
+        "id": 32,
+        "name": "Mosquée de Briançon",
+        "city": "Briançon",
+        "country": "France"
+    },
+    {
+        "id": 33,
+        "name": "Mosquée Al Salam de Gap",
+        "city": "Gap",
+        "country": "France"
+    },
+    {
+        "id": 34,
+        "name": "Mosquée Omar ibn al-Khattâb de Gap",
+        "city": "Gap",
+        "country": "France"
+    },
+    {
+        "id": 35,
+        "name": "Mosquée Le Rappel d'Antibes",
+        "city": "Antibes",
+        "country": "France"
+    },
+    {
+        "id": 36,
+        "name": "Mosquée de Beausoleil",
+        "city": "Beausoleil",
+        "country": "France"
+    },
+    {
+        "id": 37,
+        "name": "Mosquée de Cagnes-sur-Mer",
+        "city": "Cagnes-sur-Mer",
+        "country": "France"
+    },
+    {
+        "id": 38,
+        "name": "Mosquée Iqraa de Cannes",
+        "city": "Cannes",
+        "country": "France"
+    },
+    {
+        "id": 39,
+        "name": "Mosquée Al-Madina al-Mounawara de Cannes",
+        "city": "Cannes",
+        "country": "France"
+    },
+    {
+        "id": 40,
+        "name": "Mosquée Annour du Cannet",
+        "city": "Le Cannet",
+        "country": "France"
+    },
+    {
+        "id": 41,
+        "name": "Mosquée El-Ghofrane de Grasse",
+        "city": "Grasse",
+        "country": "France"
+    },
+    {
+        "id": 42,
+        "name": "Mosquée El-Joumou'a de Grasse",
+        "city": "Grasse",
+        "country": "France"
+    },
+    {
+        "id": 43,
+        "name": "Mosquée Al Fourkane de Nice",
+        "city": "Nice",
+        "country": "France"
+    },
+    {
+        "id": 44,
+        "name": "Mosquée Ar-Rahma de Nice",
+        "city": "Nice",
+        "country": "France"
+    },
+    {
+        "id": 45,
+        "name": "Mosquée de l'Oued de Nice",
+        "city": "Nice",
+        "country": "France"
+    },
+    {
+        "id": 46,
+        "name": "Mosquée En Nour de Nice",
+        "city": "Nice",
+        "country": "France"
+    },
+    {
+        "id": 47,
+        "name": "Mosquée Giuliani de Nice",
+        "city": "Nice",
+        "country": "France"
+    },
+    {
+        "id": 48,
+        "name": "Mosquée Imane de Nice",
+        "city": "Nice",
+        "country": "France"
+    },
+    {
+        "id": 49,
+        "name": "Mosquée Taqwa de Nice",
+        "city": "Nice",
+        "country": "France"
+    },
+    {
+        "id": 50,
+        "name": "Mosquée Ar-Rahmah de Vallauris",
+        "city": "Vallauris",
+        "country": "France"
+    },
+    {
+        "id": 51,
+        "name": "Mosquée d'Annonay",
+        "city": "Annonay",
+        "country": "France"
+    },
+    {
+        "id": 52,
+        "name": "Mosquée Azitoun d'Aubenas",
+        "city": "Aubenas",
+        "country": "France"
+    },
+    {
+        "id": 53,
+        "name": "Mosquée turque d'Aubenas",
+        "city": "Aubenas",
+        "country": "France"
+    },
+    {
+        "id": 54,
+        "name": "Mosquée Salam de Bourg-Saint-Andéol",
+        "city": "Bourg-Saint-Andéol",
+        "country": "France"
+    },
+    {
+        "id": 55,
+        "name": "Mosquée An-Nour du Teil",
+        "city": "Le Teil",
+        "country": "France"
+    },
+    {
+        "id": 56,
+        "name": "Mosquée As-Salam de Privas[19]",
+        "city": "Privas",
+        "country": "France"
+    },
+    {
+        "id": 57,
+        "name": "Mosquée Nour de Tournon-sur-Rhône",
+        "city": "Tournon-sur-Rhône",
+        "country": "France"
+    },
+    {
+        "id": 58,
+        "name": "Mosquée As Salam de Charleville-Mézières[21]",
+        "city": "Charleville-Mézières",
+        "country": "France"
+    },
+    {
+        "id": 59,
+        "name": "Mosquée Tawhid de Charleville-Mézières",
+        "city": "Charleville-Mézières",
+        "country": "France"
+    },
+    {
+        "id": 60,
+        "name": "Mosquée turque Yavuz Selim de Charleville-Mézières",
+        "city": "Charleville-Mézières",
+        "country": "France"
+    },
+    {
+        "id": 61,
+        "name": "Mosquée de Sedan",
+        "city": "Sedan",
+        "country": "France"
+    },
+    {
+        "id": 62,
+        "name": "Mosquée de Ferrières-sur-Ariège",
+        "city": "Ferrières-sur-Ariège",
+        "country": "France"
+    },
+    {
+        "id": 63,
+        "name": "Mosquée de Lavelanet",
+        "city": "Lavelanet",
+        "country": "France"
+    },
+    {
+        "id": 64,
+        "name": "Mosquée de Pamiers",
+        "city": "Pamiers",
+        "country": "France"
+    },
+    {
+        "id": 65,
+        "name": "Mosquée Nasr de Tarascon-sur-Ariège",
+        "city": "Tarascon-sur-Ariège",
+        "country": "France"
+    },
+    {
+        "id": 66,
+        "name": "Mosquée Othmane Ibn Affane de Bar-sur-Aube",
+        "city": "Bar-sur-Aube",
+        "country": "France"
+    },
+    {
+        "id": 67,
+        "name": "Mosquée turque de Bar-sur-Aube",
+        "city": "Bar-sur-Aube",
+        "country": "France"
+    },
+    {
+        "id": 68,
+        "name": "Mosquée El Houda de Bar-sur-Seine",
+        "city": "Bar-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 69,
+        "name": "Mosquée Tawhid de la Chapelle-Saint-Luc",
+        "city": "La Chapelle-Saint-Luc",
+        "country": "France"
+    },
+    {
+        "id": 70,
+        "name": "Mosquée Mousab ibn Oumayr de la Chapelle-Saint-Luc",
+        "city": "La Chapelle-Saint-Luc",
+        "country": "France"
+    },
+    {
+        "id": 71,
+        "name": "Mosquée turque En-Nour de La Chapelle-Saint-Luc",
+        "city": "La Chapelle-Saint-Luc",
+        "country": "France"
+    },
+    {
+        "id": 72,
+        "name": "Mosquée de Nogent-sur-Seine",
+        "city": "Nogent-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 73,
+        "name": "Mosquée turque de Nogent-sur-Seine",
+        "city": "Nogent-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 74,
+        "name": "Mosquée Arrahma de Romilly-sur-Seine",
+        "city": "Romilly-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 75,
+        "name": "Mosquée de Romilly-sur-Seine",
+        "city": "Romilly-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 76,
+        "name": "Mosquée Abou Bakr de Troyes",
+        "city": "Troyes",
+        "country": "France"
+    },
+    {
+        "id": 77,
+        "name": "Mosquée Al-Ihsan de Troyes",
+        "city": "Troyes",
+        "country": "France"
+    },
+    {
+        "id": 78,
+        "name": "Mosquée des Bas-Trévois de Troyes",
+        "city": "Troyes",
+        "country": "France"
+    },
+    {
+        "id": 79,
+        "name": "Mosquée de l'Imam Ali de Troyes",
+        "city": "Troyes",
+        "country": "France"
+    },
+    {
+        "id": 80,
+        "name": "Mosquée Hamza de Troyes",
+        "city": "Troyes",
+        "country": "France"
+    },
+    {
+        "id": 81,
+        "name": "Mosquée turque Fatih de Troyes",
+        "city": "Troyes",
+        "country": "France"
+    },
+    {
+        "id": 82,
+        "name": "Mosquée turque de Vendeuvre-sur-Barse",
+        "city": "Vendeuvre-sur-Barse",
+        "country": "France"
+    },
+    {
+        "id": 83,
+        "name": "Mosquée Salam de Carcassonne",
+        "city": "Carcassonne",
+        "country": "France"
+    },
+    {
+        "id": 84,
+        "name": "Mosquée de Lézignan-Corbières",
+        "city": "Lézignan-Corbières",
+        "country": "France"
+    },
+    {
+        "id": 85,
+        "name": "Mosquée de Narbonne",
+        "city": "Narbonne",
+        "country": "France"
+    },
+    {
+        "id": 86,
+        "name": "Mosquée turque de Narbonne",
+        "city": "Narbonne",
+        "country": "France"
+    },
+    {
+        "id": 87,
+        "name": "Mosquée turque de Carcassonne",
+        "city": "Trèbes",
+        "country": "France"
+    },
+    {
+        "id": 88,
+        "name": "Mosquée de Decazeville",
+        "city": "Decazeville",
+        "country": "France"
+    },
+    {
+        "id": 89,
+        "name": "Mosquée de Millau",
+        "city": "Millau",
+        "country": "France"
+    },
+    {
+        "id": 90,
+        "name": "Mosquée de Rodez[31]",
+        "city": "Rodez",
+        "country": "France"
+    },
+    {
+        "id": 91,
+        "name": "Mosquée turque de Rodez",
+        "city": "Rodez",
+        "country": "France"
+    },
+    {
+        "id": 92,
+        "name": "Mosquée de Villefranche-de-Rouergue",
+        "city": "Villefranche-de-Rouergue",
+        "country": "France"
+    },
+    {
+        "id": 93,
+        "name": "Mosquée An-Nasr d'Arles",
+        "city": "Arles",
+        "country": "France"
+    },
+    {
+        "id": 94,
+        "name": "Mosquée des Arènes d'Arles",
+        "city": "Arles",
+        "country": "France"
+    },
+    {
+        "id": 95,
+        "name": "Mosquée Dar Es-Salem d'Aubagne",
+        "city": "Aubagne",
+        "country": "France"
+    },
+    {
+        "id": 96,
+        "name": "Mosquée marocaine de Berre-l'Étang",
+        "city": "Berre-l'Étang",
+        "country": "France"
+    },
+    {
+        "id": 97,
+        "name": "Mosquée Arrahma d'Istres",
+        "city": "Istres",
+        "country": "France"
+    },
+    {
+        "id": 98,
+        "name": "Mosquée El-Boukhari de La Ciotat",
+        "city": "La Ciotat",
+        "country": "France"
+    },
+    {
+        "id": 99,
+        "name": "Mosquée Al-Qouds de Marseille",
+        "city": "Marseille(1e)",
+        "country": "France"
+    },
+    {
+        "id": 100,
+        "name": "Mosquée Bilal de Marseille",
+        "city": "Marseille(1e)",
+        "country": "France"
+    },
+    {
+        "id": 101,
+        "name": "Mosquée Tahara de Marseille",
+        "city": "Marseille(1e)",
+        "country": "France"
+    },
+    {
+        "id": 102,
+        "name": "Mosquée At-Taqwa de la Porte d'Aix de Marseille",
+        "city": "Marseille(2e)",
+        "country": "France"
+    },
+    {
+        "id": 103,
+        "name": "Mosquée Khalid ibn al-Walid de Marseille",
+        "city": "Marseille(2e)",
+        "country": "France"
+    },
+    {
+        "id": 104,
+        "name": "Mosquée Es-Sunna de Marseille",
+        "city": "Marseille(3e)",
+        "country": "France"
+    },
+    {
+        "id": 105,
+        "name": "Mosquée En-Nasr de Marseille",
+        "city": "Marseille(10e)",
+        "country": "France"
+    },
+    {
+        "id": 106,
+        "name": "Mosquée El-Housseine de Marseille",
+        "city": "Marseille(11e)",
+        "country": "France"
+    },
+    {
+        "id": 107,
+        "name": "Mosquée des Bleuets de Marseille",
+        "city": "Marseille(13e)",
+        "country": "France"
+    },
+    {
+        "id": 108,
+        "name": "Mosquée des Cèdres de Marseille[35]",
+        "city": "Marseille(13e)",
+        "country": "France"
+    },
+    {
+        "id": 109,
+        "name": "Mosquée El-Houda de Marseille",
+        "city": "Marseille(13e)",
+        "country": "France"
+    },
+    {
+        "id": 110,
+        "name": "Mosquée En-Nour de Marseille",
+        "city": "Marseille(13e)",
+        "country": "France"
+    },
+    {
+        "id": 111,
+        "name": "Mosquée Badr-Font Vert de Marseille",
+        "city": "Marseille(14e)",
+        "country": "France"
+    },
+    {
+        "id": 112,
+        "name": "Mosquée Islâh de Marseille[38]",
+        "city": "Marseille(15e)",
+        "country": "France"
+    },
+    {
+        "id": 113,
+        "name": "Mosquée Ali ben Abi Taleb de Marseille(L'Estaque)",
+        "city": "Marseille(16e)",
+        "country": "France"
+    },
+    {
+        "id": 114,
+        "name": "Mosquée Al-Wahida de Miramas",
+        "city": "Miramas",
+        "country": "France"
+    },
+    {
+        "id": 115,
+        "name": "Mosquée Es-Salam de Miramas",
+        "city": "Miramas",
+        "country": "France"
+    },
+    {
+        "id": 116,
+        "name": "Mosquée de Port-de-Bouc",
+        "city": "Port-de-Bouc",
+        "country": "France"
+    },
+    {
+        "id": 117,
+        "name": "Mosquée Arrahma de Port-Saint-Louis-du-Rhône",
+        "city": "Port-Saint-Louis-du-Rhône",
+        "country": "France"
+    },
+    {
+        "id": 118,
+        "name": "Mosquée de la Bergerie de Saint-Martin-de-Crau",
+        "city": "Saint-Martin-de-Crau",
+        "country": "France"
+    },
+    {
+        "id": 119,
+        "name": "Mosquée de Saint-Rémy-de-Provence",
+        "city": "Saint-Rémy-de-Provence",
+        "country": "France"
+    },
+    {
+        "id": 120,
+        "name": "Mosquée de la Paix de Salon-de-Provence",
+        "city": "Salon-de-Provence",
+        "country": "France"
+    },
+    {
+        "id": 121,
+        "name": "Mosquée de Tarascon",
+        "city": "Tarascon",
+        "country": "France"
+    },
+    {
+        "id": 122,
+        "name": "Mosquée de Vitrolles",
+        "city": "Vitrolles",
+        "country": "France"
+    },
+    {
+        "id": 123,
+        "name": "Mosquée du Chemin Vert de Caen",
+        "city": "Caen",
+        "country": "France"
+    },
+    {
+        "id": 124,
+        "name": "Mosquée Maryam de Caen",
+        "city": "Caen(La Guérinière)",
+        "country": "France"
+    },
+    {
+        "id": 125,
+        "name": "Mosquée Annour d'Hérouville-Saint-Clair",
+        "city": "Hérouville-Saint-Clair",
+        "country": "France"
+    },
+    {
+        "id": 126,
+        "name": "Mosquée turque d'Ifs",
+        "city": "Ifs",
+        "country": "France"
+    },
+    {
+        "id": 127,
+        "name": "Mosquée de Lisieux",
+        "city": "Lisieux",
+        "country": "France"
+    },
+    {
+        "id": 128,
+        "name": "Mosquée d'Aurillac",
+        "city": "Aurillac",
+        "country": "France"
+    },
+    {
+        "id": 129,
+        "name": "Mosquée d'Angoulême",
+        "city": "Angoulême",
+        "country": "France"
+    },
+    {
+        "id": 130,
+        "name": "Mosquée turque CIMG Mimar Sinan d'Angoulême",
+        "city": "Angoulême",
+        "country": "France"
+    },
+    {
+        "id": 131,
+        "name": "Mosquée Es-Salam de Cognac[43]",
+        "city": "Cognac",
+        "country": "France"
+    },
+    {
+        "id": 132,
+        "name": "Mosquée Ennour de Soyaux",
+        "city": "Soyaux",
+        "country": "France"
+    },
+    {
+        "id": 133,
+        "name": "Mosquée de la Rochelle",
+        "city": "La Rochelle",
+        "country": "France"
+    },
+    {
+        "id": 134,
+        "name": "Mosquée de Rochefort",
+        "city": "Rochefort",
+        "country": "France"
+    },
+    {
+        "id": 135,
+        "name": "Mosquée de Royan",
+        "city": "Royan",
+        "country": "France"
+    },
+    {
+        "id": 136,
+        "name": "Mosquée de Saintes",
+        "city": "Saintes",
+        "country": "France"
+    },
+    {
+        "id": 137,
+        "name": "Mosquée Al Fath de Bourges",
+        "city": "Bourges(La Chancellerie)",
+        "country": "France"
+    },
+    {
+        "id": 138,
+        "name": "Mosquée de l'Esprit Libre de Bourges",
+        "city": "Bourges(Les Gibjoncs)",
+        "country": "France"
+    },
+    {
+        "id": 139,
+        "name": "Mosquée Es Sunna de Bourges",
+        "city": "Bourges(Aéroport)",
+        "country": "France"
+    },
+    {
+        "id": 140,
+        "name": "Mosquée turque de Bourges",
+        "city": "Bourges(Les Gibjoncs)",
+        "country": "France"
+    },
+    {
+        "id": 141,
+        "name": "Mosquée Louange à Allah de Châteauneuf-sur-Cher[46]",
+        "city": "Châteauneuf-sur-Cher",
+        "country": "France"
+    },
+    {
+        "id": 142,
+        "name": "Mosquée de Saint-Florent-sur-Cher",
+        "city": "Saint-Florent-sur-Cher",
+        "country": "France"
+    },
+    {
+        "id": 143,
+        "name": "Mosquée Arrahma de Vierzon",
+        "city": "Vierzon",
+        "country": "France"
+    },
+    {
+        "id": 144,
+        "name": "Mosquée turque de Vierzon",
+        "city": "Vierzon",
+        "country": "France"
+    },
+    {
+        "id": 145,
+        "name": "Mosquée de Gaubre de Brive-la-Gaillarde",
+        "city": "Brive-la-Gaillarde",
+        "country": "France"
+    },
+    {
+        "id": 146,
+        "name": "Mosquée de Brive-la-Gaillarde",
+        "city": "Brive-la-Gaillarde",
+        "country": "France"
+    },
+    {
+        "id": 147,
+        "name": "Mosquée turque de Brive-la-Gaillarde",
+        "city": "Brive-la-Gaillarde",
+        "country": "France"
+    },
+    {
+        "id": 148,
+        "name": "Mosquée turque d'Égletons",
+        "city": "Égletons",
+        "country": "France"
+    },
+    {
+        "id": 149,
+        "name": "Mosquée de Tulle",
+        "city": "Tulle",
+        "country": "France"
+    },
+    {
+        "id": 150,
+        "name": "Mosquée turque d'Ussel",
+        "city": "Ussel",
+        "country": "France"
+    },
+    {
+        "id": 151,
+        "name": "Mosquée d'Ajaccio",
+        "city": "Ajaccio",
+        "country": "France"
+    },
+    {
+        "id": 152,
+        "name": "Mosquée de Porto-Vecchio",
+        "city": "Porto-Vecchio",
+        "country": "France"
+    },
+    {
+        "id": 153,
+        "name": "Mosquée Mohammed V de Bastia",
+        "city": "Bastia",
+        "country": "France"
+    },
+    {
+        "id": 154,
+        "name": "Mosquée de Furiani",
+        "city": "Furiani",
+        "country": "France"
+    },
+    {
+        "id": 155,
+        "name": "Mosquée de L'Île-Rousse",
+        "city": "L'Île-Rousse",
+        "country": "France"
+    },
+    {
+        "id": 156,
+        "name": "Mosquée de Beaune",
+        "city": "Beaune",
+        "country": "France"
+    },
+    {
+        "id": 157,
+        "name": "Mosquée turque de Châtillon-sur-Seine",
+        "city": "Châtillon-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 158,
+        "name": "Mosquée Al Rahma de Chenôve",
+        "city": "Chenôve",
+        "country": "France"
+    },
+    {
+        "id": 159,
+        "name": "Mosquée Al Imane de Dijon",
+        "city": "Dijon",
+        "country": "France"
+    },
+    {
+        "id": 160,
+        "name": "Mosquée Al Khaïr de Dijon",
+        "city": "Dijon",
+        "country": "France"
+    },
+    {
+        "id": 161,
+        "name": "Mosquée turque de Dijon",
+        "city": "Dijon",
+        "country": "France"
+    },
+    {
+        "id": 162,
+        "name": "Mosquée An-Nour de Dijon",
+        "city": "Dijon",
+        "country": "France"
+    },
+    {
+        "id": 163,
+        "name": "Mosquée de Genlis",
+        "city": "Genlis",
+        "country": "France"
+    },
+    {
+        "id": 164,
+        "name": "Mosquée d'Is-sur-Tille",
+        "city": "Is-sur-Tille",
+        "country": "France"
+    },
+    {
+        "id": 165,
+        "name": "Mosquée de Montbard",
+        "city": "Montbard",
+        "country": "France"
+    },
+    {
+        "id": 166,
+        "name": "Mosquée l'Ouverture de Nuits-Saint-Georges",
+        "city": "Nuits-Saint-Georges",
+        "country": "France"
+    },
+    {
+        "id": 167,
+        "name": "Mosquée Assalam de Quetigny",
+        "city": "Quetigny",
+        "country": "France"
+    },
+    {
+        "id": 168,
+        "name": "Mosquée turque Ihlas camii de Saint-Usage",
+        "city": "Saint-Usage",
+        "country": "France"
+    },
+    {
+        "id": 169,
+        "name": "Mosquée Madrassa de Talant",
+        "city": "Talant",
+        "country": "France"
+    },
+    {
+        "id": 170,
+        "name": "Mosquée de Guimgamp",
+        "city": "Guingamp",
+        "country": "France"
+    },
+    {
+        "id": 171,
+        "name": "Mosquée Assala de Lannion",
+        "city": "Lannion",
+        "country": "France"
+    },
+    {
+        "id": 172,
+        "name": "Mosquée de Loudéac",
+        "city": "Loudéac",
+        "country": "France"
+    },
+    {
+        "id": 173,
+        "name": "Mosquée de Saint-Brieuc(Balzac)",
+        "city": "Saint-Brieuc",
+        "country": "France"
+    },
+    {
+        "id": 174,
+        "name": "Grande Mosquée de Saint-Brieuc",
+        "city": "Saint-Brieuc",
+        "country": "France"
+    },
+    {
+        "id": 175,
+        "name": "Mosquée turque de Bourganeuf",
+        "city": "Bourganeuf",
+        "country": "France"
+    },
+    {
+        "id": 176,
+        "name": "Mosquée Takhwa de Guéret",
+        "city": "Guéret",
+        "country": "France"
+    },
+    {
+        "id": 177,
+        "name": "Mosquée de la Catte de Bergerac",
+        "city": "Bergerac",
+        "country": "France"
+    },
+    {
+        "id": 178,
+        "name": "Mosquée de Naillac de Bergerac",
+        "city": "Bergerac",
+        "country": "France"
+    },
+    {
+        "id": 179,
+        "name": "Mosquée de Montpon-Ménestérol",
+        "city": "Montpon-Ménestérol",
+        "country": "France"
+    },
+    {
+        "id": 180,
+        "name": "Mosquée de la Bienfaisance de Périgueux",
+        "city": "Périgueux",
+        "country": "France"
+    },
+    {
+        "id": 181,
+        "name": "Mosquée de la Paix de Port-Sainte-Foy",
+        "city": "Port-Sainte-Foy-et-Ponchapt",
+        "country": "France"
+    },
+    {
+        "id": 182,
+        "name": "Mosquée At-Tawba de Sarlat-la-Canéda",
+        "city": "Sarlat-la-Canéda",
+        "country": "France"
+    },
+    {
+        "id": 183,
+        "name": "Mosquée turque Mevlana de Terrasson",
+        "city": "Terrasson-Lavilledieu",
+        "country": "France"
+    },
+    {
+        "id": 184,
+        "name": "Mosquée Er-Rahmane d'Audincourt",
+        "city": "Audincourt",
+        "country": "France"
+    },
+    {
+        "id": 185,
+        "name": "Mosquée Al-Fath de Besançon",
+        "city": "Besançon-Planoise",
+        "country": "France"
+    },
+    {
+        "id": 186,
+        "name": "Mosquée Sunna de Besançon",
+        "city": "Besançon",
+        "country": "France"
+    },
+    {
+        "id": 187,
+        "name": "Mosquée de Fontaine-Écu de Besançon",
+        "city": "Besançon",
+        "country": "France"
+    },
+    {
+        "id": 188,
+        "name": "Mosquée turque de Planoise de Besançon",
+        "city": "Besançon",
+        "country": "France"
+    },
+    {
+        "id": 189,
+        "name": "Mosquée Oussama de Bethoncourt",
+        "city": "Bethoncourt",
+        "country": "France"
+    },
+    {
+        "id": 190,
+        "name": "Mosquée Zayd de Bethoncourt",
+        "city": "Bethoncourt",
+        "country": "France"
+    },
+    {
+        "id": 191,
+        "name": "Mosquée En-Nour de Grand-Charmont",
+        "city": "Grand-Charmont",
+        "country": "France"
+    },
+    {
+        "id": 192,
+        "name": "Mosquée turque Kocatepe de Grand-Charmont",
+        "city": "Grand-Charmont",
+        "country": "France"
+    },
+    {
+        "id": 193,
+        "name": "Mosquée de Mandeure",
+        "city": "Mandeure",
+        "country": "France"
+    },
+    {
+        "id": 194,
+        "name": "Mosquée de la Petite-Hollande de Montbéliard",
+        "city": "Montbéliard",
+        "country": "France"
+    },
+    {
+        "id": 195,
+        "name": "Mosquée turque de Morteau",
+        "city": "Morteau",
+        "country": "France"
+    },
+    {
+        "id": 196,
+        "name": "Mosquée Philippe Grenier de Pontarlier",
+        "city": "Pontarlier",
+        "country": "France"
+    },
+    {
+        "id": 197,
+        "name": "Mosquée turque de Pontarlier",
+        "city": "Pontarlier",
+        "country": "France"
+    },
+    {
+        "id": 198,
+        "name": "Mosquée At-Tawba de Sochaux",
+        "city": "Sochaux",
+        "country": "France"
+    },
+    {
+        "id": 199,
+        "name": "Mosquée Ar-Rahma de Valentigney",
+        "city": "Valentigney",
+        "country": "France"
+    },
+    {
+        "id": 200,
+        "name": "Mosquée turque Selimiye de Valentigney",
+        "city": "Valentigney",
+        "country": "France"
+    },
+    {
+        "id": 201,
+        "name": "Mosquée Essalam de Montélimar",
+        "city": "Montélimar",
+        "country": "France"
+    },
+    {
+        "id": 202,
+        "name": "Mosquée turque de Montélimar",
+        "city": "Montélimar",
+        "country": "France"
+    },
+    {
+        "id": 203,
+        "name": "Mosquée Al Mouhssinoune de Nyons",
+        "city": "Nyons",
+        "country": "France"
+    },
+    {
+        "id": 204,
+        "name": "Mosquée de Pierrelatte",
+        "city": "Pierrelatte",
+        "country": "France"
+    },
+    {
+        "id": 205,
+        "name": "Mosquée Sounnah de Romans-sur-Isère",
+        "city": "Romans-sur-Isère",
+        "country": "France"
+    },
+    {
+        "id": 206,
+        "name": "Mosquée Iqraa de Saint-Rambert-d'Albon",
+        "city": "Saint-Rambert-d'Albon",
+        "country": "France"
+    },
+    {
+        "id": 207,
+        "name": "Mosquée turque Ditib de Saint-Rambert-d'Albon",
+        "city": "Saint-Rambert-d'Albon",
+        "country": "France"
+    },
+    {
+        "id": 208,
+        "name": "Mosquée El-Fourqane de Valence",
+        "city": "Valence",
+        "country": "France"
+    },
+    {
+        "id": 209,
+        "name": "Mosquée Al Fathou d'Évreux",
+        "city": "Évreux",
+        "country": "France"
+    },
+    {
+        "id": 210,
+        "name": "Mosquée de Nétreville d'Évreux",
+        "city": "Évreux",
+        "country": "France"
+    },
+    {
+        "id": 211,
+        "name": "Mosquée Essalam de Gaillon",
+        "city": "Gaillon",
+        "country": "France"
+    },
+    {
+        "id": 212,
+        "name": "Mosquée Al-Haq de Gisors",
+        "city": "Gisors",
+        "country": "France"
+    },
+    {
+        "id": 213,
+        "name": "Grande mosquée d'Évreux[73]",
+        "city": "Guichainville",
+        "country": "France"
+    },
+    {
+        "id": 214,
+        "name": "Mosquée Al Badr de Louviers",
+        "city": "Louviers",
+        "country": "France"
+    },
+    {
+        "id": 215,
+        "name": "Mosquée Ennour de Louviers",
+        "city": "Louviers",
+        "country": "France"
+    },
+    {
+        "id": 216,
+        "name": "Mosquée Selahattin Eyûbi de Val-de-Reuil",
+        "city": "Val-de-Reuil",
+        "country": "France"
+    },
+    {
+        "id": 217,
+        "name": "Mosquée Annasr de Val-de-Reuil",
+        "city": "Val-de-Reuil",
+        "country": "France"
+    },
+    {
+        "id": 218,
+        "name": "Mosquée de Verneuil-sur-Avre",
+        "city": "Verneuil-sur-Avre",
+        "country": "France"
+    },
+    {
+        "id": 219,
+        "name": "Mosquée turque de Verneuil-sur-Avre",
+        "city": "Verneuil-sur-Avre",
+        "country": "France"
+    },
+    {
+        "id": 220,
+        "name": "Mosquée des marocains de Vernon",
+        "city": "Vernon",
+        "country": "France"
+    },
+    {
+        "id": 221,
+        "name": "Mosquée d'Auneau",
+        "city": "Auneau",
+        "country": "France"
+    },
+    {
+        "id": 222,
+        "name": "Mosquée Anoussra de Chartres",
+        "city": "Chartres",
+        "country": "France"
+    },
+    {
+        "id": 223,
+        "name": "Mosquée Assalama de Châteaudun",
+        "city": "Châteaudun",
+        "country": "France"
+    },
+    {
+        "id": 224,
+        "name": "Mosquée turque Milli Gorus de Châteaudun",
+        "city": "Châteaudun",
+        "country": "France"
+    },
+    {
+        "id": 225,
+        "name": "Mosquée Al Sunna de Dreux",
+        "city": "Dreux",
+        "country": "France"
+    },
+    {
+        "id": 226,
+        "name": "Mosquée Benkhoufache de Dreux",
+        "city": "Dreux",
+        "country": "France"
+    },
+    {
+        "id": 227,
+        "name": "Mosquée Ibad Allah de Dreux",
+        "city": "Dreux",
+        "country": "France"
+    },
+    {
+        "id": 228,
+        "name": "Mosquée Mevlana de Dreux",
+        "city": "Dreux",
+        "country": "France"
+    },
+    {
+        "id": 229,
+        "name": "Mosquée Omar ibn al-Khattâb de Dreux",
+        "city": "Dreux",
+        "country": "France"
+    },
+    {
+        "id": 230,
+        "name": "Mosquée Tariq Ibnou Zyed de Dreux",
+        "city": "Dreux",
+        "country": "France"
+    },
+    {
+        "id": 231,
+        "name": "Mosquée de Lucé",
+        "city": "Lucé",
+        "country": "France"
+    },
+    {
+        "id": 232,
+        "name": "Mosquée El-Mohssinine de Mainvilliers",
+        "city": "Mainvilliers",
+        "country": "France"
+    },
+    {
+        "id": 233,
+        "name": "Mosquée de Nogent-le-Rotrou",
+        "city": "Nogent-le-Rotrou",
+        "country": "France"
+    },
+    {
+        "id": 234,
+        "name": "Mosquée de Saint-Lubin-des-Joncherets",
+        "city": "Saint-Lubin-des-Joncherets",
+        "country": "France"
+    },
+    {
+        "id": 235,
+        "name": "Mosquée Dawwa il l'Allah de Vernouillet",
+        "city": "Vernouillet",
+        "country": "France"
+    },
+    {
+        "id": 236,
+        "name": "Mosquée Al Madina de Brest[86]",
+        "city": "Brest",
+        "country": "France"
+    },
+    {
+        "id": 237,
+        "name": "Mosquée Assalam de Keredern de Brest",
+        "city": "Brest",
+        "country": "France"
+    },
+    {
+        "id": 238,
+        "name": "Mosquée Sunna de Brest",
+        "city": "Brest",
+        "country": "France"
+    },
+    {
+        "id": 239,
+        "name": "Grande mosquée turque de Quimper",
+        "city": "Quimper",
+        "country": "France"
+    },
+    {
+        "id": 240,
+        "name": "Mosquée de Penhars de Quimper",
+        "city": "Quimper",
+        "country": "France"
+    },
+    {
+        "id": 241,
+        "name": "Mosquée de Saint-Martin-des-Champs",
+        "city": "Saint-Martin-des-Champs",
+        "country": "France"
+    },
+    {
+        "id": 242,
+        "name": "Mosquée d'Alès",
+        "city": "Alès",
+        "country": "France"
+    },
+    {
+        "id": 243,
+        "name": "Mosquée El-Fath d'Alès",
+        "city": "Alès",
+        "country": "France"
+    },
+    {
+        "id": 244,
+        "name": "Mosquée turque d'Alès",
+        "city": "Alès",
+        "country": "France"
+    },
+    {
+        "id": 245,
+        "name": "Mosquée At-Tawba de Bagnols-sur-Cèze",
+        "city": "Bagnols-sur-Cèze",
+        "country": "France"
+    },
+    {
+        "id": 246,
+        "name": "Mosquée El Mauhssinine de Beaucaire",
+        "city": "Beaucaire",
+        "country": "France"
+    },
+    {
+        "id": 247,
+        "name": "Mosquée Cheikh Khalil de Garons",
+        "city": "Garons",
+        "country": "France"
+    },
+    {
+        "id": 248,
+        "name": "Mosquée Khadidja de La Grande-Combe",
+        "city": "La Grande-Combe",
+        "country": "France"
+    },
+    {
+        "id": 249,
+        "name": "Mosquée Al-Rahma de Nîmes",
+        "city": "Nîmes",
+        "country": "France"
+    },
+    {
+        "id": 250,
+        "name": "Mosquée du Chemin-Bas d'Avignon de Nîmes",
+        "city": "Nîmes",
+        "country": "France"
+    },
+    {
+        "id": 251,
+        "name": "Mosquée Essalam de Nîmes",
+        "city": "Nîmes",
+        "country": "France"
+    },
+    {
+        "id": 252,
+        "name": "Mosquée Ibrahim Al-Khalil de Nîmes",
+        "city": "Nîmes",
+        "country": "France"
+    },
+    {
+        "id": 253,
+        "name": "Mosquée Lumière et Piété de Nîmes",
+        "city": "Nîmes",
+        "country": "France"
+    },
+    {
+        "id": 254,
+        "name": "Mosquée de Pont-Saint-Esprit",
+        "city": "Pont-Saint-Esprit",
+        "country": "France"
+    },
+    {
+        "id": 255,
+        "name": "Mosquée Al-Forqane de Vauvert",
+        "city": "Vauvert",
+        "country": "France"
+    },
+    {
+        "id": 256,
+        "name": "Mosquée d'Uzès",
+        "city": "Uzès",
+        "country": "France"
+    },
+    {
+        "id": 257,
+        "name": "Mosquée At-Tawba d'Auterive",
+        "city": "Auterive",
+        "country": "France"
+    },
+    {
+        "id": 258,
+        "name": "Mosquée de Blagnac",
+        "city": "Blagnac",
+        "country": "France"
+    },
+    {
+        "id": 259,
+        "name": "Mosquée de Cazères[95]",
+        "city": "Cazères",
+        "country": "France"
+    },
+    {
+        "id": 260,
+        "name": "Mosquée de Colomiers",
+        "city": "Colomiers",
+        "country": "France"
+    },
+    {
+        "id": 261,
+        "name": "Mosquée Al-Mouminine de Muret",
+        "city": "Muret",
+        "country": "France"
+    },
+    {
+        "id": 262,
+        "name": "Mosquée El-Badr de Muret",
+        "city": "Muret",
+        "country": "France"
+    },
+    {
+        "id": 263,
+        "name": "Mosquée Al-Misbah de Portet-sur-Garonne",
+        "city": "Portet-sur-Garonne",
+        "country": "France"
+    },
+    {
+        "id": 264,
+        "name": "Mosquée Al-Fath de Toulouse",
+        "city": "Toulouse(Les Izards - Trois Cocus)",
+        "country": "France"
+    },
+    {
+        "id": 265,
+        "name": "Mosquée Al Rahma La Faourette de Toulouse",
+        "city": "Toulouse(Bagatelle)",
+        "country": "France"
+    },
+    {
+        "id": 266,
+        "name": "Grande mosquée du Mirail de Toulouse[98]",
+        "city": "Toulouse(Basso Cambo)",
+        "country": "France"
+    },
+    {
+        "id": 267,
+        "name": "Grande mosquée de Toulouse[100]",
+        "city": "Toulouse(Empalot)",
+        "country": "France"
+    },
+    {
+        "id": 268,
+        "name": "Mosquée Ennour de Toulouse",
+        "city": "Toulouse(Empalot)",
+        "country": "France"
+    },
+    {
+        "id": 269,
+        "name": "Mosquée turque de La Reynerie de Toulouse",
+        "city": "Toulouse(La Reynerie)",
+        "country": "France"
+    },
+    {
+        "id": 270,
+        "name": "Mosquée Salam de Toulouse",
+        "city": "Toulouse(Tabar)",
+        "country": "France"
+    },
+    {
+        "id": 271,
+        "name": "Mosquée Salam d'Auch",
+        "city": "Auch",
+        "country": "France"
+    },
+    {
+        "id": 272,
+        "name": "Mosquée de Condom",
+        "city": "Condom",
+        "country": "France"
+    },
+    {
+        "id": 273,
+        "name": "Mosquée du Grand Parc de Bordeaux",
+        "city": "Bordeaux",
+        "country": "France"
+    },
+    {
+        "id": 274,
+        "name": "Mosquée Nour el-Mohammadi de Bordeaux",
+        "city": "Bordeaux",
+        "country": "France"
+    },
+    {
+        "id": 275,
+        "name": "Mosquée El Houda de Bordeaux",
+        "city": "Bordeaux",
+        "country": "France"
+    },
+    {
+        "id": 276,
+        "name": "Mosquée El Fath de Bordeaux",
+        "city": "Bordeaux",
+        "country": "France"
+    },
+    {
+        "id": 277,
+        "name": "Mosquée Tawba de Cadillac",
+        "city": "Cadillac",
+        "country": "France"
+    },
+    {
+        "id": 278,
+        "name": "Mosquée de Castillon-la-Bataille",
+        "city": "Castillon-la-Bataille",
+        "country": "France"
+    },
+    {
+        "id": 279,
+        "name": "Mosquée de Cenon",
+        "city": "Cenon",
+        "country": "France"
+    },
+    {
+        "id": 280,
+        "name": "Grande Mosquée de Libourne",
+        "city": "Libourne",
+        "country": "France"
+    },
+    {
+        "id": 281,
+        "name": "Mosquée Essalam de Mérignac[105]",
+        "city": "Mérignac",
+        "country": "France"
+    },
+    {
+        "id": 282,
+        "name": "Mosquée El-Fath de Pauillac",
+        "city": "Pauillac",
+        "country": "France"
+    },
+    {
+        "id": 283,
+        "name": "Mosquée Al-Farouq de Pessac",
+        "city": "Pessac",
+        "country": "France"
+    },
+    {
+        "id": 284,
+        "name": "Mosquée de La Réole",
+        "city": "La Réole",
+        "country": "France"
+    },
+    {
+        "id": 285,
+        "name": "Mosquée de Saint-Maixant",
+        "city": "Saint-Maixant",
+        "country": "France"
+    },
+    {
+        "id": 286,
+        "name": "Mosquée de Talence",
+        "city": "Talence",
+        "country": "France"
+    },
+    {
+        "id": 287,
+        "name": "Mosquée d'Agde",
+        "city": "Agde",
+        "country": "France"
+    },
+    {
+        "id": 288,
+        "name": "Mosquée turque de Béziers",
+        "city": "Béziers",
+        "country": "France"
+    },
+    {
+        "id": 289,
+        "name": "Mosquée Annour de Béziers",
+        "city": "Béziers",
+        "country": "France"
+    },
+    {
+        "id": 290,
+        "name": "Mosquée Ar-Rahma de Béziers",
+        "city": "Béziers",
+        "country": "France"
+    },
+    {
+        "id": 291,
+        "name": "Mosquée de Ganges",
+        "city": "Ganges",
+        "country": "France"
+    },
+    {
+        "id": 292,
+        "name": "Mosquée Errahmane de Lodève",
+        "city": "Lodève",
+        "country": "France"
+    },
+    {
+        "id": 293,
+        "name": "Mosquée El Baraka de Lunel[108]",
+        "city": "Lunel",
+        "country": "France"
+    },
+    {
+        "id": 294,
+        "name": "Mosquée de l'Union de Montpellier",
+        "city": "Montpellier(Les Cévennes)",
+        "country": "France"
+    },
+    {
+        "id": 295,
+        "name": "Mosquée Aïcha de Montpellier",
+        "city": "Montpellier(La Croix-d'Argent)",
+        "country": "France"
+    },
+    {
+        "id": 296,
+        "name": "Mosquée turque de Montpellier",
+        "city": "Montpellier(La Croix-d'Argent)",
+        "country": "France"
+    },
+    {
+        "id": 297,
+        "name": "Mosquée de la Paillade de Montpellier",
+        "city": "Montpellier(Mosson)",
+        "country": "France"
+    },
+    {
+        "id": 298,
+        "name": "Mosquée de la Miséricorde de Montpellier",
+        "city": "Montpellier(Mosson)",
+        "country": "France"
+    },
+    {
+        "id": 299,
+        "name": "Mosquée Ibn Rochd de Montpellier",
+        "city": "Montpellier(Mosson)",
+        "country": "France"
+    },
+    {
+        "id": 300,
+        "name": "Mosquée Ibn Sina de Montpellier",
+        "city": "Montpellier(Le Petit Bard)",
+        "country": "France"
+    },
+    {
+        "id": 301,
+        "name": "Mosquée Assalam de Montpellier",
+        "city": "Montpellier(Saint-Martin)",
+        "country": "France"
+    },
+    {
+        "id": 302,
+        "name": "Mosquée de l'île de Thau de Sète",
+        "city": "Sète",
+        "country": "France"
+    },
+    {
+        "id": 303,
+        "name": "Mosquée de Fougères",
+        "city": "Fougères",
+        "country": "France"
+    },
+    {
+        "id": 304,
+        "name": "Mosquée turque de Rennes",
+        "city": "Noyal-Châtillon-sur-Seiche",
+        "country": "France"
+    },
+    {
+        "id": 305,
+        "name": "Mosquée Avicenne de Rennes",
+        "city": "Rennes",
+        "country": "France"
+    },
+    {
+        "id": 306,
+        "name": "Mosquée de l'ACSEMR de Rennes",
+        "city": "Rennes",
+        "country": "France"
+    },
+    {
+        "id": 307,
+        "name": "Mosquée At-Taqwa de Rennes",
+        "city": "Rennes",
+        "country": "France"
+    },
+    {
+        "id": 308,
+        "name": "Mosquée Ennour de Rennes",
+        "city": "Rennes",
+        "country": "France"
+    },
+    {
+        "id": 309,
+        "name": "Mosquée Ibn Khaldoun de Rennes",
+        "city": "Rennes",
+        "country": "France"
+    },
+    {
+        "id": 310,
+        "name": "Mosquée Philippe Grenier de Rennes",
+        "city": "Rennes",
+        "country": "France"
+    },
+    {
+        "id": 311,
+        "name": "Mosquée turque de Redon",
+        "city": "Redon",
+        "country": "France"
+    },
+    {
+        "id": 312,
+        "name": "Mosquée Al-Hidaya de Saint-Malo",
+        "city": "Saint-Malo",
+        "country": "France"
+    },
+    {
+        "id": 313,
+        "name": "Mosquée Er-Rahma de Châteauroux",
+        "city": "Châteauroux",
+        "country": "France"
+    },
+    {
+        "id": 314,
+        "name": "Mosquée turque de Châteauroux",
+        "city": "Châteauroux",
+        "country": "France"
+    },
+    {
+        "id": 315,
+        "name": "Mosquée de la paix d'Issoudun",
+        "city": "Issoudun",
+        "country": "France"
+    },
+    {
+        "id": 316,
+        "name": "Mosquée turque d'Amboise",
+        "city": "Amboise",
+        "country": "France"
+    },
+    {
+        "id": 317,
+        "name": "Mosquée As-Salam de Joué-les-Tours",
+        "city": "Joué-lès-Tours",
+        "country": "France"
+    },
+    {
+        "id": 318,
+        "name": "Mosquée de Saint-Pierre-des-Corps",
+        "city": "Saint-Pierre-des-Corps",
+        "country": "France"
+    },
+    {
+        "id": 319,
+        "name": "Grande mosquée de Tours",
+        "city": "Tours",
+        "country": "France"
+    },
+    {
+        "id": 320,
+        "name": "Mosquée de Bouzignac de Tours",
+        "city": "Tours(Rochepinard)",
+        "country": "France"
+    },
+    {
+        "id": 321,
+        "name": "Mosquée El Fath de Tours",
+        "city": "Tours",
+        "country": "France"
+    },
+    {
+        "id": 322,
+        "name": "Mosquée turque de Tours",
+        "city": "Tours(Febvotte-Marat)",
+        "country": "France"
+    },
+    {
+        "id": 323,
+        "name": "Mosquée turque du pays de Beaurepaire",
+        "city": "Beaurepaire",
+        "country": "France"
+    },
+    {
+        "id": 324,
+        "name": "Mosquée Abou Bakr Seddik de Bourgoin-Jallieu",
+        "city": "Bourgoin-Jallieu",
+        "country": "France"
+    },
+    {
+        "id": 325,
+        "name": "Mosquée turque de Bourgoin-Jallieu",
+        "city": "Bourgoin-Jallieu",
+        "country": "France"
+    },
+    {
+        "id": 326,
+        "name": "Mosquée Omar Ibn Abdelaziz de Charvieu-Chavagneux",
+        "city": "Charvieu-Chavagneux",
+        "country": "France"
+    },
+    {
+        "id": 327,
+        "name": "Mosquée de Chavanoz",
+        "city": "Chavanoz",
+        "country": "France"
+    },
+    {
+        "id": 328,
+        "name": "Grande mosquée d'Échirolles",
+        "city": "Échirolles",
+        "country": "France"
+    },
+    {
+        "id": 329,
+        "name": "Mosquée Billel de Fontaine",
+        "city": "Fontaine",
+        "country": "France"
+    },
+    {
+        "id": 330,
+        "name": "Mosquée Al Fathou de Grenoble",
+        "city": "Grenoble",
+        "country": "France"
+    },
+    {
+        "id": 331,
+        "name": "Mosquée Al-Kawthar de Grenoble",
+        "city": "Grenoble",
+        "country": "France"
+    },
+    {
+        "id": 332,
+        "name": "Mosquée Abou Bakr de Grenoble",
+        "city": "Grenoble",
+        "country": "France"
+    },
+    {
+        "id": 333,
+        "name": "Mosquée At-Tawba de Grenoble",
+        "city": "Grenoble",
+        "country": "France"
+    },
+    {
+        "id": 334,
+        "name": "Mosquée de Teisseire de Grenoble",
+        "city": "Grenoble",
+        "country": "France"
+    },
+    {
+        "id": 335,
+        "name": "Mosquée des Travailleurs Turcs de Grenoble",
+        "city": "Grenoble",
+        "country": "France"
+    },
+    {
+        "id": 336,
+        "name": "Mosquée El-Kholafa El-Rachidine de L'Isle-d'Abeau",
+        "city": "L'Isle-d'Abeau",
+        "country": "France"
+    },
+    {
+        "id": 337,
+        "name": "Mosquée turque de La Tour-du-Pin",
+        "city": "La Tour-du-Pin",
+        "country": "France"
+    },
+    {
+        "id": 338,
+        "name": "Mosquée turque du Péage-de-Roussillon",
+        "city": "Le Péage-de-Roussillon",
+        "country": "France"
+    },
+    {
+        "id": 339,
+        "name": "Mosquée du Juste Milieu du Pont-de-Beauvoisin",
+        "city": "Le Pont-de-Beauvoisin",
+        "country": "France"
+    },
+    {
+        "id": 340,
+        "name": "Mosquée At-Tawhid du Pont-de-Claix",
+        "city": "Le Pont-de-Claix",
+        "country": "France"
+    },
+    {
+        "id": 341,
+        "name": "Mosquée de Moirans",
+        "city": "Moirans",
+        "country": "France"
+    },
+    {
+        "id": 342,
+        "name": "Mosquée El-Hidaya de Roussillon",
+        "city": "Roussillon",
+        "country": "France"
+    },
+    {
+        "id": 343,
+        "name": "Mosquée Bilal de Saint-Marcellin",
+        "city": "Saint-Marcellin",
+        "country": "France"
+    },
+    {
+        "id": 344,
+        "name": "Mosquée Omar ibn al-Khattâb de Saint-Martin-d'Hères",
+        "city": "Saint-Martin-d'Hères",
+        "country": "France"
+    },
+    {
+        "id": 345,
+        "name": "Mosquée turque CIMG de Grenoble",
+        "city": "Saint-Martin-d'Hères",
+        "country": "France"
+    },
+    {
+        "id": 346,
+        "name": "Mosquée Elhouda de Saint-Martin-le-Vinoux",
+        "city": "Saint-Martin-le-Vinoux",
+        "country": "France"
+    },
+    {
+        "id": 347,
+        "name": "Mosquée As-Salam de Saint-Siméon-de-Bressieux",
+        "city": "Saint-Siméon-de-Bressieux",
+        "country": "France"
+    },
+    {
+        "id": 348,
+        "name": "Mosquée Hamza de Vienne",
+        "city": "Vienne",
+        "country": "France"
+    },
+    {
+        "id": 349,
+        "name": "Mosquée turque CIMG de Vienne",
+        "city": "Vienne",
+        "country": "France"
+    },
+    {
+        "id": 350,
+        "name": "Mosquée Dar Essalam de Villefontaine[130]",
+        "city": "Villefontaine",
+        "country": "France"
+    },
+    {
+        "id": 351,
+        "name": "Mosquée Kouba de Villefontaine",
+        "city": "Villefontaine",
+        "country": "France"
+    },
+    {
+        "id": 352,
+        "name": "Mosquée de Voiron",
+        "city": "Voiron",
+        "country": "France"
+    },
+    {
+        "id": 353,
+        "name": "Mosquée El-Hijra de Champagnole",
+        "city": "Champagnole",
+        "country": "France"
+    },
+    {
+        "id": 354,
+        "name": "Mosquée Al-Oumma de Dole",
+        "city": "Dole",
+        "country": "France"
+    },
+    {
+        "id": 355,
+        "name": "Mosquée turque de Dole",
+        "city": "Dole",
+        "country": "France"
+    },
+    {
+        "id": 356,
+        "name": "Mosquée Es-Salaam de Lons-le-Saunier",
+        "city": "Lons-le-Saunier",
+        "country": "France"
+    },
+    {
+        "id": 357,
+        "name": "Mosquée turque de Lons-le-Saunier",
+        "city": "Lons-le-Saunier",
+        "country": "France"
+    },
+    {
+        "id": 358,
+        "name": "Mosquée turque de Moirans-en-Montagne",
+        "city": "Moirans-en-Montagne",
+        "country": "France"
+    },
+    {
+        "id": 359,
+        "name": "Mosquée Al-Mouhssinine de Morez",
+        "city": "Morez",
+        "country": "France"
+    },
+    {
+        "id": 360,
+        "name": "Mosquée Bilal de Morez",
+        "city": "Morez",
+        "country": "France"
+    },
+    {
+        "id": 361,
+        "name": "Mosquée turque Imam Belghazali de Morez",
+        "city": "Morez",
+        "country": "France"
+    },
+    {
+        "id": 362,
+        "name": "Mosquée de Saint-Claude",
+        "city": "Saint-Claude",
+        "country": "France"
+    },
+    {
+        "id": 363,
+        "name": "Mosque El-Baraka de Saint-Laurent-en-Grandvaux",
+        "city": "Saint-Laurent-en-Grandvaux",
+        "country": "France"
+    },
+    {
+        "id": 364,
+        "name": "Mosquée At-Tawba de Dax",
+        "city": "Dax",
+        "country": "France"
+    },
+    {
+        "id": 365,
+        "name": "Mosquée Al-Noor de Labouheyre",
+        "city": "Labouheyre",
+        "country": "France"
+    },
+    {
+        "id": 366,
+        "name": "Mosquée Errahma de Mont-de-Marsan",
+        "city": "Mont-de-Marsan",
+        "country": "France"
+    },
+    {
+        "id": 367,
+        "name": "Mosquée marocaine Bilal de Blois",
+        "city": "Blois",
+        "country": "France"
+    },
+    {
+        "id": 368,
+        "name": "Mosquée Sounna de Blois",
+        "city": "Blois",
+        "country": "France"
+    },
+    {
+        "id": 369,
+        "name": "Mosquée turque de Blois",
+        "city": "Blois",
+        "country": "France"
+    },
+    {
+        "id": 370,
+        "name": "Mosquée turque de Mer",
+        "city": "Mer",
+        "country": "France"
+    },
+    {
+        "id": 371,
+        "name": "Mosquée turque de Romorantin-Lanthenay",
+        "city": "Romorantin-Lanthenay",
+        "country": "France"
+    },
+    {
+        "id": 372,
+        "name": "Mosquée At-Tawba de Vendôme",
+        "city": "Vendôme",
+        "country": "France"
+    },
+    {
+        "id": 373,
+        "name": "Mosquée turque de Vendôme",
+        "city": "Vendôme",
+        "country": "France"
+    },
+    {
+        "id": 374,
+        "name": "Mosquée Bayt Allah d'Andrézieux-Bouthéon",
+        "city": "Andrézieux-Bouthéon",
+        "country": "France"
+    },
+    {
+        "id": 375,
+        "name": "Mosquée de Balbigny",
+        "city": "Balbigny",
+        "country": "France"
+    },
+    {
+        "id": 376,
+        "name": "Mosquée Omar Ibn Al Khattab du Chambon-Feugerolles[139]",
+        "city": "Le Chambon-Feugerolles",
+        "country": "France"
+    },
+    {
+        "id": 377,
+        "name": "Mosquée turque de Feurs",
+        "city": "Feurs",
+        "country": "France"
+    },
+    {
+        "id": 378,
+        "name": "Mosquée Imam Malek de Firminy",
+        "city": "Firminy",
+        "country": "France"
+    },
+    {
+        "id": 379,
+        "name": "Mosquée turque CIMG de Firminy",
+        "city": "Firminy",
+        "country": "France"
+    },
+    {
+        "id": 380,
+        "name": "Mosquée Attakwa de La Ricamarie",
+        "city": "La Ricamarie",
+        "country": "France"
+    },
+    {
+        "id": 381,
+        "name": "Mosquée turque de Montbrison",
+        "city": "Montbrison",
+        "country": "France"
+    },
+    {
+        "id": 382,
+        "name": "Mosquée Tawba de Rive-de-Gier",
+        "city": "Rive-de-Gier",
+        "country": "France"
+    },
+    {
+        "id": 383,
+        "name": "Mosquée An-Nour de Roanne",
+        "city": "Roanne",
+        "country": "France"
+    },
+    {
+        "id": 384,
+        "name": "Mosquée Al-Mohsinine de Roanne",
+        "city": "Roanne",
+        "country": "France"
+    },
+    {
+        "id": 385,
+        "name": "Mosquée turque de Roanne",
+        "city": "Roanne",
+        "country": "France"
+    },
+    {
+        "id": 386,
+        "name": "Mosquée El-Oukhoua de Saint-Chamond",
+        "city": "Saint-Chamond",
+        "country": "France"
+    },
+    {
+        "id": 387,
+        "name": "Grande mosquée Mohammed-VI de Saint-Étienne",
+        "city": "Saint-Étienne(Méons Le Soleil)",
+        "country": "France"
+    },
+    {
+        "id": 388,
+        "name": "Mosquée Al-Houda de Saint-Étienne",
+        "city": "Saint-Étienne",
+        "country": "France"
+    },
+    {
+        "id": 389,
+        "name": "Mosquée Al-Moustapha de Saint-Étienne",
+        "city": "Saint-Étienne(Montreynaud)",
+        "country": "France"
+    },
+    {
+        "id": 390,
+        "name": "Mosquée Al-Wifaq de Saint-Étienne",
+        "city": "Saint-Étienne(Montchovet)",
+        "country": "France"
+    },
+    {
+        "id": 391,
+        "name": "Mosquée Bilal de Saint-Étienne",
+        "city": "Saint-Étienne",
+        "country": "France"
+    },
+    {
+        "id": 392,
+        "name": "Mosquée El-Fath de Saint-Étienne",
+        "city": "Saint-Étienne",
+        "country": "France"
+    },
+    {
+        "id": 393,
+        "name": "Mosquée Rahman de Saint-Etienne",
+        "city": "Saint-Étienne",
+        "country": "France"
+    },
+    {
+        "id": 394,
+        "name": "Mosquée turque CIMG de Saint-Étienne",
+        "city": "Saint-Étienne",
+        "country": "France"
+    },
+    {
+        "id": 395,
+        "name": "Mosquée turque de Saint-Just-Saint-Rambert",
+        "city": "Saint-Just-Saint-Rambert",
+        "country": "France"
+    },
+    {
+        "id": 396,
+        "name": "Mosquée Tawba de Brioude",
+        "city": "Brioude",
+        "country": "France"
+    },
+    {
+        "id": 397,
+        "name": "Mosquée turque de Dunières",
+        "city": "Dunières",
+        "country": "France"
+    },
+    {
+        "id": 398,
+        "name": "Mosquée Ar Rahma du Puy-en-Velay",
+        "city": "Le Puy-en-Velay",
+        "country": "France"
+    },
+    {
+        "id": 399,
+        "name": "Mosquée Al Karim du Puy-en-Velay",
+        "city": "Le Puy-en-Velay",
+        "country": "France"
+    },
+    {
+        "id": 400,
+        "name": "Mosquée turque Mevlana de Sainte-Sigolène",
+        "city": "Sainte-Sigolène",
+        "country": "France"
+    },
+    {
+        "id": 401,
+        "name": "Mosquée d'Ancenis[145]",
+        "city": "Ancenis-Saint-Géréon",
+        "country": "France"
+    },
+    {
+        "id": 402,
+        "name": "Mosquée de Châeaubriant[147]",
+        "city": "Châteaubriant",
+        "country": "France"
+    },
+    {
+        "id": 403,
+        "name": "Mosquée Annour de Nantes",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 404,
+        "name": "Mosquée Arrahma de Nantes[148]",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 405,
+        "name": "Mosquée Assalam de Nantes",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 406,
+        "name": "Mosquée El-Mohsinine de Nantes",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 407,
+        "name": "Mosquée El Forqan de Nantes",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 408,
+        "name": "Mosquée Fathi de Nantes",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 409,
+        "name": "Mosquée turque Mevlana de Nantes",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 410,
+        "name": "Mosquée Osmanli de Nantes",
+        "city": "Nantes",
+        "country": "France"
+    },
+    {
+        "id": 411,
+        "name": "Mosquée An Ni'ma de Rezé[151]",
+        "city": "Rezé",
+        "country": "France"
+    },
+    {
+        "id": 412,
+        "name": "Mosquée Al-Houda de Saint-Herblain",
+        "city": "Saint-Herblain",
+        "country": "France"
+    },
+    {
+        "id": 413,
+        "name": "Mosquée des Bonnes Œuvres de Saint-Nazaire",
+        "city": "Saint-Nazaire",
+        "country": "France"
+    },
+    {
+        "id": 414,
+        "name": "Mosquée turque de Saint-Nazaire",
+        "city": "Saint-Nazaire",
+        "country": "France"
+    },
+    {
+        "id": 415,
+        "name": "Mosquée El-Mohsininne de Beaugency",
+        "city": "Beaugency",
+        "country": "France"
+    },
+    {
+        "id": 416,
+        "name": "Mosquée de Briare",
+        "city": "Briare",
+        "country": "France"
+    },
+    {
+        "id": 417,
+        "name": "Grande mosquée turque de Montargis",
+        "city": "Châlette-sur-Loing",
+        "country": "France"
+    },
+    {
+        "id": 418,
+        "name": "Mosquée turque Fatih CIMG de Montargis",
+        "city": "Châlette-sur-Loing",
+        "country": "France"
+    },
+    {
+        "id": 419,
+        "name": "Mosquée Ismaïl de Châlette-sur-Loing",
+        "city": "Châlette-sur-Loing",
+        "country": "France"
+    },
+    {
+        "id": 420,
+        "name": "Mosquée turque de Châteauneuf-sur-Loire",
+        "city": "Châteauneuf-sur-Loire",
+        "country": "France"
+    },
+    {
+        "id": 421,
+        "name": "Mosquée de Gien",
+        "city": "Gien",
+        "country": "France"
+    },
+    {
+        "id": 422,
+        "name": "Mosquée turque de Gien",
+        "city": "Gien",
+        "country": "France"
+    },
+    {
+        "id": 423,
+        "name": "Mosquée Annour de la Chapelle-Saint-Mesmin",
+        "city": "La Chapelle-Saint-Mesmin",
+        "country": "France"
+    },
+    {
+        "id": 424,
+        "name": "Mosquée El-Badr de Meung-sur-Loire",
+        "city": "Meung-sur-Loire",
+        "country": "France"
+    },
+    {
+        "id": 425,
+        "name": "Mosquée d'Orléans sud[156]",
+        "city": "Orléans",
+        "country": "France"
+    },
+    {
+        "id": 426,
+        "name": "Mosquée Assounah d'Orléans",
+        "city": "Orléans",
+        "country": "France"
+    },
+    {
+        "id": 427,
+        "name": "Mosquée Ibn-Badiss d'Orléans",
+        "city": "Orléans",
+        "country": "France"
+    },
+    {
+        "id": 428,
+        "name": "Mosquée de Pithiviers",
+        "city": "Pithiviers",
+        "country": "France"
+    },
+    {
+        "id": 429,
+        "name": "Mosquée de Saint-Jean-de-Braye",
+        "city": "Saint-Jean-de-Braye",
+        "country": "France"
+    },
+    {
+        "id": 430,
+        "name": "Mosquée turque Fathi de Saint-Jean-de-la-Ruelle",
+        "city": "Saint-Jean-de-la-Ruelle",
+        "country": "France"
+    },
+    {
+        "id": 431,
+        "name": "Mosquée Al-Hidaya de Saran",
+        "city": "Saran",
+        "country": "France"
+    },
+    {
+        "id": 432,
+        "name": "Mosquée turque de Sully-sur-Loire",
+        "city": "Sully-sur-Loire",
+        "country": "France"
+    },
+    {
+        "id": 433,
+        "name": "Mosquée Arrissala de Cahors",
+        "city": "Cahors",
+        "country": "France"
+    },
+    {
+        "id": 434,
+        "name": "Mosquée Annour de Souillac",
+        "city": "Souillac",
+        "country": "France"
+    },
+    {
+        "id": 435,
+        "name": "Mosquée d'Agen",
+        "city": "Agen",
+        "country": "France"
+    },
+    {
+        "id": 436,
+        "name": "Mosquée Omar d'Aiguillon",
+        "city": "Aiguillon",
+        "country": "France"
+    },
+    {
+        "id": 437,
+        "name": "Mosquée El Ansar de Fumel",
+        "city": "Fumel",
+        "country": "France"
+    },
+    {
+        "id": 438,
+        "name": "Mosquée Al Qods de Marmande",
+        "city": "Marmande",
+        "country": "France"
+    },
+    {
+        "id": 439,
+        "name": "Mosquée Al-Rahma de Nérac",
+        "city": "Nérac",
+        "country": "France"
+    },
+    {
+        "id": 440,
+        "name": "Mosquée de Sainte-Bazeille",
+        "city": "Sainte-Bazeille",
+        "country": "France"
+    },
+    {
+        "id": 441,
+        "name": "Mosquée El Fath de Sainte-Livrade-sur-Lot",
+        "city": "Sainte-Livrade-sur-Lot",
+        "country": "France"
+    },
+    {
+        "id": 442,
+        "name": "Mosquée de Tonneins",
+        "city": "Tonneins",
+        "country": "France"
+    },
+    {
+        "id": 443,
+        "name": "Mosquée Annasr de Villeneuve-sur-Lot",
+        "city": "Villeneuve-sur-Lot",
+        "country": "France"
+    },
+    {
+        "id": 444,
+        "name": "Grande mosquée d'Angers",
+        "city": "Angers",
+        "country": "France"
+    },
+    {
+        "id": 445,
+        "name": "Mosquée turque Akşemsettin d'Angers",
+        "city": "Angers",
+        "country": "France"
+    },
+    {
+        "id": 446,
+        "name": "Grande mosquée de Cholet",
+        "city": "Cholet",
+        "country": "France"
+    },
+    {
+        "id": 447,
+        "name": "Mosquée turque de Cholet",
+        "city": "Cholet",
+        "country": "France"
+    },
+    {
+        "id": 448,
+        "name": "Mosquée Omar de Saumur",
+        "city": "Saumur",
+        "country": "France"
+    },
+    {
+        "id": 449,
+        "name": "Mosquée de Trélazé",
+        "city": "Trélazé",
+        "country": "France"
+    },
+    {
+        "id": 450,
+        "name": "Mosquée turque de Cherbourg",
+        "city": "Cherbourg-en-Cotentin",
+        "country": "France"
+    },
+    {
+        "id": 451,
+        "name": "Mosquée Omar de Cherbourg",
+        "city": "Cherbourg-en-Cotentin",
+        "country": "France"
+    },
+    {
+        "id": 452,
+        "name": "Mosquée de Cherbourg",
+        "city": "Cherbourg-en-Cotentin",
+        "country": "France"
+    },
+    {
+        "id": 453,
+        "name": "Mosquée de Saint-Lô",
+        "city": "Saint-Lô",
+        "country": "France"
+    },
+    {
+        "id": 454,
+        "name": "Mosquée Nour El Islam de Châlons-en-Champagne",
+        "city": "Châlons-en-Champagne",
+        "country": "France"
+    },
+    {
+        "id": 455,
+        "name": "Mosquée Abu Bakr d'Épernay",
+        "city": "Épernay",
+        "country": "France"
+    },
+    {
+        "id": 456,
+        "name": "Mosquée turque Mevlana d'Épernay",
+        "city": "Épernay",
+        "country": "France"
+    },
+    {
+        "id": 457,
+        "name": "Grande mosquée de Reims",
+        "city": "Reims",
+        "country": "France"
+    },
+    {
+        "id": 458,
+        "name": "Mosquée El-Hidaya de Reims",
+        "city": "Reims",
+        "country": "France"
+    },
+    {
+        "id": 459,
+        "name": "Mosquée El-Mansour de Reims",
+        "city": "Reims",
+        "country": "France"
+    },
+    {
+        "id": 460,
+        "name": "Mosquée turque Osmanli de Reims",
+        "city": "Reims",
+        "country": "France"
+    },
+    {
+        "id": 461,
+        "name": "Mosquée de Vitry-le-François",
+        "city": "Vitry-le-François",
+        "country": "France"
+    },
+    {
+        "id": 462,
+        "name": "Mosquée Essafa de Chaumont",
+        "city": "Chaumont",
+        "country": "France"
+    },
+    {
+        "id": 463,
+        "name": "Mosquée Arrahma de Langres",
+        "city": "Langres",
+        "country": "France"
+    },
+    {
+        "id": 464,
+        "name": "Mosquée El Fath de Saint-Dizier",
+        "city": "Saint-Dizier",
+        "country": "France"
+    },
+    {
+        "id": 465,
+        "name": "Mosquée turque de Saint-Dizier",
+        "city": "Saint-Dizier",
+        "country": "France"
+    },
+    {
+        "id": 466,
+        "name": "Mosquée Assalam de Vecqueville",
+        "city": "Vecqueville",
+        "country": "France"
+    },
+    {
+        "id": 467,
+        "name": "Mosquée Arrahman de Laval",
+        "city": "Laval",
+        "country": "France"
+    },
+    {
+        "id": 468,
+        "name": "Mosquée Essalam des Touches de Laval",
+        "city": "Laval",
+        "country": "France"
+    },
+    {
+        "id": 469,
+        "name": "Mosquée Al-Iqraa de Château-Gontier",
+        "city": "Château-Gontier-sur-Mayenne",
+        "country": "France"
+    },
+    {
+        "id": 470,
+        "name": "Mosquée de Blénod-lès-Pont-à-Mousson",
+        "city": "Blénod-lès-Pont-à-Mousson",
+        "country": "France"
+    },
+    {
+        "id": 471,
+        "name": "Mosquée En-Nour de Jarny",
+        "city": "Jarny",
+        "country": "France"
+    },
+    {
+        "id": 472,
+        "name": "Mosquée de Jarville",
+        "city": "Jarville-la-Malgrange",
+        "country": "France"
+    },
+    {
+        "id": 473,
+        "name": "Mosquée Salama de Jœuf",
+        "city": "Jœuf",
+        "country": "France"
+    },
+    {
+        "id": 474,
+        "name": "Mosquée turque de Laneuveville-devant-Nancy",
+        "city": "Laneuveville-devant-Nancy",
+        "country": "France"
+    },
+    {
+        "id": 475,
+        "name": "Mosquée Bilal de Laxou",
+        "city": "Laxou",
+        "country": "France"
+    },
+    {
+        "id": 476,
+        "name": "Mosquée de Longwy",
+        "city": "Longwy",
+        "country": "France"
+    },
+    {
+        "id": 477,
+        "name": "Mosquée Tawhid de Longwy",
+        "city": "Longwy",
+        "country": "France"
+    },
+    {
+        "id": 478,
+        "name": "Mosquée turque de Longwy",
+        "city": "Longwy",
+        "country": "France"
+    },
+    {
+        "id": 479,
+        "name": "Mosquée Omar ibn al-Khattâb de Lunéville",
+        "city": "Lunéville",
+        "country": "France"
+    },
+    {
+        "id": 480,
+        "name": "Mosquée turque Salimiyie de Lunéville",
+        "city": "Lunéville",
+        "country": "France"
+    },
+    {
+        "id": 481,
+        "name": "Mosquée de Moyeuvre-Grande",
+        "city": "Moyeuvre-Grande",
+        "country": "France"
+    },
+    {
+        "id": 482,
+        "name": "Mosquée Arrahma de Nancy",
+        "city": "Nancy",
+        "country": "France"
+    },
+    {
+        "id": 483,
+        "name": "Mosquée Al Houda de Nancy",
+        "city": "Nancy",
+        "country": "France"
+    },
+    {
+        "id": 484,
+        "name": "Mosquée Al Radiri de Nancy",
+        "city": "Nancy",
+        "country": "France"
+    },
+    {
+        "id": 485,
+        "name": "Mosquée As Salam de Pont-à-Mousson",
+        "city": "Pont-à-Mousson",
+        "country": "France"
+    },
+    {
+        "id": 486,
+        "name": "Mosquée Badr de Pont-à-Mousson",
+        "city": "Pont-à-Mousson",
+        "country": "France"
+    },
+    {
+        "id": 487,
+        "name": "Mosquée Assalam de Tomblaine",
+        "city": "Tomblaine",
+        "country": "France"
+    },
+    {
+        "id": 488,
+        "name": "Mosquée des maghrébins de Toul",
+        "city": "Toul",
+        "country": "France"
+    },
+    {
+        "id": 489,
+        "name": "Mosquée turque de Toul",
+        "city": "Toul",
+        "country": "France"
+    },
+    {
+        "id": 490,
+        "name": "Mosquée El Fath de Vandœuvre-lès-Nancy",
+        "city": "Vandœuvre-lès-Nancy",
+        "country": "France"
+    },
+    {
+        "id": 491,
+        "name": "Mosquée El Ihsanne de Vandœuvre-lès-Nancy",
+        "city": "Vandœuvre-lès-Nancy",
+        "country": "France"
+    },
+    {
+        "id": 492,
+        "name": "Mosquée El-Houda de Villerupt",
+        "city": "Villerupt",
+        "country": "France"
+    },
+    {
+        "id": 493,
+        "name": "Mosquée de Bar-le-Duc",
+        "city": "Bar-le-Duc",
+        "country": "France"
+    },
+    {
+        "id": 494,
+        "name": "Mosquée Arrahma de Ligny-en-Barrois",
+        "city": "Ligny-en-Barrois",
+        "country": "France"
+    },
+    {
+        "id": 495,
+        "name": "Mosquée turque de Revigny-sur-Ornain",
+        "city": "Revigny-sur-Ornain",
+        "country": "France"
+    },
+    {
+        "id": 496,
+        "name": "Mosquée de Verdun",
+        "city": "Verdun",
+        "country": "France"
+    },
+    {
+        "id": 497,
+        "name": "Mosquée de Lorient",
+        "city": "Lorient",
+        "country": "France"
+    },
+    {
+        "id": 498,
+        "name": "Mosquée turque de Lorient",
+        "city": "Lorient",
+        "country": "France"
+    },
+    {
+        "id": 499,
+        "name": "Mosquée Arrayyane de Vannes[172]",
+        "city": "Vannes",
+        "country": "France"
+    },
+    {
+        "id": 500,
+        "name": "Mosquée d'Amnéville",
+        "city": "Amnéville",
+        "country": "France"
+    },
+    {
+        "id": 501,
+        "name": "Mosquée Abou Bakr Le Véridique de Behren-lès-Forbach",
+        "city": "Behren-lès-Forbach",
+        "country": "France"
+    },
+    {
+        "id": 502,
+        "name": "Mosquée An-Nasr de Behren-lès-Forbach",
+        "city": "Behren-lès-Forbach",
+        "country": "France"
+    },
+    {
+        "id": 503,
+        "name": "Mosquée Ar-Rahma de Behren-lès-Forbach",
+        "city": "Behren-lès-Forbach",
+        "country": "France"
+    },
+    {
+        "id": 504,
+        "name": "Mosquée turque Vatan Camiî de Bitche",
+        "city": "Bitche",
+        "country": "France"
+    },
+    {
+        "id": 505,
+        "name": "Mosquée Al Fath de Creutzwald",
+        "city": "Creutzwald",
+        "country": "France"
+    },
+    {
+        "id": 506,
+        "name": "Mosquée turque de Creutzwald",
+        "city": "Creutzwald",
+        "country": "France"
+    },
+    {
+        "id": 507,
+        "name": "Mosquée de Hombourg-Haut",
+        "city": "Hombourg-Haut",
+        "country": "France"
+    },
+    {
+        "id": 508,
+        "name": "Mosquée Al-Qadir de Fameck",
+        "city": "Fameck",
+        "country": "France"
+    },
+    {
+        "id": 509,
+        "name": "Mosquée Es-Salem de Fameck",
+        "city": "Fameck",
+        "country": "France"
+    },
+    {
+        "id": 510,
+        "name": "Mosquée turque de Fameck",
+        "city": "Fameck",
+        "country": "France"
+    },
+    {
+        "id": 511,
+        "name": "Mosquée Al-Hijra de Faulquemont",
+        "city": "Faulquemont",
+        "country": "France"
+    },
+    {
+        "id": 512,
+        "name": "Mosquée El Hijra de Farébersviller",
+        "city": "Farébersviller",
+        "country": "France"
+    },
+    {
+        "id": 513,
+        "name": "Mosquée Al-Houda de Folschviller",
+        "city": "Folschviller",
+        "country": "France"
+    },
+    {
+        "id": 514,
+        "name": "Mosquée Al Kabir de Forbach",
+        "city": "Forbach",
+        "country": "France"
+    },
+    {
+        "id": 515,
+        "name": "Mosquée Ben Salam de Forbach",
+        "city": "Forbach",
+        "country": "France"
+    },
+    {
+        "id": 516,
+        "name": "Mosquée turque de Forbach",
+        "city": "Forbach",
+        "country": "France"
+    },
+    {
+        "id": 517,
+        "name": "Mosquée de Guénange",
+        "city": "Guénange",
+        "country": "France"
+    },
+    {
+        "id": 518,
+        "name": "Mosquée Okba ibn Nafaa d'Hayange",
+        "city": "Hayange",
+        "country": "France"
+    },
+    {
+        "id": 519,
+        "name": "Grande mosquée de Metz",
+        "city": "Metz",
+        "country": "France"
+    },
+    {
+        "id": 520,
+        "name": "Mosquée Al-Fath de Borny",
+        "city": "Metz",
+        "country": "France"
+    },
+    {
+        "id": 521,
+        "name": "Mosquée turque CIMG de Metz",
+        "city": "Metz",
+        "country": "France"
+    },
+    {
+        "id": 522,
+        "name": "Mosquée Assalam de Morhange",
+        "city": "Morhange",
+        "country": "France"
+    },
+    {
+        "id": 523,
+        "name": "Mosquée El-Fatah de Rombas",
+        "city": "Rombas",
+        "country": "France"
+    },
+    {
+        "id": 524,
+        "name": "Mosquée An-Nour de Sarrebourg",
+        "city": "Sarrebourg",
+        "country": "France"
+    },
+    {
+        "id": 525,
+        "name": "Mosquée de Sarreguemines",
+        "city": "Sarreguemines",
+        "country": "France"
+    },
+    {
+        "id": 526,
+        "name": "Mosquée des marocains de Sarreguemines",
+        "city": "Sarreguemines",
+        "country": "France"
+    },
+    {
+        "id": 527,
+        "name": "Mosquée turque de Sarreguemines",
+        "city": "Sarreguemines",
+        "country": "France"
+    },
+    {
+        "id": 528,
+        "name": "Mosquée Bilal de Stiring-Wendel",
+        "city": "Stiring-Wendel",
+        "country": "France"
+    },
+    {
+        "id": 529,
+        "name": "Mosquée de Thionville",
+        "city": "Thionville",
+        "country": "France"
+    },
+    {
+        "id": 530,
+        "name": "Mosquée Assahaba d'Uckange",
+        "city": "Uckange",
+        "country": "France"
+    },
+    {
+        "id": 531,
+        "name": "Mosquée de Woippy",
+        "city": "Woippy",
+        "country": "France"
+    },
+    {
+        "id": 532,
+        "name": "Mosquée El-Hamdoullilah de Yutz",
+        "city": "Yutz",
+        "country": "France"
+    },
+    {
+        "id": 533,
+        "name": "La Mosquée de la Capitale du Morvan",
+        "city": "Château Chinon Ville",
+        "country": "France"
+    },
+    {
+        "id": 534,
+        "name": "Mosquée de Cosne-Cours-sur-Loire",
+        "city": "Cosne-Cours-sur-Loire",
+        "country": "France"
+    },
+    {
+        "id": 535,
+        "name": "Mosquée du Pardon de Nevers[178]",
+        "city": "Nevers",
+        "country": "France"
+    },
+    {
+        "id": 536,
+        "name": "Mosquée Al-Walidaine de Saint-Léger-de-Fougeret",
+        "city": "Saint-Léger-de-Fougeret",
+        "country": "France"
+    },
+    {
+        "id": 537,
+        "name": "Mosquée As-Salam d'Aulnoye-Aymeries",
+        "city": "Aulnoye-Aymeries",
+        "country": "France"
+    },
+    {
+        "id": 538,
+        "name": "Mosquée Assalam de Beuvrages",
+        "city": "Beuvrages",
+        "country": "France"
+    },
+    {
+        "id": 539,
+        "name": "Mosquée Rahma de Condé-sur-l'Escaut",
+        "city": "Condé-sur-l'Escaut",
+        "country": "France"
+    },
+    {
+        "id": 540,
+        "name": "Mosquée Sunnah de Condé-sur-l'Escaut",
+        "city": "Condé-sur-l'Escaut",
+        "country": "France"
+    },
+    {
+        "id": 541,
+        "name": "Mosquée Essouna de Dechy",
+        "city": "Dechy",
+        "country": "France"
+    },
+    {
+        "id": 542,
+        "name": "Mosquée Arrahma de Denain",
+        "city": "Denain",
+        "country": "France"
+    },
+    {
+        "id": 543,
+        "name": "Mosquée El-Qods de Denain",
+        "city": "Denain",
+        "country": "France"
+    },
+    {
+        "id": 544,
+        "name": "Mosquée de Douai",
+        "city": "Douai",
+        "country": "France"
+    },
+    {
+        "id": 545,
+        "name": "Mosquée Abu Dhar Al-Ghifari de Dunkerque",
+        "city": "Dunkerque(Dunkerque-Sud)",
+        "country": "France"
+    },
+    {
+        "id": 546,
+        "name": "Mosquée Al Fath de Dunkerque",
+        "city": "Dunkerque(Dunkerque-Sud)",
+        "country": "France"
+    },
+    {
+        "id": 547,
+        "name": "Mosquée Omar al-Farouq de Dunkerque",
+        "city": "Dunkerque(Dunkerque-Centre)",
+        "country": "France"
+    },
+    {
+        "id": 548,
+        "name": "Mosquée Sounnah de Dunkerque",
+        "city": "Dunkerque(Petite-Synthe)",
+        "country": "France"
+    },
+    {
+        "id": 549,
+        "name": "Mosquée turque Eyüp Sultan",
+        "city": "Dunkerque(Petite-Synthe)",
+        "country": "France"
+    },
+    {
+        "id": 550,
+        "name": "Mosquée Elmohsinine d'Escaudain[183]",
+        "city": "Escaudain",
+        "country": "France"
+    },
+    {
+        "id": 551,
+        "name": "Mosquée d'Escautpont",
+        "city": "Escautpont",
+        "country": "France"
+    },
+    {
+        "id": 552,
+        "name": "Mosquée de Touba de Flers-en-Escrebieux",
+        "city": "Flers-en-Escrebieux",
+        "country": "France"
+    },
+    {
+        "id": 553,
+        "name": "Mosquée Abu Bakr de Fresnes-sur-Escaut",
+        "city": "Fresnes-sur-Escaut",
+        "country": "France"
+    },
+    {
+        "id": 554,
+        "name": "Mosquée Errahma de Grande-Synthe[185]",
+        "city": "Grande-Synthe",
+        "country": "France"
+    },
+    {
+        "id": 555,
+        "name": "Mosquée Salam de Grande-Synthe",
+        "city": "Grande-Synthe",
+        "country": "France"
+    },
+    {
+        "id": 556,
+        "name": "Mosquée Tawhid d'Halluin[187]",
+        "city": "Halluin",
+        "country": "France"
+    },
+    {
+        "id": 557,
+        "name": "Mosquée Assalem de Hautmont",
+        "city": "Hautmont",
+        "country": "France"
+    },
+    {
+        "id": 558,
+        "name": "Mosquée de Haveluy",
+        "city": "Haveluy",
+        "country": "France"
+    },
+    {
+        "id": 559,
+        "name": "Mosquée d'Hazebrouck",
+        "city": "Hazebrouck",
+        "country": "France"
+    },
+    {
+        "id": 560,
+        "name": "Mosquée Al Feth de Hem",
+        "city": "Hem",
+        "country": "France"
+    },
+    {
+        "id": 561,
+        "name": "Association Culturelle Des Travailleurs Turcs de Lille",
+        "city": "Lille(Fives)",
+        "country": "France"
+    },
+    {
+        "id": 562,
+        "name": "Mosquée Al Houda de Lille",
+        "city": "Lille(Lille-Sud)",
+        "country": "France"
+    },
+    {
+        "id": 563,
+        "name": "Mosquée Al-Imane de Lille[191]",
+        "city": "Lille(Lille-Sud)",
+        "country": "France"
+    },
+    {
+        "id": 564,
+        "name": "Mosquée Assounna de Lille",
+        "city": "Lille(Wazemmes)",
+        "country": "France"
+    },
+    {
+        "id": 565,
+        "name": "Mosquée Badr de Lille",
+        "city": "Lille(Moulins)",
+        "country": "France"
+    },
+    {
+        "id": 566,
+        "name": "Mosquée El Forkane de Lille",
+        "city": "Lille(Saint-Maurice Pellevoisin)",
+        "country": "France"
+    },
+    {
+        "id": 567,
+        "name": "Mosquée Es-Salam de Lille",
+        "city": "Lille(Moulins)",
+        "country": "France"
+    },
+    {
+        "id": 568,
+        "name": "Mosquée Fraternité de Lille",
+        "city": "Lille(Fives)",
+        "country": "France"
+    },
+    {
+        "id": 569,
+        "name": "Mosquée Omar ibn al-Khattâb de Lille",
+        "city": "Lille(Bois Blancs)",
+        "country": "France"
+    },
+    {
+        "id": 570,
+        "name": "Mosquée Annour de Lomme",
+        "city": "Lomme",
+        "country": "France"
+    },
+    {
+        "id": 571,
+        "name": "Mosquée El Feth de Louvroil",
+        "city": "Louvroil",
+        "country": "France"
+    },
+    {
+        "id": 572,
+        "name": "Mosquée El Nour de Maing[193]",
+        "city": "Maing",
+        "country": "France"
+    },
+    {
+        "id": 573,
+        "name": "Mosquée Djemaa el Nour de Masny",
+        "city": "Masny",
+        "country": "France"
+    },
+    {
+        "id": 574,
+        "name": "Mosquée El-Feth de Maubeuge[195]",
+        "city": "Maubeuge",
+        "country": "France"
+    },
+    {
+        "id": 575,
+        "name": "Mosquée Al Wiqaf de Mons-en-Barœul",
+        "city": "Mons-en-Barœul",
+        "country": "France"
+    },
+    {
+        "id": 576,
+        "name": "Mosquée Khalid ibn al-Walid d'Ostricourt",
+        "city": "Ostricourt",
+        "country": "France"
+    },
+    {
+        "id": 577,
+        "name": "Mosquée Al Fath de Quiévrechain",
+        "city": "Quiévrechain",
+        "country": "France"
+    },
+    {
+        "id": 578,
+        "name": "Mosquée An-Nour de Quiévrechain",
+        "city": "Quiévrechain",
+        "country": "France"
+    },
+    {
+        "id": 579,
+        "name": "Mosquée Assalam de Raismes[199]",
+        "city": "Raismes",
+        "country": "France"
+    },
+    {
+        "id": 580,
+        "name": "Mosquée Abou Bakr Essedik de Roubaix",
+        "city": "Roubaix",
+        "country": "France"
+    },
+    {
+        "id": 581,
+        "name": "Mosquée Arrahma de Roubaix",
+        "city": "Roubaix",
+        "country": "France"
+    },
+    {
+        "id": 582,
+        "name": "Mosquée Bilal de Roubaix[201]",
+        "city": "Roubaix",
+        "country": "France"
+    },
+    {
+        "id": 583,
+        "name": "Mosquée Da'wa de Roubaix",
+        "city": "Roubaix",
+        "country": "France"
+    },
+    {
+        "id": 584,
+        "name": "Mosquée turque Eyüp Sultan de Roubaix",
+        "city": "Roubaix",
+        "country": "France"
+    },
+    {
+        "id": 585,
+        "name": "Mosquée Sunna de Roubaix",
+        "city": "Roubaix",
+        "country": "France"
+    },
+    {
+        "id": 586,
+        "name": "Mosquée de l'Union de Sin-le-Noble",
+        "city": "Sin-le-Noble",
+        "country": "France"
+    },
+    {
+        "id": 587,
+        "name": "Mosquée Essor de Tourcoing",
+        "city": "Tourcoing",
+        "country": "France"
+    },
+    {
+        "id": 588,
+        "name": "Mosquée Ibn Taymiyya de Tourcoing",
+        "city": "Tourcoing",
+        "country": "France"
+    },
+    {
+        "id": 589,
+        "name": "Mosquée Salman Al Farisi de Tourcoing",
+        "city": "Tourcoing",
+        "country": "France"
+    },
+    {
+        "id": 590,
+        "name": "Mosquée de Valenciennes",
+        "city": "Valenciennes",
+        "country": "France"
+    },
+    {
+        "id": 591,
+        "name": "Grande mosquée de Villeneuve-d'Ascq",
+        "city": "Villeneuve-d'Ascq",
+        "country": "France"
+    },
+    {
+        "id": 592,
+        "name": "Mosquée de Wallers",
+        "city": "Wallers",
+        "country": "France"
+    },
+    {
+        "id": 593,
+        "name": "Mosquée de Wattrelos",
+        "city": "Wattrelos",
+        "country": "France"
+    },
+    {
+        "id": 594,
+        "name": "Mosquée Omar ibn al-Khattâb de Wattrelos",
+        "city": "Wattrelos",
+        "country": "France"
+    },
+    {
+        "id": 595,
+        "name": "Mosquée Bilal de Waziers",
+        "city": "Waziers",
+        "country": "France"
+    },
+    {
+        "id": 596,
+        "name": "Mosquée de Beauvais",
+        "city": "Beauvais",
+        "country": "France"
+    },
+    {
+        "id": 597,
+        "name": "Mosquée Hamza de Beauvais",
+        "city": "Beauvais",
+        "country": "France"
+    },
+    {
+        "id": 598,
+        "name": "Mosquée turque CIMG de Beauvais",
+        "city": "Beauvais",
+        "country": "France"
+    },
+    {
+        "id": 599,
+        "name": "Mosquée de Clermont",
+        "city": "Clermont",
+        "country": "France"
+    },
+    {
+        "id": 600,
+        "name": "Mosquée de Compiègne",
+        "city": "Compiègne",
+        "country": "France"
+    },
+    {
+        "id": 601,
+        "name": "Mosquée de l'Echarde de Compiègne",
+        "city": "Compiègne",
+        "country": "France"
+    },
+    {
+        "id": 602,
+        "name": "Mosquée turque de Compiègne",
+        "city": "Compiègne",
+        "country": "France"
+    },
+    {
+        "id": 603,
+        "name": "Mosquée Abou Bakr de Creil",
+        "city": "Creil",
+        "country": "France"
+    },
+    {
+        "id": 604,
+        "name": "Mosquée An-Nour de Creil",
+        "city": "Creil",
+        "country": "France"
+    },
+    {
+        "id": 605,
+        "name": "Mosquée Essalam de Creil",
+        "city": "Creil",
+        "country": "France"
+    },
+    {
+        "id": 606,
+        "name": "Mosquée El-Fatih de Creil",
+        "city": "Creil",
+        "country": "France"
+    },
+    {
+        "id": 607,
+        "name": "Mosquée Omar Ibn Alkhattab de Creil",
+        "city": "Creil",
+        "country": "France"
+    },
+    {
+        "id": 608,
+        "name": "Mosquée turque CIMG de Creil",
+        "city": "Creil",
+        "country": "France"
+    },
+    {
+        "id": 609,
+        "name": "Mosquée de Crépy-en-Valois",
+        "city": "Crépy-en-Valois",
+        "country": "France"
+    },
+    {
+        "id": 610,
+        "name": "Mosquée de Méru[211]",
+        "city": "Méru",
+        "country": "France"
+    },
+    {
+        "id": 611,
+        "name": "Mosquée Es-Salam de Méru",
+        "city": "Méru",
+        "country": "France"
+    },
+    {
+        "id": 612,
+        "name": "Mosquée de Montataire[212]",
+        "city": "Montataire",
+        "country": "France"
+    },
+    {
+        "id": 613,
+        "name": "Mosquée de Nogent-sur-Oise",
+        "city": "Nogent-sur-Oise",
+        "country": "France"
+    },
+    {
+        "id": 614,
+        "name": "Mosquée El Badr de Noyon",
+        "city": "Noyon",
+        "country": "France"
+    },
+    {
+        "id": 615,
+        "name": "Mosquée de Thourotte",
+        "city": "Thourotte",
+        "country": "France"
+    },
+    {
+        "id": 616,
+        "name": "Mosquée de Villers-Saint-Paul",
+        "city": "Villers-Saint-Paul",
+        "country": "France"
+    },
+    {
+        "id": 617,
+        "name": "Mosquée d'Alençon",
+        "city": "Alençon",
+        "country": "France"
+    },
+    {
+        "id": 618,
+        "name": "Mosquée Mahaba d'Alençon",
+        "city": "Alençon",
+        "country": "France"
+    },
+    {
+        "id": 619,
+        "name": "Mosquée turque d'Alençon",
+        "city": "Alençon",
+        "country": "France"
+    },
+    {
+        "id": 620,
+        "name": "Mosquée Annour d'Argentan",
+        "city": "Argentan",
+        "country": "France"
+    },
+    {
+        "id": 621,
+        "name": "Mosquée turque d'Argentan",
+        "city": "Argentan",
+        "country": "France"
+    },
+    {
+        "id": 622,
+        "name": "Mosquée turque de Flers",
+        "city": "Flers",
+        "country": "France"
+    },
+    {
+        "id": 623,
+        "name": "Mosquée Al-Rahma de L'Aigle",
+        "city": "L'Aigle",
+        "country": "France"
+    },
+    {
+        "id": 624,
+        "name": "Mosquée turque de L'Aigle",
+        "city": "L'Aigle",
+        "country": "France"
+    },
+    {
+        "id": 625,
+        "name": "Mosquée de Vimoutiers",
+        "city": "Vimoutiers",
+        "country": "France"
+    },
+    {
+        "id": 626,
+        "name": "Grande mosquée d'Arras|",
+        "city": "Arras",
+        "country": "France"
+    },
+    {
+        "id": 627,
+        "name": "Mosquée El Fath d'Avion",
+        "city": "Avion",
+        "country": "France"
+    },
+    {
+        "id": 628,
+        "name": "Mosquée Badr d'Avion[221]",
+        "city": "Avion",
+        "country": "France"
+    },
+    {
+        "id": 629,
+        "name": "Mosquée de Béthune",
+        "city": "Béthune",
+        "country": "France"
+    },
+    {
+        "id": 630,
+        "name": "Mosquée Ettouba de Calais[223]",
+        "city": "Calais",
+        "country": "France"
+    },
+    {
+        "id": 631,
+        "name": "Mosquée Er Rahma d'Estevelles",
+        "city": "Estevelles",
+        "country": "France"
+    },
+    {
+        "id": 632,
+        "name": "Mosquée Arrahma d'Évin-Malmaison",
+        "city": "Évin-Malmaison",
+        "country": "France"
+    },
+    {
+        "id": 633,
+        "name": "Mosquée Errahma de Fouquières-lès-Lens",
+        "city": "Fouquières-lès-Lens",
+        "country": "France"
+    },
+    {
+        "id": 634,
+        "name": "Mosquée En-Nour de Harnes",
+        "city": "Harnes",
+        "country": "France"
+    },
+    {
+        "id": 635,
+        "name": "Mosquée Ennasr d'Hénin-Beaumont[225]",
+        "city": "Hénin-Beaumont",
+        "country": "France"
+    },
+    {
+        "id": 636,
+        "name": "Mosquée Abou Bakr de Lens",
+        "city": "Lens",
+        "country": "France"
+    },
+    {
+        "id": 637,
+        "name": "Mosquée El Islah de Libercourt",
+        "city": "Libercourt",
+        "country": "France"
+    },
+    {
+        "id": 638,
+        "name": "Mosquée Omar de Liévin",
+        "city": "Liévin",
+        "country": "France"
+    },
+    {
+        "id": 639,
+        "name": "Mosquée El Nasr de Montigny-en-Gohelle",
+        "city": "Montigny-en-Gohelle",
+        "country": "France"
+    },
+    {
+        "id": 640,
+        "name": "Mosquée de Noyelles-Godault",
+        "city": "Noyelles-Godault",
+        "country": "France"
+    },
+    {
+        "id": 641,
+        "name": "Mosquée d'Oignies",
+        "city": "Oignies",
+        "country": "France"
+    },
+    {
+        "id": 642,
+        "name": "Mosquée de Saint-Omer",
+        "city": "Saint-Omer",
+        "country": "France"
+    },
+    {
+        "id": 643,
+        "name": "Mosquée turque Fatih d'Ambert",
+        "city": "Ambert",
+        "country": "France"
+    },
+    {
+        "id": 644,
+        "name": "Mosquée Errahma d'Aubière",
+        "city": "Aubière",
+        "country": "France"
+    },
+    {
+        "id": 645,
+        "name": "Grande mosquée de Clermont-Auvergne",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 646,
+        "name": "Mosquée Al-Houda de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 647,
+        "name": "Mosquée Al-Wahda de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 648,
+        "name": "Mosquée Assalam de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 649,
+        "name": "Mosquée de la Fontaine du Bac de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 650,
+        "name": "Mosquée En-Nour de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 651,
+        "name": "Mosquée Et-Tawba de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 652,
+        "name": "Mosquée turque Mevlana CiMG de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 653,
+        "name": "Mosquée turque Sultan Ahmet de Clermont-Ferrand",
+        "city": "Clermont-Ferrand",
+        "country": "France"
+    },
+    {
+        "id": 654,
+        "name": "Mosquée de Cournon-d'Auvergne",
+        "city": "Cournon-d'Auvergne",
+        "country": "France"
+    },
+    {
+        "id": 655,
+        "name": "Mosquée Assalam d'Issoire",
+        "city": "Issoire",
+        "country": "France"
+    },
+    {
+        "id": 656,
+        "name": "Mosquée Ar-Rahma de Thiers",
+        "city": "Thiers",
+        "country": "France"
+    },
+    {
+        "id": 657,
+        "name": "Mosquée de Bayonne[231]",
+        "city": "Bayonne",
+        "country": "France"
+    },
+    {
+        "id": 658,
+        "name": "Mosquée Badr de Mourenx",
+        "city": "Mourenx",
+        "country": "France"
+    },
+    {
+        "id": 659,
+        "name": "Mosquée Al-Oumma de Pau",
+        "city": "Pau",
+        "country": "France"
+    },
+    {
+        "id": 660,
+        "name": "Mosquée El-Hijra de Tarbes",
+        "city": "Tarbes",
+        "country": "France"
+    },
+    {
+        "id": 661,
+        "name": "Mosquée Omar ibn al-Khattâb de Tarbes",
+        "city": "Tarbes",
+        "country": "France"
+    },
+    {
+        "id": 662,
+        "name": "Mosquée de Laubadère de Tarbes",
+        "city": "Tarbes",
+        "country": "France"
+    },
+    {
+        "id": 663,
+        "name": "Mosquée d'Elne",
+        "city": "Elne",
+        "country": "France"
+    },
+    {
+        "id": 664,
+        "name": "Grande mosquée de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 665,
+        "name": "Mosquée Abou Bakr des Mailloles de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 666,
+        "name": "Mosquée Arrahma de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 667,
+        "name": "Mosquée de Vernet Salanque de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 668,
+        "name": "Mosquée du Champ de Mars de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 669,
+        "name": "Mosquée Es-Salam de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 670,
+        "name": "Mosquée turque du Bas-Vernet de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 671,
+        "name": "Mosquée turque de Perpignan",
+        "city": "Perpignan",
+        "country": "France"
+    },
+    {
+        "id": 672,
+        "name": "Mosquée Nour de Saint-Laurent-de-la-Salanque",
+        "city": "Saint-Laurent-de-la-Salanque",
+        "country": "France"
+    },
+    {
+        "id": 673,
+        "name": "Mosquée Al Ihsane Port du Rhin",
+        "city": "Strasbourg",
+        "country": "France"
+    },
+    {
+        "id": 674,
+        "name": "Mosquée turque de Barr",
+        "city": "Barr",
+        "country": "France"
+    },
+    {
+        "id": 675,
+        "name": "Mosquée Hassan II de Bischheim",
+        "city": "Bischheim",
+        "country": "France"
+    },
+    {
+        "id": 676,
+        "name": "Mosquée Yunus Emre de Bischwiller[237]",
+        "city": "Bischwiller",
+        "country": "France"
+    },
+    {
+        "id": 677,
+        "name": "Mosquée bleue d'Erstein",
+        "city": "Erstein",
+        "country": "France"
+    },
+    {
+        "id": 678,
+        "name": "Mosquée turque de Gundershoffen",
+        "city": "Gundershoffen",
+        "country": "France"
+    },
+    {
+        "id": 679,
+        "name": "Mosquée El Fath d'Haguenau",
+        "city": "Haguenau",
+        "country": "France"
+    },
+    {
+        "id": 680,
+        "name": "Mosquée turque CIMG d'Haguenau",
+        "city": "Haguenau",
+        "country": "France"
+    },
+    {
+        "id": 681,
+        "name": "Mosquée Mahdi de Hurtigheim",
+        "city": "Hurtigheim",
+        "country": "France"
+    },
+    {
+        "id": 682,
+        "name": "Mosquée turque d'Huttenheim",
+        "city": "Huttenheim",
+        "country": "France"
+    },
+    {
+        "id": 683,
+        "name": "Mosquée An-Nour d'Illkirch-Graffenstaden",
+        "city": "Illkirch-Graffenstaden",
+        "country": "France"
+    },
+    {
+        "id": 684,
+        "name": "Mosquée turque Fatih d'Ingwiller",
+        "city": "Ingwiller",
+        "country": "France"
+    },
+    {
+        "id": 685,
+        "name": "Mosquée turque Mevlana de La Broque",
+        "city": "La Broque",
+        "country": "France"
+    },
+    {
+        "id": 686,
+        "name": "Mosquée turque de Molsheim",
+        "city": "Molsheim",
+        "country": "France"
+    },
+    {
+        "id": 687,
+        "name": "Mosquée turque CIMG de Niederhaslach",
+        "city": "Niederhaslach",
+        "country": "France"
+    },
+    {
+        "id": 688,
+        "name": "Mosquée turque d'Obernai",
+        "city": "Obernai",
+        "country": "France"
+    },
+    {
+        "id": 689,
+        "name": "Mosquée de Sarre-Union",
+        "city": "Sarre-Union",
+        "country": "France"
+    },
+    {
+        "id": 690,
+        "name": "Mosquée Neuve de Saverne (Ditib)",
+        "city": "Saverne",
+        "country": "France"
+    },
+    {
+        "id": 691,
+        "name": "Mosquée turque CIMG Haci Bayram Veli de Saverne",
+        "city": "Saverne",
+        "country": "France"
+    },
+    {
+        "id": 692,
+        "name": "Mosquée turque de Sélestat",
+        "city": "Sélestat",
+        "country": "France"
+    },
+    {
+        "id": 693,
+        "name": "Mosquée de Cronenbourg de Strasbourg",
+        "city": "Strasbourg(Cronenbourg)",
+        "country": "France"
+    },
+    {
+        "id": 694,
+        "name": "Mosquée de l'Elsau de Strasbourg",
+        "city": "Strasbourg(Elsau)",
+        "country": "France"
+    },
+    {
+        "id": 695,
+        "name": "Mosquée Arrahma de Strasbourg[243]",
+        "city": "Strasbourg(Hautepierre)",
+        "country": "France"
+    },
+    {
+        "id": 696,
+        "name": "Mosquée turque Yunus Emre de Strasbourg (Ditib)",
+        "city": "Strasbourg(Hautepierre)",
+        "country": "France"
+    },
+    {
+        "id": 697,
+        "name": "Mosquée de Koenigshoffen de Strasbourg",
+        "city": "Strasbourg(Koenigshoffen)",
+        "country": "France"
+    },
+    {
+        "id": 698,
+        "name": "Mosquée turque CIMG Fatih Galia de Strasbourg",
+        "city": "Strasbourg(Krutenau)",
+        "country": "France"
+    },
+    {
+        "id": 699,
+        "name": "Mosquée Salam de la Montagne Verte de Strasbourg",
+        "city": "Strasbourg(Montagne Verte)",
+        "country": "France"
+    },
+    {
+        "id": 700,
+        "name": "Mosquée Eyyûb Sultan de Strasbourg",
+        "city": "Strasbourg(Meinau)",
+        "country": "France"
+    },
+    {
+        "id": 701,
+        "name": "Mosquée Qooba de Strasbourg",
+        "city": "Strasbourg(Neudorf)",
+        "country": "France"
+    },
+    {
+        "id": 702,
+        "name": "Grande mosquée de Strasbourg[245]",
+        "city": "Strasbourg(Heyritz-Neudorf)",
+        "country": "France"
+    },
+    {
+        "id": 703,
+        "name": "Mosquée de la cité de l'Ill[247]",
+        "city": "Strasbourg(cité de l'Ill-Robertsau)",
+        "country": "France"
+    },
+    {
+        "id": 704,
+        "name": "Mosquée turque de Wissembourg",
+        "city": "Wissembourg",
+        "country": "France"
+    },
+    {
+        "id": 705,
+        "name": "Mosquée des écrivains",
+        "city": "Schiltigheim",
+        "country": "France"
+    },
+    {
+        "id": 706,
+        "name": "Mosquée Al Andalous",
+        "city": "Bischheim",
+        "country": "France"
+    },
+    {
+        "id": 707,
+        "name": "Mosquée Masjid Al Hasan Al Saani",
+        "city": "Bischheim",
+        "country": "France"
+    },
+    {
+        "id": 708,
+        "name": "Mosquée El'Fath - Gallia -",
+        "city": "Esplanade",
+        "country": "France"
+    },
+    {
+        "id": 709,
+        "name": "Mosquée turque d'Altkirch",
+        "city": "Altkirch",
+        "country": "France"
+    },
+    {
+        "id": 710,
+        "name": "Mosquée Omar de Cernay",
+        "city": "Cernay",
+        "country": "France"
+    },
+    {
+        "id": 711,
+        "name": "Mosquée El-Amel de Colmar",
+        "city": "Colmar",
+        "country": "France"
+    },
+    {
+        "id": 712,
+        "name": "Mosquée Annassiha de Colmar",
+        "city": "Colmar",
+        "country": "France"
+    },
+    {
+        "id": 713,
+        "name": "Mosquée turque CIMG de Colmar",
+        "city": "Colmar",
+        "country": "France"
+    },
+    {
+        "id": 714,
+        "name": "Mosquée d'Ensisheim",
+        "city": "Ensisheim",
+        "country": "France"
+    },
+    {
+        "id": 715,
+        "name": "Mosquée turque de Guebwiller",
+        "city": "Guebwiller",
+        "country": "France"
+    },
+    {
+        "id": 716,
+        "name": "Mosquée Al-Houda d'Illzach",
+        "city": "Illzach",
+        "country": "France"
+    },
+    {
+        "id": 717,
+        "name": "Mosquée Tawhid de Kingersheim",
+        "city": "Kingersheim",
+        "country": "France"
+    },
+    {
+        "id": 718,
+        "name": "Mosquée Bilal de Mulhouse",
+        "city": "Mulhouse(Bourtzwiller)",
+        "country": "France"
+    },
+    {
+        "id": 719,
+        "name": "Mosquée Qoba de Mulhouse",
+        "city": "Mulhouse(Bourtzwiller)",
+        "country": "France"
+    },
+    {
+        "id": 720,
+        "name": "Mosquée Annasr de Mulhouse",
+        "city": "Mulhouse(Cité-Briand)",
+        "country": "France"
+    },
+    {
+        "id": 721,
+        "name": "Mosquée Ar-Rahma (Centre Clémence) de Mulhouse",
+        "city": "Mulhouse(Doller)",
+        "country": "France"
+    },
+    {
+        "id": 722,
+        "name": "Mosquée de Dornach de Mulhouse",
+        "city": "Mulhouse(Dornach)",
+        "country": "France"
+    },
+    {
+        "id": 723,
+        "name": "Mosquée As Salam de Mulhouse[254]",
+        "city": "Mulhouse(Franklin-Fridolin)",
+        "country": "France"
+    },
+    {
+        "id": 724,
+        "name": "Mosquée An-Nour de Mulhouse[255]",
+        "city": "Mulhouse(Vauban-Neppert)",
+        "country": "France"
+    },
+    {
+        "id": 725,
+        "name": "Mosquée de Rixheim",
+        "city": "Rixheim",
+        "country": "France"
+    },
+    {
+        "id": 726,
+        "name": "Mosquée El-Feth de Saint-Louis",
+        "city": "Saint-Louis",
+        "country": "France"
+    },
+    {
+        "id": 727,
+        "name": "Mosquée Es-Salam de Saint-Louis",
+        "city": "Saint-Louis",
+        "country": "France"
+    },
+    {
+        "id": 728,
+        "name": "Mosquée As-Salam de Sainte-Marie-aux-Mines",
+        "city": "Sainte-Marie-aux-Mines",
+        "country": "France"
+    },
+    {
+        "id": 729,
+        "name": "Mosquée turque de Sainte-Marie-aux-Mines",
+        "city": "Sainte-Marie-aux-Mines",
+        "country": "France"
+    },
+    {
+        "id": 730,
+        "name": "Mosquée de Soultz-Haut-Rhin",
+        "city": "Soultz-Haut-Rhin",
+        "country": "France"
+    },
+    {
+        "id": 731,
+        "name": "Mosquée Al Hijra de Thann",
+        "city": "Thann",
+        "country": "France"
+    },
+    {
+        "id": 732,
+        "name": "Mosquée turque Süleyman Gazi de Thann",
+        "city": "Thann",
+        "country": "France"
+    },
+    {
+        "id": 733,
+        "name": "Mosquée Al-Rahma de Wittenheim",
+        "city": "Wittenheim",
+        "country": "France"
+    },
+    {
+        "id": 734,
+        "name": "Mosquée En-Nour de Belleville",
+        "city": "Belleville-en-Beaujolais",
+        "country": "France"
+    },
+    {
+        "id": 735,
+        "name": "Mosquée de Brignais",
+        "city": "Brignais",
+        "country": "France"
+    },
+    {
+        "id": 736,
+        "name": "Mosquée de Bron",
+        "city": "Bron",
+        "country": "France"
+    },
+    {
+        "id": 737,
+        "name": "Mosquée Omar de Bron",
+        "city": "Bron",
+        "country": "France"
+    },
+    {
+        "id": 738,
+        "name": "Mosquée As-Sakina de Caluire-et-Cuire",
+        "city": "Caluire-et-Cuire",
+        "country": "France"
+    },
+    {
+        "id": 739,
+        "name": "Mosquée Er-Rahman de Décines-Charpieu",
+        "city": "Décines-Charpieu",
+        "country": "France"
+    },
+    {
+        "id": 740,
+        "name": "Mosquée turque de Décines-Charpieu",
+        "city": "Décines-Charpieu",
+        "country": "France"
+    },
+    {
+        "id": 741,
+        "name": "Mosquée Salam de Feyzin",
+        "city": "Feyzin",
+        "country": "France"
+    },
+    {
+        "id": 742,
+        "name": "Grande mosquée de Givors",
+        "city": "Givors",
+        "country": "France"
+    },
+    {
+        "id": 743,
+        "name": "Mosquée An-Nour de Givors",
+        "city": "Givors",
+        "country": "France"
+    },
+    {
+        "id": 744,
+        "name": "Mosquée turque de Givors",
+        "city": "Givors",
+        "country": "France"
+    },
+    {
+        "id": 745,
+        "name": "Mosquée de L'Arbresle",
+        "city": "L'Arbresle",
+        "country": "France"
+    },
+    {
+        "id": 746,
+        "name": "Mosquée Koba de Lyon",
+        "city": "Lyon(Ierarrondissement)",
+        "country": "France"
+    },
+    {
+        "id": 747,
+        "name": "Mosquée Es-Salem de Lyon",
+        "city": "Lyon(IIIearrondissement)",
+        "country": "France"
+    },
+    {
+        "id": 748,
+        "name": "Mosquée Omar de Lyon",
+        "city": "Lyon(VIIearrondissement)",
+        "country": "France"
+    },
+    {
+        "id": 749,
+        "name": "Grande mosquée de Lyon",
+        "city": "Lyon(VIIIearrondissement)",
+        "country": "France"
+    },
+    {
+        "id": 750,
+        "name": "Mosquée Et-Tawba de Lyon",
+        "city": "Lyon(IXearrondissement)",
+        "country": "France"
+    },
+    {
+        "id": 751,
+        "name": "Mosquée de Meyzieu",
+        "city": "Meyzieu",
+        "country": "France"
+    },
+    {
+        "id": 752,
+        "name": "Mosquée Bilal de Neuville-sur-Saône",
+        "city": "Neuville-sur-Saône",
+        "country": "France"
+    },
+    {
+        "id": 753,
+        "name": "Mosquée d'Oullins",
+        "city": "Oullins",
+        "country": "France"
+    },
+    {
+        "id": 754,
+        "name": "Mosquée As-Sunnah de Pierre-Bénite",
+        "city": "Pierre-Bénite",
+        "country": "France"
+    },
+    {
+        "id": 755,
+        "name": "Grande mosquée de Rillieux-la-Pape",
+        "city": "Rillieux-la-Pape",
+        "country": "France"
+    },
+    {
+        "id": 756,
+        "name": "Mosquée Bilal de Saint-Fons",
+        "city": "Saint-Fons",
+        "country": "France"
+    },
+    {
+        "id": 757,
+        "name": "Mosquée turque de Saint-Fons",
+        "city": "Saint-Fons",
+        "country": "France"
+    },
+    {
+        "id": 758,
+        "name": "Grande Mosquée de Saint-Priest",
+        "city": "Saint-Priest",
+        "country": "France"
+    },
+    {
+        "id": 759,
+        "name": "Mosquée Nour de Tarare",
+        "city": "Tarare",
+        "country": "France"
+    },
+    {
+        "id": 760,
+        "name": "Mosquée El-Fath de Thizy-les-Bourgs",
+        "city": "Thizy-les-Bourgs",
+        "country": "France"
+    },
+    {
+        "id": 761,
+        "name": "Mosquée Okba Ibn Nafee de Vaulx-en-Velin",
+        "city": "Vaulx-en-Velin",
+        "country": "France"
+    },
+    {
+        "id": 762,
+        "name": "Mosquée bosniaque de Vénissieux (Dzemat Lyon)",
+        "city": "Vénissieux",
+        "country": "France"
+    },
+    {
+        "id": 763,
+        "name": "Mosquée El Forkane de Vénissieux",
+        "city": "Vénissieux",
+        "country": "France"
+    },
+    {
+        "id": 764,
+        "name": "Mosquée Es-Sunna de Vénissieux",
+        "city": "Vénissieux",
+        "country": "France"
+    },
+    {
+        "id": 765,
+        "name": "Mosquée turque Eyüp Sultan de Vénissieux",
+        "city": "Vénissieux",
+        "country": "France"
+    },
+    {
+        "id": 766,
+        "name": "Mosquée At-Taqwa de Villefranche-sur-Saône",
+        "city": "Villefranche-sur-Saône",
+        "country": "France"
+    },
+    {
+        "id": 767,
+        "name": "Mosquée El-Houda de Villefranche-sur-Saône",
+        "city": "Villefranche-sur-Saône",
+        "country": "France"
+    },
+    {
+        "id": 768,
+        "name": "Mosquée turque de Villefranche-sur-Saône",
+        "city": "Villefranche-sur-Saône",
+        "country": "France"
+    },
+    {
+        "id": 769,
+        "name": "Mosquée Errahma de Villeurbanne",
+        "city": "Villeurbanne",
+        "country": "France"
+    },
+    {
+        "id": 770,
+        "name": "Mosquée Othman de Villeurbanne",
+        "city": "Villeurbanne",
+        "country": "France"
+    },
+    {
+        "id": 771,
+        "name": "Mosquée turque de Gray",
+        "city": "Gray",
+        "country": "France"
+    },
+    {
+        "id": 772,
+        "name": "Mosquée Abu Ayyub Al-Ansari d'Héricourt",
+        "city": "Héricourt",
+        "country": "France"
+    },
+    {
+        "id": 773,
+        "name": "Mosquée turque d'Héricourt",
+        "city": "Héricourt",
+        "country": "France"
+    },
+    {
+        "id": 774,
+        "name": "Mosquée turque de Lure",
+        "city": "Lure",
+        "country": "France"
+    },
+    {
+        "id": 775,
+        "name": "Mosquée Assalam de Luxeuil-les-Bains",
+        "city": "Luxeuil-les-Bains",
+        "country": "France"
+    },
+    {
+        "id": 776,
+        "name": "Mosquée Arrahma de Vesoul",
+        "city": "Vesoul",
+        "country": "France"
+    },
+    {
+        "id": 777,
+        "name": "Mosquée Er Rahmane de Vesoul",
+        "city": "Vesoul",
+        "country": "France"
+    },
+    {
+        "id": 778,
+        "name": "Mosquée turque de Vesoul",
+        "city": "Vesoul",
+        "country": "France"
+    },
+    {
+        "id": 779,
+        "name": "Mosquée du Morvan",
+        "city": "Autun",
+        "country": "France"
+    },
+    {
+        "id": 780,
+        "name": "Mosquée turque d'Autun",
+        "city": "Autun",
+        "country": "France"
+    },
+    {
+        "id": 781,
+        "name": "Mosquée At-Tawhid de Chalon-sur-Saône",
+        "city": "Chalon-sur-Saône",
+        "country": "France"
+    },
+    {
+        "id": 782,
+        "name": "Mosquée El-Fath de Chalon-sur-Saône",
+        "city": "Chalon-sur-Saône",
+        "country": "France"
+    },
+    {
+        "id": 783,
+        "name": "Mosquée Es-Salam de Chalon-sur-Saône",
+        "city": "Chalon-sur-Saône",
+        "country": "France"
+    },
+    {
+        "id": 784,
+        "name": "Mosquée turque de Champforgeuil",
+        "city": "Champforgeuil",
+        "country": "France"
+    },
+    {
+        "id": 785,
+        "name": "Mosquée de Gueugnon[277]",
+        "city": "Gueugnon",
+        "country": "France"
+    },
+    {
+        "id": 786,
+        "name": "Mosquée d'Harfleur du Creusot[278]",
+        "city": "Le Creusot",
+        "country": "France"
+    },
+    {
+        "id": 787,
+        "name": "Mosquée turque CIMG du Creusot",
+        "city": "Le Creusot",
+        "country": "France"
+    },
+    {
+        "id": 788,
+        "name": "Mosquée Al-Fath de Mâcon",
+        "city": "Mâcon",
+        "country": "France"
+    },
+    {
+        "id": 789,
+        "name": "Mosquée turque de Mâcon",
+        "city": "Mâcon",
+        "country": "France"
+    },
+    {
+        "id": 790,
+        "name": "Mosquée turque de Montceau-les-Mines",
+        "city": "Montceau-les-Mines",
+        "country": "France"
+    },
+    {
+        "id": 791,
+        "name": "Mosquée de Montchanin",
+        "city": "Montchanin",
+        "country": "France"
+    },
+    {
+        "id": 792,
+        "name": "Mosquée de Sancé",
+        "city": "Sancé",
+        "country": "France"
+    },
+    {
+        "id": 793,
+        "name": "Mosquée de Torcy",
+        "city": "Torcy",
+        "country": "France"
+    },
+    {
+        "id": 794,
+        "name": "Mosquée turque de Torcy",
+        "city": "Torcy",
+        "country": "France"
+    },
+    {
+        "id": 795,
+        "name": "Mosquée d'Allonnes",
+        "city": "Allonnes",
+        "country": "France"
+    },
+    {
+        "id": 796,
+        "name": "Mosquée Al-Fath de Champagné",
+        "city": "Champagné",
+        "country": "France"
+    },
+    {
+        "id": 797,
+        "name": "Mosquée As-Sunna des Sablons du Mans",
+        "city": "Le Mans",
+        "country": "France"
+    },
+    {
+        "id": 798,
+        "name": "Mosquée de l'Oasis du Mans",
+        "city": "Le Mans",
+        "country": "France"
+    },
+    {
+        "id": 799,
+        "name": "Mosquée Essalem du Mans",
+        "city": "Le Mans",
+        "country": "France"
+    },
+    {
+        "id": 800,
+        "name": "Mosquée Salman Al-Farissi des Glonnières du Mans",
+        "city": "Le Mans",
+        "country": "France"
+    },
+    {
+        "id": 801,
+        "name": "Mosquée turque du Mans (Ditib)",
+        "city": "Le Mans",
+        "country": "France"
+    },
+    {
+        "id": 802,
+        "name": "Mosquée de Mamers",
+        "city": "Mamers",
+        "country": "France"
+    },
+    {
+        "id": 803,
+        "name": "Mosquée Al-Moslimine de La Ferté-Bernard",
+        "city": "La Ferté-Bernard",
+        "country": "France"
+    },
+    {
+        "id": 804,
+        "name": "Mosquée Assalam de Sablé-sur-Sarthe",
+        "city": "Sablé-sur-Sarthe",
+        "country": "France"
+    },
+    {
+        "id": 805,
+        "name": "Mosquée turque de Sablé-sur-Sarthe",
+        "city": "Sablé-sur-Sarthe",
+        "country": "France"
+    },
+    {
+        "id": 806,
+        "name": "Mosquée Al-Houda d'Aix-les-Bains",
+        "city": "Aix-les-Bains",
+        "country": "France"
+    },
+    {
+        "id": 807,
+        "name": "Mosquée des Petits Pains d'Aix-les-Bains",
+        "city": "Aix-les-Bains",
+        "country": "France"
+    },
+    {
+        "id": 808,
+        "name": "Mosquée d'Albertville",
+        "city": "Albertville",
+        "country": "France"
+    },
+    {
+        "id": 809,
+        "name": "Mosquée turque d'Albertville",
+        "city": "Albertville",
+        "country": "France"
+    },
+    {
+        "id": 810,
+        "name": "Mosquée Al Warithine de Chambéry",
+        "city": "Chambéry",
+        "country": "France"
+    },
+    {
+        "id": 811,
+        "name": "Mosquée An-Nour de Chambéry",
+        "city": "Chambéry",
+        "country": "France"
+    },
+    {
+        "id": 812,
+        "name": "Mosquée Cheikh Abbas de Chambéry",
+        "city": "Chambéry",
+        "country": "France"
+    },
+    {
+        "id": 813,
+        "name": "Mosquée Tawba de Chambéry",
+        "city": "Chambéry",
+        "country": "France"
+    },
+    {
+        "id": 814,
+        "name": "Mosquée turque Mevlana de Chambéry",
+        "city": "Chambéry",
+        "country": "France"
+    },
+    {
+        "id": 815,
+        "name": "Mosquée turque CIMG de Chambéry",
+        "city": "Chambéry",
+        "country": "France"
+    },
+    {
+        "id": 816,
+        "name": "Mosquée de Saint-Jean-de-Maurienne",
+        "city": "Saint-Jean-de-Maurienne",
+        "country": "France"
+    },
+    {
+        "id": 817,
+        "name": "Mosquée Emir Abdelkader d'Annecy",
+        "city": "Annecy",
+        "country": "France"
+    },
+    {
+        "id": 818,
+        "name": "Mosquée d'Annemasse[289]",
+        "city": "Annemasse",
+        "country": "France"
+    },
+    {
+        "id": 819,
+        "name": "Mosquée Essalam d'Annemasse",
+        "city": "Annemasse",
+        "country": "France"
+    },
+    {
+        "id": 820,
+        "name": "Mosquée Nour d'Annemasse",
+        "city": "Annemasse",
+        "country": "France"
+    },
+    {
+        "id": 821,
+        "name": "Mosquée turque CIMG d'Annemasse",
+        "city": "Annemasse",
+        "country": "France"
+    },
+    {
+        "id": 822,
+        "name": "Mosquée de Cluses",
+        "city": "Cluses",
+        "country": "France"
+    },
+    {
+        "id": 823,
+        "name": "Mosquée As-Salam d'Evian-les-Bains",
+        "city": "Évian-les-Bains",
+        "country": "France"
+    },
+    {
+        "id": 824,
+        "name": "Mosquée turque de La Roche-sur-Foron",
+        "city": "La Roche-sur-Foron",
+        "country": "France"
+    },
+    {
+        "id": 825,
+        "name": "Mosquée Salem d'Annecy",
+        "city": "Meythet",
+        "country": "France"
+    },
+    {
+        "id": 826,
+        "name": "Mosquée de Saint-Julien-en-Genevois",
+        "city": "Saint-Julien-en-Genevois",
+        "country": "France"
+    },
+    {
+        "id": 827,
+        "name": "Mosquée de Sallanches",
+        "city": "Sallanches",
+        "country": "France"
+    },
+    {
+        "id": 828,
+        "name": "Mosquée At-Tawba de Rumilly",
+        "city": "Rumilly",
+        "country": "France"
+    },
+    {
+        "id": 829,
+        "name": "Mosquée turque Yavuz Sultan Selim de Rumilly",
+        "city": "Rumilly",
+        "country": "France"
+    },
+    {
+        "id": 830,
+        "name": "Mosquée Koba de Seynod",
+        "city": "Seynod",
+        "country": "France"
+    },
+    {
+        "id": 831,
+        "name": "Mosquée As-Salam de Seyssel",
+        "city": "Seyssel",
+        "country": "France"
+    },
+    {
+        "id": 832,
+        "name": "Mosquée de Thonon-les-Bains",
+        "city": "Thonon-les-Bains",
+        "country": "France"
+    },
+    {
+        "id": 833,
+        "name": "Mosquée turque de Thonon-les-Bains",
+        "city": "Thonon-les-Bains",
+        "country": "France"
+    },
+    {
+        "id": 834,
+        "name": "Mosquée turque de Thyez",
+        "city": "Thyez",
+        "country": "France"
+    },
+    {
+        "id": 835,
+        "name": "Mosquée El Mouhsinine de Canteleu",
+        "city": "Canteleu",
+        "country": "France"
+    },
+    {
+        "id": 836,
+        "name": "Mosquée de Dieppe",
+        "city": "Dieppe",
+        "country": "France"
+    },
+    {
+        "id": 837,
+        "name": "Mosquée turque de Dieppe",
+        "city": "Dieppe",
+        "country": "France"
+    },
+    {
+        "id": 838,
+        "name": "Mosquée Annour d'Elbeuf",
+        "city": "Elbeuf",
+        "country": "France"
+    },
+    {
+        "id": 839,
+        "name": "Mosquée Al-Oumma du Havre",
+        "city": "Le Havre",
+        "country": "France"
+    },
+    {
+        "id": 840,
+        "name": "Mosquée de Caucriauville du Havre",
+        "city": "Le Havre(Caucriauville)",
+        "country": "France"
+    },
+    {
+        "id": 841,
+        "name": "Mosquée Ennour du Havre",
+        "city": "Le Havre(Mare Rouge)",
+        "country": "France"
+    },
+    {
+        "id": 842,
+        "name": "Mosquée turque du Havre",
+        "city": "Le Havre",
+        "country": "France"
+    },
+    {
+        "id": 843,
+        "name": "Mosquée Al Qods d'Oissel",
+        "city": "Oissel",
+        "country": "France"
+    },
+    {
+        "id": 844,
+        "name": "Mosquée As-Salam de Petit-Couronne",
+        "city": "Petit-Couronne",
+        "country": "France"
+    },
+    {
+        "id": 845,
+        "name": "Mosquée Al Kaoutar de Rouen",
+        "city": "Rouen",
+        "country": "France"
+    },
+    {
+        "id": 846,
+        "name": "Mosquée Al-Mouhssinine de Rouen",
+        "city": "Rouen(Les Hauts de Rouen)",
+        "country": "France"
+    },
+    {
+        "id": 847,
+        "name": "Mosquée Yahya de Saint-Étienne-du-Rouvray",
+        "city": "Saint-Étienne-du-Rouvray",
+        "country": "France"
+    },
+    {
+        "id": 848,
+        "name": "Mosquée Tawba du Val de Bussy-Saint-Georges",
+        "city": "Bussy-Saint-Georges",
+        "country": "France"
+    },
+    {
+        "id": 849,
+        "name": "Mosquée de Champs-sur-Marne",
+        "city": "Champs-sur-Marne",
+        "country": "France"
+    },
+    {
+        "id": 850,
+        "name": "Mosquée Aboubaker-Essadik de Chelles",
+        "city": "Chelles",
+        "country": "France"
+    },
+    {
+        "id": 851,
+        "name": "Mosquée de Combs-la-Ville",
+        "city": "Combs-la-Ville",
+        "country": "France"
+    },
+    {
+        "id": 852,
+        "name": "Mosquée Arrahma de Coulommiers",
+        "city": "Coulommiers",
+        "country": "France"
+    },
+    {
+        "id": 853,
+        "name": "Mosquée Al Salam de Dammarie-les-Lys",
+        "city": "Dammarie-les-Lys",
+        "country": "France"
+    },
+    {
+        "id": 854,
+        "name": "Mosquée de Lieusaint",
+        "city": "Lieusaint",
+        "country": "France"
+    },
+    {
+        "id": 855,
+        "name": "Mosquée Annour de Melun",
+        "city": "Melun",
+        "country": "France"
+    },
+    {
+        "id": 856,
+        "name": "Mosquée Annour de Moissy-Cramayel",
+        "city": "Moissy-Cramayel",
+        "country": "France"
+    },
+    {
+        "id": 857,
+        "name": "Mosquée Al Anwar de Nemours",
+        "city": "Nemours",
+        "country": "France"
+    },
+    {
+        "id": 858,
+        "name": "Mosquée de Nangis",
+        "city": "Nangis",
+        "country": "France"
+    },
+    {
+        "id": 859,
+        "name": "Mosquée Yumus Emre de Montereau-Fault-Yonne",
+        "city": "Montereau-Fault-Yonne",
+        "country": "France"
+    },
+    {
+        "id": 860,
+        "name": "Mosquée El Mouhcinine de Montereau-Fault-Yonne",
+        "city": "Montereau-Fault-Yonne",
+        "country": "France"
+    },
+    {
+        "id": 861,
+        "name": "Mosquée de Roissy-en-Brie",
+        "city": "Roissy-en-Brie",
+        "country": "France"
+    },
+    {
+        "id": 862,
+        "name": "Mosquée Othmân ibn Affân de Villeparisis[309]",
+        "city": "Villeparisis",
+        "country": "France"
+    },
+    {
+        "id": 863,
+        "name": "Mosquée de la Paix d'Achères",
+        "city": "Achères",
+        "country": "France"
+    },
+    {
+        "id": 864,
+        "name": "Mosquée de Carrières-sous-Poissy",
+        "city": "Carrières-sous-Poissy",
+        "country": "France"
+    },
+    {
+        "id": 865,
+        "name": "Mosquée de Chanteloup-les-Vignes",
+        "city": "Chanteloup-les-Vignes",
+        "country": "France"
+    },
+    {
+        "id": 866,
+        "name": "Mosquée de Coignières[312]",
+        "city": "Coignières",
+        "country": "France"
+    },
+    {
+        "id": 867,
+        "name": "Mosquée Al Qalam de Conflans-Sainte-Honorine",
+        "city": "Conflans-Sainte-Honorine",
+        "country": "France"
+    },
+    {
+        "id": 868,
+        "name": "Mosquée Malik Ibn Anas d'Ecquevilly",
+        "city": "Ecquevilly",
+        "country": "France"
+    },
+    {
+        "id": 869,
+        "name": "Mosquée de Guyancourt",
+        "city": "Guyancourt",
+        "country": "France"
+    },
+    {
+        "id": 870,
+        "name": "Grande mosquée de Limay",
+        "city": "Limay",
+        "country": "France"
+    },
+    {
+        "id": 871,
+        "name": "Grande mosquée de Mantes-la-Jolie",
+        "city": "Mantes-la-Jolie",
+        "country": "France"
+    },
+    {
+        "id": 872,
+        "name": "Mosquée des Garennes",
+        "city": "Mantes-la-Jolie",
+        "country": "France"
+    },
+    {
+        "id": 873,
+        "name": "Mosquée Othmane Ibn Affane de Mantes-la-Jolie",
+        "city": "Mantes-la-Jolie",
+        "country": "France"
+    },
+    {
+        "id": 874,
+        "name": "Mosquée turque Fatih CIMG de Mantes-la-Jolie",
+        "city": "Mantes-la-Jolie",
+        "country": "France"
+    },
+    {
+        "id": 875,
+        "name": "Mosquée de Mantes Sud[319]",
+        "city": "Mantes-la-Ville",
+        "country": "France"
+    },
+    {
+        "id": 876,
+        "name": "Mosquée de Montigny-le-Bretonneux",
+        "city": "Montigny-le-Bretonneux",
+        "country": "France"
+    },
+    {
+        "id": 877,
+        "name": "Mosquée Essalam des Mureaux",
+        "city": "Les Mureaux",
+        "country": "France"
+    },
+    {
+        "id": 878,
+        "name": "Mosquée Tariq ibn Ziyad des Mureaux[322]",
+        "city": "Les Mureaux",
+        "country": "France"
+    },
+    {
+        "id": 879,
+        "name": "Mosquée de Poissy",
+        "city": "Poissy",
+        "country": "France"
+    },
+    {
+        "id": 880,
+        "name": "Mosquée de Rambouillet[323]",
+        "city": "Rambouillet",
+        "country": "France"
+    },
+    {
+        "id": 881,
+        "name": "Mosquée Ennour de Sartrouville",
+        "city": "Sartrouville",
+        "country": "France"
+    },
+    {
+        "id": 882,
+        "name": "Mosquée Erahma de Trappes",
+        "city": "Trappes",
+        "country": "France"
+    },
+    {
+        "id": 883,
+        "name": "Mosquée de La Verrière[325]",
+        "city": "La Verrière",
+        "country": "France"
+    },
+    {
+        "id": 884,
+        "name": "Mosquée de Versailles",
+        "city": "Versailles",
+        "country": "France"
+    },
+    {
+        "id": 885,
+        "name": "Mosquée Imam Malik de Bressuire",
+        "city": "Bressuire",
+        "country": "France"
+    },
+    {
+        "id": 886,
+        "name": "Mosquée de Niort",
+        "city": "Niort",
+        "country": "France"
+    },
+    {
+        "id": 887,
+        "name": "Mosquée de Thouars",
+        "city": "Thouars",
+        "country": "France"
+    },
+    {
+        "id": 888,
+        "name": "Grande mosquée d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 889,
+        "name": "Mosquée Al Fath d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 890,
+        "name": "Mosquée Al Mohsinine d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 891,
+        "name": "Mosquée An Nour d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 892,
+        "name": "Mosquée Assounah d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 893,
+        "name": "Mosquée Al Badr d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 894,
+        "name": "Mosquée Chekkar d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 895,
+        "name": "Mosquée Sounna d'Amiens",
+        "city": "Amiens",
+        "country": "France"
+    },
+    {
+        "id": 896,
+        "name": "Mosquée El Badr d'Aussillon",
+        "city": "Aussillon",
+        "country": "France"
+    },
+    {
+        "id": 897,
+        "name": "Mosquée Bilal de Castres",
+        "city": "Castres",
+        "country": "France"
+    },
+    {
+        "id": 898,
+        "name": "Mosquée Abû Bakr Essedik de Gaillac",
+        "city": "Gaillac",
+        "country": "France"
+    },
+    {
+        "id": 899,
+        "name": "Mosquée Nour El-Mouhammadi de Graulhet",
+        "city": "Graulhet",
+        "country": "France"
+    },
+    {
+        "id": 900,
+        "name": "Mosquée Salam de Castelsarrasin",
+        "city": "Castelsarrasin",
+        "country": "France"
+    },
+    {
+        "id": 901,
+        "name": "Mosquée de Caussade",
+        "city": "Caussade",
+        "country": "France"
+    },
+    {
+        "id": 902,
+        "name": "Mosquée El-Houda de Labastide-Saint-Pierre",
+        "city": "Labastide-Saint-Pierre",
+        "country": "France"
+    },
+    {
+        "id": 903,
+        "name": "Mosquée de Moissac",
+        "city": "Moissac, rue des Artisans",
+        "country": "France"
+    },
+    {
+        "id": 904,
+        "name": "Mosquée de Moissac",
+        "city": "Moissac, rue Tourneuve",
+        "country": "France"
+    },
+    {
+        "id": 905,
+        "name": "Mosquée As-Salem de Montauban",
+        "city": "Montauban",
+        "country": "France"
+    },
+    {
+        "id": 906,
+        "name": "Mosquée de Valence-d'Agen",
+        "city": "Valence",
+        "country": "France"
+    },
+    {
+        "id": 907,
+        "name": "Mosquée Al-Ansar de Cogolin",
+        "city": "Cogolin",
+        "country": "France"
+    },
+    {
+        "id": 908,
+        "name": "Mosquée Al-Imane de Draguignan",
+        "city": "Draguignan",
+        "country": "France"
+    },
+    {
+        "id": 909,
+        "name": "Mosquée Nour-Al-Houda de Draguignan",
+        "city": "Draguignan",
+        "country": "France"
+    },
+    {
+        "id": 910,
+        "name": "Mosquée d'Hyères",
+        "city": "Hyères",
+        "country": "France"
+    },
+    {
+        "id": 911,
+        "name": "Mosquée Missiri de Fréjus",
+        "city": "Fréjus",
+        "country": "France"
+    },
+    {
+        "id": 912,
+        "name": "Mosquée El-Fath de Frejus",
+        "city": "Fréjus",
+        "country": "France"
+    },
+    {
+        "id": 913,
+        "name": "Mosquée de La Seyne-sur-Mer",
+        "city": "La Seyne-sur-Mer",
+        "country": "France"
+    },
+    {
+        "id": 914,
+        "name": "Mosquée Imam Malik du Luc",
+        "city": "Le Luc",
+        "country": "France"
+    },
+    {
+        "id": 915,
+        "name": "Mosquée Tawhid du Muy",
+        "city": "Le Muy",
+        "country": "France"
+    },
+    {
+        "id": 916,
+        "name": "Mosquée An Nour de Toulon (Toulon centre - ville basse)",
+        "city": "Toulon",
+        "country": "France"
+    },
+    {
+        "id": 917,
+        "name": "Mosquée Al Takwa de Toulon (Pont du Las)",
+        "city": "Toulon",
+        "country": "France"
+    },
+    {
+        "id": 918,
+        "name": "Mosquée Al-Imène de Toulon",
+        "city": "Toulon",
+        "country": "France"
+    },
+    {
+        "id": 919,
+        "name": "Mosquée des œillets de Toulon",
+        "city": "Toulon",
+        "country": "France"
+    },
+    {
+        "id": 920,
+        "name": "Mosquée de la Beaucaire de Toulon",
+        "city": "Toulon",
+        "country": "France"
+    },
+    {
+        "id": 921,
+        "name": "Mosquée turque Kocatepe Selimiye de Toulon",
+        "city": "Toulon",
+        "country": "France"
+    },
+    {
+        "id": 922,
+        "name": "Mosquée Taqwa d'Apt",
+        "city": "Apt",
+        "country": "France"
+    },
+    {
+        "id": 923,
+        "name": "Mosquée Arrahma d'Avignon",
+        "city": "Avignon(Grange d'Orel)",
+        "country": "France"
+    },
+    {
+        "id": 924,
+        "name": "Mosquée Essouna d'Avignon",
+        "city": "Avignon(Monclar)",
+        "country": "France"
+    },
+    {
+        "id": 925,
+        "name": "Mosquée turque CIMG d'Avignon",
+        "city": "Avignon(Monclar)",
+        "country": "France"
+    },
+    {
+        "id": 926,
+        "name": "Mosquée Kobâe d'Avignon",
+        "city": "Avignon(Montfavet)",
+        "country": "France"
+    },
+    {
+        "id": 927,
+        "name": "Mosquée El Boukhari d'Avignon",
+        "city": "Avignon(La Rocade)",
+        "country": "France"
+    },
+    {
+        "id": 928,
+        "name": "Mosquée As Salaf d'Avignon",
+        "city": "Avignon(La Rocade)",
+        "country": "France"
+    },
+    {
+        "id": 929,
+        "name": "Mosquée El-Fath de Bollène",
+        "city": "Bollène",
+        "country": "France"
+    },
+    {
+        "id": 930,
+        "name": "Mosquée Ar-Rahma de Carpentras",
+        "city": "Carpentras",
+        "country": "France"
+    },
+    {
+        "id": 931,
+        "name": "Mosquée Essalam de Carprentras",
+        "city": "Carpentras",
+        "country": "France"
+    },
+    {
+        "id": 932,
+        "name": "Mosquée Attawba de Cavaillon",
+        "city": "Cavaillon",
+        "country": "France"
+    },
+    {
+        "id": 933,
+        "name": "Mosquée Assunnah du Pontet",
+        "city": "Le Pontet",
+        "country": "France"
+    },
+    {
+        "id": 934,
+        "name": "Mosquée turque du Pontet",
+        "city": "Le Pontet",
+        "country": "France"
+    },
+    {
+        "id": 935,
+        "name": "Mosquée d'Orange",
+        "city": "Orange",
+        "country": "France"
+    },
+    {
+        "id": 936,
+        "name": "Mosquée de Sorgues",
+        "city": "Sorgues",
+        "country": "France"
+    },
+    {
+        "id": 937,
+        "name": "Mosquée Marie-Vierge de Valréas",
+        "city": "Valréas",
+        "country": "France"
+    },
+    {
+        "id": 938,
+        "name": "Mosquée Al Hijra de La Roche-Sur-Yon[342]",
+        "city": "La Roche-sur-Yon",
+        "country": "France"
+    },
+    {
+        "id": 939,
+        "name": "Mosquée Essalam de Châtellerault",
+        "city": "Châtellerault",
+        "country": "France"
+    },
+    {
+        "id": 940,
+        "name": "Mosquée de la Concorde de Châtellerault",
+        "city": "Châtellerault",
+        "country": "France"
+    },
+    {
+        "id": 941,
+        "name": "Grande mosquée de Poitiers",
+        "city": "Poitiers",
+        "country": "France"
+    },
+    {
+        "id": 942,
+        "name": "Mosquée Abchir de Poitiers",
+        "city": "Poitiers",
+        "country": "France"
+    },
+    {
+        "id": 943,
+        "name": "Grande mosquée de Limoges",
+        "city": "Limoges(Grand Treuil)",
+        "country": "France"
+    },
+    {
+        "id": 944,
+        "name": "Mosquée Badr de Limoges",
+        "city": "Limoges(Beaubreuil)",
+        "country": "France"
+    },
+    {
+        "id": 945,
+        "name": "Mosquée turque de Châtenois",
+        "city": "Châtenois",
+        "country": "France"
+    },
+    {
+        "id": 946,
+        "name": "Mosquée Attawba de Contrexéville",
+        "city": "Contrexéville",
+        "country": "France"
+    },
+    {
+        "id": 947,
+        "name": "Grande Mosquée d'Épinal",
+        "city": "Épinal",
+        "country": "France"
+    },
+    {
+        "id": 948,
+        "name": "Mosquée Al Madina Al Mounawara d'Épinal",
+        "city": "Épinal",
+        "country": "France"
+    },
+    {
+        "id": 949,
+        "name": "Mosquée turque d'Épinal",
+        "city": "Épinal",
+        "country": "France"
+    },
+    {
+        "id": 950,
+        "name": "Mosquée de Gérardmer",
+        "city": "Gérardmer",
+        "country": "France"
+    },
+    {
+        "id": 951,
+        "name": "Mosquée de Mirecourt",
+        "city": "Mirecourt",
+        "country": "France"
+    },
+    {
+        "id": 952,
+        "name": "Mosquée turque de Neufchâteau",
+        "city": "Neufchâteau",
+        "country": "France"
+    },
+    {
+        "id": 953,
+        "name": "Mosquée bleue de Nomexy",
+        "city": "Nomexy",
+        "country": "France"
+    },
+    {
+        "id": 954,
+        "name": "Mosquée de Remiremont",
+        "city": "Remiremont",
+        "country": "France"
+    },
+    {
+        "id": 955,
+        "name": "Mosquée turque Bilal Habeşi de Remiremont",
+        "city": "Remiremont",
+        "country": "France"
+    },
+    {
+        "id": 956,
+        "name": "Mosquée de Saint-Dié-des-Vosges",
+        "city": "Saint-Dié-des-Vosges",
+        "country": "France"
+    },
+    {
+        "id": 957,
+        "name": "Mosquée turque Mehmet Akif de Saint-Dié-des-Vosges",
+        "city": "Saint-Dié-des-Vosges",
+        "country": "France"
+    },
+    {
+        "id": 958,
+        "name": "Mosquée Khadija d'Auxerre",
+        "city": "Auxerre",
+        "country": "France"
+    },
+    {
+        "id": 959,
+        "name": "Mosquée Ibnou Sina d'Auxerre",
+        "city": "Auxerre",
+        "country": "France"
+    },
+    {
+        "id": 960,
+        "name": "Mosquée de l'allée Watteau d'Auxerre",
+        "city": "Auxerre",
+        "country": "France"
+    },
+    {
+        "id": 961,
+        "name": "Mosquée d'Avallon",
+        "city": "Avallon",
+        "country": "France"
+    },
+    {
+        "id": 962,
+        "name": "Mosquée de Joigny",
+        "city": "Joigny",
+        "country": "France"
+    },
+    {
+        "id": 963,
+        "name": "Mosquée turque Al-Boukhari de Migennes",
+        "city": "Migennes",
+        "country": "France"
+    },
+    {
+        "id": 964,
+        "name": "Mosquée Al-Fath de Saint-Florentin",
+        "city": "Saint-Florentin",
+        "country": "France"
+    },
+    {
+        "id": 965,
+        "name": "Mosquée de Saint-Valérien",
+        "city": "Saint-Valérien",
+        "country": "France"
+    },
+    {
+        "id": 966,
+        "name": "Mosquée Assalam de Sens",
+        "city": "Sens",
+        "country": "France"
+    },
+    {
+        "id": 967,
+        "name": "Mosquée turque de Sens",
+        "city": "Sens",
+        "country": "France"
+    },
+    {
+        "id": 968,
+        "name": "Mosquée de Tonnerre",
+        "city": "Tonnerre",
+        "country": "France"
+    },
+    {
+        "id": 969,
+        "name": "Mosquée Abou Bakr de Beaucourt",
+        "city": "Beaucourt",
+        "country": "France"
+    },
+    {
+        "id": 970,
+        "name": "Grande mosquée Omar ibn al-Khattâb de Belfort",
+        "city": "Belfort",
+        "country": "France"
+    },
+    {
+        "id": 971,
+        "name": "Mosquée Es-Sunna de Belfort",
+        "city": "Belfort",
+        "country": "France"
+    },
+    {
+        "id": 972,
+        "name": "Mosquée Koba de Belfort",
+        "city": "Belfort",
+        "country": "France"
+    },
+    {
+        "id": 973,
+        "name": "Mosquée turque de Belfort",
+        "city": "Belfort",
+        "country": "France"
+    },
+    {
+        "id": 974,
+        "name": "Mosquée Ottmane de Delle",
+        "city": "Delle",
+        "country": "France"
+    },
+    {
+        "id": 975,
+        "name": "Mosquée turque de Grandvillars",
+        "city": "Grandvillars",
+        "country": "France"
+    },
+    {
+        "id": 976,
+        "name": "Mosquée de Saint-Germain-Brétigny",
+        "city": "Saint-Germain-lès-Arpajon,Brétigny-sur-Orge",
+        "country": "France"
+    },
+    {
+        "id": 977,
+        "name": "Mosquée de Brétigny-sur-Orge",
+        "city": "Brétigny-sur-Orge",
+        "country": "France"
+    },
+    {
+        "id": 978,
+        "name": "Mosquée As-Salam de Corbeil-Essonnes[357]",
+        "city": "Corbeil-Essonnes",
+        "country": "France"
+    },
+    {
+        "id": 979,
+        "name": "Mosquée turque de Corbeil-Essonnes",
+        "city": "Corbeil-Essonnes",
+        "country": "France"
+    },
+    {
+        "id": 980,
+        "name": "Mosquée d'Évry-Courcouronnes[360]",
+        "city": "Évry-Courcouronnes",
+        "country": "France"
+    },
+    {
+        "id": 981,
+        "name": "Mosquée Hamza d'Épinay-sous-Sénart",
+        "city": "Épinay-sous-Sénart",
+        "country": "France"
+    },
+    {
+        "id": 982,
+        "name": "Mosquée du Centre d'Étampes",
+        "city": "Étampes",
+        "country": "France"
+    },
+    {
+        "id": 983,
+        "name": "Mosquée du Sud-Essonne d'Étampes",
+        "city": "Étampes",
+        "country": "France"
+    },
+    {
+        "id": 984,
+        "name": "Grande Mosquée de Grigny",
+        "city": "Grigny",
+        "country": "France"
+    },
+    {
+        "id": 985,
+        "name": "Mosquée de Longjumeau",
+        "city": "Longjumeau",
+        "country": "France"
+    },
+    {
+        "id": 986,
+        "name": "Mosquée de Massy",
+        "city": "Massy",
+        "country": "France"
+    },
+    {
+        "id": 987,
+        "name": "Mosquée Averoès de Sainte-Geneviève-des-Bois[365]",
+        "city": "Sainte-Geneviève-des-Bois",
+        "country": "France"
+    },
+    {
+        "id": 988,
+        "name": "Mosquée El-Andalous des Ulis[367]",
+        "city": "Les Ulis",
+        "country": "France"
+    },
+    {
+        "id": 989,
+        "name": "Mosquée de Vigneux-sur-Seine[369]",
+        "city": "Vigneux-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 990,
+        "name": "Mosquée des Baconnets d'Antony",
+        "city": "Antony",
+        "country": "France"
+    },
+    {
+        "id": 991,
+        "name": "Mosquée Omar ibn al-Khattâb d'Antony",
+        "city": "Antony",
+        "country": "France"
+    },
+    {
+        "id": 992,
+        "name": "Mosquée Al Hida d'Asnières",
+        "city": "Asnières-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 993,
+        "name": "Mosquée de Bagneux",
+        "city": "Bagneux",
+        "country": "France"
+    },
+    {
+        "id": 994,
+        "name": "Mosquée Omar de Bagneux",
+        "city": "Bagneux",
+        "country": "France"
+    },
+    {
+        "id": 995,
+        "name": "Mosquée Badr de Boulogne-Billancourt",
+        "city": "Boulogne-Billancourt",
+        "country": "France"
+    },
+    {
+        "id": 996,
+        "name": "Mosquée de Clamart",
+        "city": "Clamart",
+        "country": "France"
+    },
+    {
+        "id": 997,
+        "name": "Mosquée Ennour de Clichy",
+        "city": "Clichy",
+        "country": "France"
+    },
+    {
+        "id": 998,
+        "name": "Mosquée de la Dignité de Colombes",
+        "city": "Colombes",
+        "country": "France"
+    },
+    {
+        "id": 999,
+        "name": "Mosquée Mohamed V de Colombes",
+        "city": "Colombes",
+        "country": "France"
+    },
+    {
+        "id": 1000,
+        "name": "Mosquée El Houda de Gennevilliers",
+        "city": "Gennevilliers",
+        "country": "France"
+    },
+    {
+        "id": 1001,
+        "name": "Mosquée Ennour de Gennevilliers",
+        "city": "Gennevilliers",
+        "country": "France"
+    },
+    {
+        "id": 1002,
+        "name": "Mosquée Essalam de Gennevilliers",
+        "city": "Gennevilliers",
+        "country": "France"
+    },
+    {
+        "id": 1003,
+        "name": "Mosquée Safa de Gennevilliers",
+        "city": "Gennevilliers",
+        "country": "France"
+    },
+    {
+        "id": 1004,
+        "name": "Mosquée de Levallois-Perret",
+        "city": "Levallois-Perret",
+        "country": "France"
+    },
+    {
+        "id": 1005,
+        "name": "Mosquée de Malakoff",
+        "city": "Malakoff",
+        "country": "France"
+    },
+    {
+        "id": 1006,
+        "name": "Mosquée Ibn Badis de Nanterre",
+        "city": "Nanterre",
+        "country": "France"
+    },
+    {
+        "id": 1007,
+        "name": "Grande Mosquée Emir Abdelkader de Nanterre",
+        "city": "Nanterre",
+        "country": "France"
+    },
+    {
+        "id": 1008,
+        "name": "Mosquée Okba Ibn Nafaa de Nanterre",
+        "city": "Nanterre",
+        "country": "France"
+    },
+    {
+        "id": 1009,
+        "name": "Mosquée Rahma de Nanterre",
+        "city": "Nanterre",
+        "country": "France"
+    },
+    {
+        "id": 1010,
+        "name": "Mosquée de Puteaux",
+        "city": "Puteaux",
+        "country": "France"
+    },
+    {
+        "id": 1011,
+        "name": "Mosquée Salam de Suresnes",
+        "city": "Suresnes",
+        "country": "France"
+    },
+    {
+        "id": 1012,
+        "name": "Mosquée de Villeneuve-la-Garenne",
+        "city": "Villeneuve-la-Garenne",
+        "country": "France"
+    },
+    {
+        "id": 1013,
+        "name": "Mosquée turque d'Aubervilliers",
+        "city": "Aubervilliers",
+        "country": "France"
+    },
+    {
+        "id": 1014,
+        "name": "Grande mosquée d'Aulnay-sous-Bois[379]",
+        "city": "Aulnay-sous-Bois",
+        "country": "France"
+    },
+    {
+        "id": 1015,
+        "name": "Mosquée El Irshad Al Kebir d'Aulnay-sous-Bois",
+        "city": "Aulnay-sous-Bois",
+        "country": "France"
+    },
+    {
+        "id": 1016,
+        "name": "Mosquée de Bagnolet",
+        "city": "Bagnolet",
+        "country": "France"
+    },
+    {
+        "id": 1017,
+        "name": "Mosquée El-Ihsan du Blanc-Mesnil",
+        "city": "Le Blanc-Mesnil, rue Gorki",
+        "country": "France"
+    },
+    {
+        "id": 1018,
+        "name": "Mosquée Tawhid du Blanc-Mesnil",
+        "city": "Le Blanc-Mesnil, rue Casanova",
+        "country": "France"
+    },
+    {
+        "id": 1019,
+        "name": "Mosquée du cimetière musulman de Bobigny",
+        "city": "Bobigny",
+        "country": "France"
+    },
+    {
+        "id": 1020,
+        "name": "Mosquée Al Anssar de Bondy",
+        "city": "Bondy",
+        "country": "France"
+    },
+    {
+        "id": 1021,
+        "name": "Mosquée Bilal",
+        "city": "Clichy-sous-Bois",
+        "country": "France"
+    },
+    {
+        "id": 1022,
+        "name": "Mosquée Ibrahim de La Courneuve",
+        "city": "La Courneuve",
+        "country": "France"
+    },
+    {
+        "id": 1023,
+        "name": "Mosquée de La Courneuve",
+        "city": "La Courneuve",
+        "country": "France"
+    },
+    {
+        "id": 1024,
+        "name": "Mosquée Sidna Nouh de Dugny",
+        "city": "Dugny",
+        "country": "France"
+    },
+    {
+        "id": 1025,
+        "name": "Mosquée de Drancy",
+        "city": "Drancy",
+        "country": "France"
+    },
+    {
+        "id": 1026,
+        "name": "Mosquée d'Épinay-sur-Seine",
+        "city": "Épinay-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 1027,
+        "name": "Mosquée Nour de Montfermeil",
+        "city": "Montfermeil",
+        "country": "France"
+    },
+    {
+        "id": 1028,
+        "name": "Mosquée turque de Montfermeil",
+        "city": "Montfermeil",
+        "country": "France"
+    },
+    {
+        "id": 1029,
+        "name": "Mosquée Al Fourqane de Montfermeil",
+        "city": "Montfermeil",
+        "country": "France"
+    },
+    {
+        "id": 1030,
+        "name": "Mosquée Essalam de Montfermeil",
+        "city": "Montfermeil",
+        "country": "France"
+    },
+    {
+        "id": 1031,
+        "name": "Mosquée Al Islah de Montreuil",
+        "city": "Montreuil",
+        "country": "France"
+    },
+    {
+        "id": 1032,
+        "name": "Mosquée Al Oumma de Montreuil",
+        "city": "Montreuil",
+        "country": "France"
+    },
+    {
+        "id": 1033,
+        "name": "Mosquée de Neuilly-Plaisance",
+        "city": "Neuilly-Plaisance",
+        "country": "France"
+    },
+    {
+        "id": 1034,
+        "name": "Mosquée de Noisy-le-Grand",
+        "city": "Noisy-le-Grand",
+        "country": "France"
+    },
+    {
+        "id": 1035,
+        "name": "Mosquée Ettakwa de Noisy-le-Grand",
+        "city": "Noisy-le-Grand",
+        "country": "France"
+    },
+    {
+        "id": 1036,
+        "name": "Mosquée Al Fath de Noisy-le-Sec",
+        "city": "Noisy-le-Sec",
+        "country": "France"
+    },
+    {
+        "id": 1037,
+        "name": "Mosquée Hamza de Pantin",
+        "city": "Pantin",
+        "country": "France"
+    },
+    {
+        "id": 1038,
+        "name": "Mosquée turque de Pantin",
+        "city": "Pantin",
+        "country": "France"
+    },
+    {
+        "id": 1039,
+        "name": "Grande mosquée de Rosny-sous-Bois",
+        "city": "Rosny-sous-Bois",
+        "country": "France"
+    },
+    {
+        "id": 1040,
+        "name": "Mosquée Amal de Saint-Denis",
+        "city": "Saint-Denis",
+        "country": "France"
+    },
+    {
+        "id": 1041,
+        "name": "Mosquée Bilal de Saint-Denis",
+        "city": "Saint-Denis",
+        "country": "France"
+    },
+    {
+        "id": 1042,
+        "name": "Mosquée Errahma de Saint-Denis",
+        "city": "Saint-Denis",
+        "country": "France"
+    },
+    {
+        "id": 1043,
+        "name": "Mosquée Tawhid de Saint-Denis",
+        "city": "Saint-Denis",
+        "country": "France"
+    },
+    {
+        "id": 1044,
+        "name": "Mosquée Essalame de Saint-Ouen[389]",
+        "city": "Saint-Ouen-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 1045,
+        "name": "Mosquée de Sevran",
+        "city": "Sevran",
+        "country": "France"
+    },
+    {
+        "id": 1046,
+        "name": "Mosquée Attawba de Stains",
+        "city": "Stains",
+        "country": "France"
+    },
+    {
+        "id": 1047,
+        "name": "Mosquée de Stains",
+        "city": "Stains",
+        "country": "France"
+    },
+    {
+        "id": 1048,
+        "name": "Mosquée de Tremblay-en-France",
+        "city": "Tremblay-en-France",
+        "country": "France"
+    },
+    {
+        "id": 1049,
+        "name": "Mosquée de Villepinte",
+        "city": "Villepinte",
+        "country": "France"
+    },
+    {
+        "id": 1050,
+        "name": "Mosquée Al Madrassah de Villepinte",
+        "city": "Villepinte",
+        "country": "France"
+    },
+    {
+        "id": 1051,
+        "name": "Mosquée d'Alfortville",
+        "city": "Alfortville",
+        "country": "France"
+    },
+    {
+        "id": 1052,
+        "name": "Mosquée Al-Falah de Cachan",
+        "city": "Cachan",
+        "country": "France"
+    },
+    {
+        "id": 1053,
+        "name": "Mosquée de Chevilly-Larue",
+        "city": "Chevilly-Larue",
+        "country": "France"
+    },
+    {
+        "id": 1054,
+        "name": "Mosquée de Choisy-le-Roi",
+        "city": "Choisy-le-Roi",
+        "country": "France"
+    },
+    {
+        "id": 1055,
+        "name": "Mosquée Sahaba de Créteil",
+        "city": "Créteil",
+        "country": "France"
+    },
+    {
+        "id": 1056,
+        "name": "Mosquée Abou Horaira de Créteil",
+        "city": "Créteil",
+        "country": "France"
+    },
+    {
+        "id": 1057,
+        "name": "Mosquée de Fontenay-sous-Bois",
+        "city": "Fontenay-sous-Bois",
+        "country": "France"
+    },
+    {
+        "id": 1058,
+        "name": "Mosquée Es-Salam de Fontenay-sous-Bois",
+        "city": "Fontenay-sous-Bois",
+        "country": "France"
+    },
+    {
+        "id": 1059,
+        "name": "Mosquée Annour d'Ivry-sur-Seine",
+        "city": "Ivry-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 1060,
+        "name": "Mosquée d'Orly",
+        "city": "Orly",
+        "country": "France"
+    },
+    {
+        "id": 1061,
+        "name": "Mosquée Bilal de Sucy-en-Brie",
+        "city": "Sucy-en-Brie",
+        "country": "France"
+    },
+    {
+        "id": 1062,
+        "name": "Mosquée de Villejuif",
+        "city": "Villejuif",
+        "country": "France"
+    },
+    {
+        "id": 1063,
+        "name": "Mosquée de Vitry-sur-Seine",
+        "city": "Vitry-sur-Seine",
+        "country": "France"
+    },
+    {
+        "id": 1064,
+        "name": "Mosquée Al Islah de Villiers-sur-Marne",
+        "city": "Villiers-sur-Marne",
+        "country": "France"
+    },
+    {
+        "id": 1065,
+        "name": "Mosquée d'Argenteuil",
+        "city": "Argenteuil",
+        "country": "France"
+    },
+    {
+        "id": 1066,
+        "name": "Mosquée Al Ihsan d'Argenteuil",
+        "city": "Argenteuil",
+        "country": "France"
+    },
+    {
+        "id": 1067,
+        "name": "Grande mosquée de Cergy",
+        "city": "Cergy",
+        "country": "France"
+    },
+    {
+        "id": 1068,
+        "name": "Mosquée Essalam d'Éragny",
+        "city": "Éragny",
+        "country": "France"
+    },
+    {
+        "id": 1069,
+        "name": "Mosquée Arrahma d'Ermont",
+        "city": "Ermont",
+        "country": "France"
+    },
+    {
+        "id": 1070,
+        "name": "Mosquée El-Irshad de Garges-les-Gonesse",
+        "city": "Garges-lès-Gonesse",
+        "country": "France"
+    },
+    {
+        "id": 1071,
+        "name": "Mosquée Hamza de Garges-les-Gonesse",
+        "city": "Garges-lès-Gonesse",
+        "country": "France"
+    },
+    {
+        "id": 1072,
+        "name": "Mosquée la Muette de Garges-les-Gonesse",
+        "city": "Garges-lès-Gonesse",
+        "country": "France"
+    },
+    {
+        "id": 1073,
+        "name": "Mosquée Essalam de Goussainville",
+        "city": "Goussainville",
+        "country": "France"
+    },
+    {
+        "id": 1074,
+        "name": "Mosquée Ennour de Montigny-lès-Cormeilles",
+        "city": "Montigny-lès-Cormeilles",
+        "country": "France"
+    },
+    {
+        "id": 1075,
+        "name": "Mosquée Al Ikhlas de Persan",
+        "city": "Persan",
+        "country": "France"
+    },
+    {
+        "id": 1076,
+        "name": "Mosquée Avicenne de Pontoise",
+        "city": "Pontoise",
+        "country": "France"
+    },
+    {
+        "id": 1077,
+        "name": "Mosquée de Saint-Gratien",
+        "city": "Saint-Gratien",
+        "country": "France"
+    },
+    {
+        "id": 1078,
+        "name": "Mosquée du Mail de Saint-Ouen-l'Aumône",
+        "city": "Saint-Ouen-l'Aumône",
+        "country": "France"
+    },
+    {
+        "id": 1079,
+        "name": "Mosquée Moubarak de Saint-Prix",
+        "city": "Saint-Prix",
+        "country": "France"
+    },
+    {
+        "id": 1080,
+        "name": "Mosquée du livre Essounah de Sarcelles",
+        "city": "Sarcelles",
+        "country": "France"
+    },
+    {
+        "id": 1081,
+        "name": "Mosquée Foi et Unicité de Sarcelles",
+        "city": "Sarcelles",
+        "country": "France"
+    },
+    {
+        "id": 1082,
+        "name": "Mosquée de Taverny",
+        "city": "Taverny",
+        "country": "France"
+    },
+    {
+        "id": 1083,
+        "name": "Mosquée Assalam de Vauréal",
+        "city": "Vauréal",
+        "country": "France"
+    },
+    {
+        "id": 1084,
+        "name": "Mosquée Balata de Fort-de-France",
+        "city": "Fort-de-France",
+        "country": "France"
+    },
+    {
+        "id": 1085,
+        "name": "Mosquée ahmadiyya de Matoury",
+        "city": "Matoury",
+        "country": "France"
+    },
+    {
+        "id": 1086,
+        "name": "Mosquée El-Shaféi du Port",
+        "city": "Le Port",
+        "country": "France"
+    },
+    {
+        "id": 1087,
+        "name": "Mosquée Noor-e-Islam",
+        "city": "Saint-Denis",
+        "country": "France"
+    },
+    {
+        "id": 1088,
+        "name": "Mosquée du Moufia de Saint-Denis",
+        "city": "Saint-Denis",
+        "country": "France"
+    },
+    {
+        "id": 1089,
+        "name": "Mosquée Atyaboul-Massaadjid de Saint-Pierre",
+        "city": "Saint-Pierre",
+        "country": "France"
+    },
+    {
+        "id": 1090,
+        "name": "Mosquée de Saint-Louis",
+        "city": "Saint-Louis",
+        "country": "France"
+    },
+    {
+        "id": 1091,
+        "name": "Mosquée de M'Tsangamouji[419]",
+        "city": "M'Tsangamouji",
+        "country": "France"
+    },
+    {
+        "id": 1092,
+        "name": "Mosquée de Mtsapéré",
+        "city": "Mtsapéré",
+        "country": "France"
+    },
+    {
+        "id": 1093,
+        "name": "Mosquée de Tsingoni",
+        "city": "Tsingoni",
+        "country": "France"
+    },
+    {
+        "id": 1094,
+        "name": "Mosquée de Tahiti",
+        "city": "Papeete",
+        "country": "France"
+    },
+    {
+        "id": 1095,
+        "name": "Mosquée Nessadiou de Bourail",
+        "city": "Bourail",
+        "country": "France"
+    },
+    {
+        "id": 1096,
+        "name": "Mosquée de Nouméa",
+        "city": "Nouméa",
+        "country": "France"
+    },
+    {
+        "id": 1097,
+        "name": "Mosquée Assalam de Cayenne",
+        "city": "Cayenne",
+        "country": "France"
+    },
+    {
+        "id": 1098,
+        "name": "Mosquée Abou Bakr de Cayenne",
+        "city": "Cayenne",
+        "country": "France"
+    },
+    {
+        "id": 1099,
+        "name": "Mosquée Annour de Kourou",
+        "city": "Kourou",
+        "country": "France"
+    },
+    {
+        "id": 1100,
+        "name": "Mosquée Rahma",
+        "city": "Saint-Laurent-du-Maroni",
+        "country": "France"
+    },
+    {
+        "id": 1101,
+        "name": "Mosquée A Nour de Mana",
+        "city": "Mana",
+        "country": "France"
+    }
+]

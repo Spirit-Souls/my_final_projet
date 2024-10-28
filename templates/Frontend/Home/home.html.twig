@@ -1,20 +1,14 @@
 <div class="backgroundimg flex" id="background">
     <div class="flex row mx-auto mt-3">
         {% if app.user %}
-            <div class="alert alert-success w-100 text-center">
+            <div class="alert alert-success welcome-message">
                 Bienvenue, {{ app.user.firstName }} !
             </div>
         {% endif %}
 
-        <div class="searchbar">
-            <form class="form-inline my-2 my-lg-0">
-                <div class="input-group">
-                    <input class="form-control" type="search" placeholder="Recherche" aria-label="Recherche">
-                    <div class="input-group-append">
-                        <button class="btn btn-success" type="submit"><i class="bi-search"></i></button>
-                    </div>
-                </div>
-            </form>
+        <!-- Bouton pour chercher une mosquée -->
+        <div class="search-button-container mx-auto mt-3">
+            <a href="{{ path('app_mosque') }}" class="btn btn-primary">Chercher une mosquée</a>
         </div>
         
         <div class="download flex mx-auto mt-3">
