@@ -1,5 +1,11 @@
 <div class="backgroundimg flex" id="background">
     <div class="flex row mx-auto mt-3">
+        {% if app.user %}
+            <div class="alert alert-success w-100 text-center">
+                Bienvenue, {{ app.user.firstName }} !
+            </div>
+        {% endif %}
+
         <div class="searchbar">
             <form class="form-inline my-2 my-lg-0">
                 <div class="input-group">
@@ -10,6 +16,7 @@
                 </div>
             </form>
         </div>
+        
         <div class="download flex mx-auto mt-3">
             <a href="#"><img class="logo-dl" src="/img/app-logo.png" alt="App Logo"></a>
             <a href="#">
