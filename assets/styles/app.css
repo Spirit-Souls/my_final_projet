@@ -356,10 +356,11 @@ input[type="email"] {
     color: #666;
 }
 #map {
-    width: 1000px; /* S'étend à 100% de la largeur de son conteneur parent */
-    margin-top: 20px;
+    height: 100vh; /* Utilise toute la hauteur de la vue */
+    width: 100vw;  /* Utilise toute la largeur de la vue */
     border: 1px solid #ccc;
     border-radius: 8px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }

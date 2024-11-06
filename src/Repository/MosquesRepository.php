@@ -3,6 +3,8 @@
 namespace App\Repository;
 
 use App\Entity\Mosques;
+// MosqueRepository.php
+
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
@@ -13,13 +15,12 @@ class MosquesRepository extends ServiceEntityRepository
         parent::__construct($registry, Mosques::class);
     }
 
-    public function findByCityOrName(string $query): array
+    public function findMosqueByNameOrCity(string $query)
     {
         return $this->createQueryBuilder('m')
-            ->where('m.name LIKE :query')
-            ->orWhere('m.city LIKE :query')
+            ->where('m.name LIKE :query OR m.city LIKE :query')
             ->setParameter('query', '%' . $query . '%')
             ->getQuery()
-            ->getArrayResult();
+            ->getResult();
     }
 }

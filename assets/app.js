@@ -24,7 +24,7 @@ function changeBackground() {
     }, 1000);
 }
 
-setInterval(changeBackground, 5000);
+setInterval(changeBackground, 4000);
 
 document.addEventListener("DOMContentLoaded", function() {
     const currentDateElement = document.getElementById('current-date');
@@ -311,28 +311,50 @@ document.addEventListener("DOMContentLoaded", function() {
         }).addTo(map);
     }
 });
+let directionsService, directionsRenderer;
+
+function initMap() {
+    const mapOptions = {
+        center: { lat: 48.8566, lng: 2.3522 },
+        zoom: 6,
+    };
+    const map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    directionsService = new google.maps.DirectionsService();
+    directionsRenderer = new google.maps.DirectionsRenderer();
+    directionsRenderer.setMap(map);
+}
+
 
 async function showRouteToMosque(mosque) {
-    if (routingControl) {
-        routingControl.setWaypoints([]);
-    }
-
     try {
         const response = await fetch(`/mosque/location?id=${mosque.id}`);
         const { latitude, longitude } = await response.json();
 
         if (latitude && longitude) {
             navigator.geolocation.getCurrentPosition(position => {
-                const userLocation = L.latLng(position.coords.latitude, position.coords.longitude);
-                const mosqueLocation = L.latLng(latitude, longitude);
+                const userLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                const mosqueLocation = new google.maps.LatLng(latitude, longitude);
 
-                routingControl.setWaypoints([userLocation, mosqueLocation]);
-                map.fitBounds(L.latLngBounds([userLocation, mosqueLocation]));
+                directionsService.route(
+                    {
+                        origin: userLocation,
+                        destination: mosqueLocation,
+                        travelMode: google.maps.TravelMode.DRIVING,
+                    },
+                    (result, status) => {
+                        if (status === google.maps.DirectionsStatus.OK) {
+                            directionsRenderer.setDirections(result);
+                        } else {
+                            console.error('Error fetching directions:', status);
+                        }
+                    }
+                );
             });
         } else {
-            console.error('Coordonnées de la mosquée non trouvées.');
+            console.error('Coordinates for mosque not found.');
         }
     } catch (error) {
-        console.error("Erreur lors de la récupération de la localisation de la mosquée :", error);
+        console.error("Error retrieving mosque location:", error);
     }
 }
+

@@ -1,31 +1,42 @@
 <div class="navbar flex">
-	<div class="logo">
-		<img src="/img/app-logo.png" alt="logo of a mosque in a location logo">
-	</div>
-	<div class="nav">
-		<ol>
-			<a href="{{ path('app_home') }}">Accueil</a>
-		</ol>
-		{% if is_granted('ROLE_ADMIN') %}
-			<ol>
-				<a href="{{ path('app_user_index') }}">Profil</a>
-			</ol>
-		{% endif %}
-		<ol>
-			<a href="{{ path('app_mosque') }}">Mosqué</a>
-		</ol>
-		<ol>
-			<a href="{{ path('app_namaz') }}">Suivi Prière</a>
-		</ol>
+    <div class="logo">
+        <img src="/img/app-logo.png" alt="logo of a mosque in a location logo">
+    </div>
+    <div class="nav">
+        <ol>
+            <a href="{{ path('app_home') }}">Accueil</a>
+        </ol>
+        
+        {% if is_granted('ROLE_ADMIN') %}
+            <ol>
+                <a href="{{ path('app_user_index') }}">Utilisateurs</a>
+            </ol>
+            <ol>
+                <a href="{{ path('app_user_index') }}">Les mosquées</a>
+            </ol>
+        {% endif %}
 
-		{% if app.user %}
-			<ol>
-				<a href="{{ path('app_logout') }}">Déconnexion</a>
-			</ol>
-		{% else %}
-			<ol>
-				<a href="{{ path('app_login') }}">Connexion</a>
-			</ol>
-		{% endif %}
-	</div>
+        {% if app.user %}
+            <ol>
+                <a href="{{ path('app_user_profile', { 'id': app.user.id }) }}">Profil</a>
+            </ol>
+        {% endif %}
+
+        <ol>
+            <a href="{{ path('app_mosque') }}">Mosqué</a>
+        </ol>
+        <ol>
+            <a href="{{ path('app_namaz') }}">Suivi Prière</a>
+        </ol>
+
+        {% if app.user %}
+            <ol>
+                <a href="{{ path('app_logout') }}">Déconnexion</a>
+            </ol>
+        {% else %}
+            <ol>
+                <a href="{{ path('app_login') }}">Connexion</a>
+            </ol>
+        {% endif %}
+    </div>
 </div>
