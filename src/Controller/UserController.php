@@ -65,6 +65,7 @@ class UserController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager->persist($user);
             $entityManager->flush();
 
             return $this->redirectToRoute('app_user_index', [], Response::HTTP_SEE_OTHER);
@@ -87,10 +88,12 @@ class UserController extends AbstractController
         return $this->redirectToRoute('app_user_index', [], Response::HTTP_SEE_OTHER);
     }
     #[Route('/user/{id}', name: 'app_user_profile')]
-    public function profile(User $user): Response
+    public function profile(User $user, $form): Response
     {
         return $this->render('Backend/user/profile.html.twig', [
             'user' => $user,
+            'form' => $form->createView()
+            
         ]);
     }
 }

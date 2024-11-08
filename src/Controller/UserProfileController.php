@@ -13,7 +13,7 @@ use Symfony\Component\Security\Core\User\UserInterface;
 
 class UserProfileController extends AbstractController
 {
-    #[Route('/profile', name: 'user_profile')]
+    #[Route('/profile', name: 'app_user_profile')]
     public function edit(Request $request, EntityManagerInterface $entityManager, UserInterface $user): Response
     {
         // Créez le formulaire et liez-le aux données de l'utilisateur
@@ -21,6 +21,7 @@ class UserProfileController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager->persist($user);
             $entityManager->flush();
             $this->addFlash('success', 'Profil mis à jour avec succès.');
 
@@ -28,8 +29,9 @@ class UserProfileController extends AbstractController
         }
 
         // Passez la vue du formulaire au template
-        return $this->render('user/profile.html.twig', [
-            'form' => $form->createView(),
+        return $this->render('Backend/user/profile.html.twig', [
+            'user' => $user,
+            'form' => $form->createView()
         ]);
     }
 }

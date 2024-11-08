@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     async function fetchPrayerTimes(date) {
-        const city = "ankara";
+        const city = "Feurs";
         const dateString = date.toISOString().split('T')[0];
         const todayString = new Date().toISOString().split('T')[0];
     
