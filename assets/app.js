@@ -3,7 +3,8 @@ import './styles/app.css';
 
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');
 
-const images = [
+// Define separate image lists for desktop and mobile
+const desktopImages = [
     "/img/gececamisi.webp",
     "/img/sunsetmosque.webp",
     "/img/germanmosque.webp",
@@ -11,20 +12,41 @@ const images = [
     "/img/daymosque.webp"
 ];
 
-let currentIndex = 0;
-const backgroundElement = document.getElementById('background');
+const mobileImages = [
+    "/img/mosquetel1.webp",
+    "/img/mosquetel2.webp",
+    "/img/mosquetel3.webp"
+];
 
+let images = window.innerWidth <= 768 ? mobileImages : desktopImages;
+let currentIndex = 0;
+const backgroundimg = document.getElementById('background');
+
+// Function to change background image with fade effect
 function changeBackground() {
-    backgroundElement.classList.replace('fade-in', 'fade-out');
+    backgroundimg.classList.replace('fade-in', 'fade-out');
     
     setTimeout(() => {
         currentIndex = (currentIndex + 1) % images.length;
-        backgroundElement.style.backgroundImage = `url(${images[currentIndex]})`;
-        backgroundElement.classList.replace('fade-out', 'fade-in');
+        backgroundimg.style.backgroundImage = `url(${images[currentIndex]})`;
+        backgroundimg.classList.replace('fade-out', 'fade-in');
     }, 1000);
 }
 
-setInterval(changeBackground, 4000);
+// Switch images every 5 seconds
+setInterval(changeBackground, 5000);
+
+// Detect screen resize and update images for mobile or desktop
+window.addEventListener('resize', () => {
+    if (window.innerWidth <= 768) {
+        images = mobileImages;
+    } else {
+        images = desktopImages;
+    }
+    currentIndex = 0; // Reset index to start with the first image
+    changeBackground(); // Immediately update background
+});
+
 
 document.addEventListener("DOMContentLoaded", function() {
     const currentDateElement = document.getElementById('current-date');
@@ -59,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         if (dateString === todayString) {
             try {
-                const response = await fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=turkey&method=2&date=${dateString}`);
+                const response = await fetch(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=france&method=2&date=${dateString}`);
                 const data = await response.json();
                 if (data.code === 200) {
                     const timings = data.data.timings;
@@ -302,7 +324,7 @@ document.addEventListener("DOMContentLoaded", function() {
         map = L.map(mapElement).setView([48.8566, 2.3522], 6);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
+            maxZoom: 12,
         }).addTo(map);
 
         routingControl = L.Routing.control({

@@ -2,7 +2,14 @@
     <div class="logo">
         <img src="/img/app-logo.png" alt="logo of a mosque in a location logo">
     </div>
-    <div class="nav">
+
+    <!-- Icone du menu burger -->
+    <div id="burger-icon" class="burger-icon">
+        ☰
+    </div>
+
+    <!-- Menu de navigation -->
+    <div id="nav-menu" class="nav">
         <ol>
             <a href="{{ path('app_home') }}">Accueil</a>
         </ol>
@@ -18,7 +25,7 @@
 
         {% if app.user %}
             <ol>
-                <a href="{{ path('app_user_profile') }}">Profil</a>
+                <a href="{{ path('app_user_profile', { 'id': app.user.id }) }}">Profil</a>
             </ol>
         {% endif %}
 
@@ -40,3 +47,15 @@
         {% endif %}
     </div>
 </div>
+
+<script>
+    // Gestion du menu burger
+    document.addEventListener("DOMContentLoaded", function() {
+        const burgerIcon = document.getElementById('burger-icon');
+        const navMenu = document.getElementById('nav-menu');
+
+        burgerIcon.addEventListener('click', () => {
+            navMenu.classList.toggle('nav-menu-active');
+        });
+    });
+</script>

@@ -19,6 +19,7 @@ h2 {
     width: 100%;
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -49,8 +50,8 @@ a {
 .backgroundimg {
     z-index: -1;
     background-image: url("/img/daymosque.webp");
-    width: 1900px;
-    height: 1050px;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,11 +113,11 @@ p {
 }
 
 /* Ajout d'une classe pour s'assurer que les images ne sont pas affectées */
-img {
+/* img {
     transform: none !important;
     rotate: none !important;
     transition: none !important;
-}
+} */
 
 .example-wrapper {
     margin: 1em auto;
@@ -727,4 +728,56 @@ input[type="email"] {
 .result-item p {
     margin: 5px 0 0;
     color: #666;
+}
+
+/* Styles généraux */
+.nav {
+    display: flex;
+}
+
+.burger-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Classe ajoutée par le JavaScript pour rendre le menu visible */
+.nav-menu-active {
+    display: flex !important;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+/* Media Queries pour activer le menu burger en version mobile */
+@media (max-width: 768px) {
+    .burger-icon {
+        display: block;
+    }
+    .download {
+        width: 100%;
+    }
+
+    #nav-menu {
+        display: none;
+    }
+
+    .navbar .nav ol {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+}
+
+.formRegister{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: solid 2px #000000;
+    padding: 30px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
 }
